@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "immortal_continent:block/stripped_cast_gold_log_top",
+    "side": "immortal_continent:block/stripped_cast_gold_log"
+  }
+}

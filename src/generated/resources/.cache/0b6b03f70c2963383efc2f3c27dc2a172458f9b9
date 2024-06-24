@@ -1,0 +1,9 @@
+// 1.20.1	2024-06-17T23:10:52.257855	Tags for minecraft:block mod id immortal_continent
+8aadad057ed47834bc5af7afefe34acd7be5f0d4 data/minecraft/tags/blocks/leaves.json
+f2cacc4a76ba58aab4fab08e714d57b814883ea5 data/minecraft/tags/blocks/logs.json
+b311ee417a483f8c29d0c12d7538f2106587d8e4 data/minecraft/tags/blocks/logs_that_burn.json
+955750a75e23cf3726bc19b8c5e3f28c9015217c data/minecraft/tags/blocks/mineable/axe.json
+7816843cb69aaa65368dbc1ebf16adfaaaffe01e data/minecraft/tags/blocks/needs_diamond_tool.json
+64734b3fb1511660b5f4576e5abffbc1a57ccfc4 data/minecraft/tags/blocks/needs_iron_tool.json
+5500844e0cc2c812fb25413a8a914f4f65d17621 data/minecraft/tags/blocks/needs_stone_tool.json
+dfbbf257fbebe3d59ba63c37440b5233e7b587c5 data/minecraft/tags/blocks/planks.json

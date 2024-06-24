@@ -1,0 +1,82 @@
+# This is an example mods.toml file. It contains the data relating to the loading mods.
+# There are several mandatory fields (#mandatory), and many more that are optional (#optional).
+# The overall format is standard TOML format, v0.5.0.
+# Note that there are a couple of TOML lists in this file.
+# Find more information on toml format here:  https://github.com/toml-lang/toml
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+modLoader="javafml" #mandatory
+# A version range to match for said mod loader - for regular FML @Mod it will be the forge version
+loaderVersion="${loader_version_range}" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+# The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
+# Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
+license="${mod_license}"
+# A URL to refer people to when problems occur with this mod
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+# A list of mods - how many allowed here is determined by the individual mod loader
+[[mods]] #mandatory
+# The modid of the mod
+modId="${mod_id}" #mandatory
+# The version number of the mod
+version="${mod_version}" #mandatory
+# A display name for the mod
+displayName="\u00a71\u00a7l\u4e0d\u00a72\u00a7l\u673d\u00a7d\u00a7l\u5927\u00a7c\u00a7l\u9646" #mandatory
+# A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
+#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+# A URL for the "homepage" for this mod, displayed in the mod UI
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+# A file name (in the root of the mod JAR) containing a logo for display
+logoFile="assets/immortal_continent/textures/logo.png" #optional
+# A text field displayed in the mod UI
+credits="\u00a76\u611f\u8c22\u00a7r\u00a75\u00a7oMCIS\u56e2\u961f\u00a7r\u00a76\u6240\u6709\u4eba\u7684\u652f\u6301\u00a7f\uff01" #optional
+# A text field displayed in the mod UI
+authors="\u00a76\u4e3b\u8981\u4f5c\u8005\u00a7r\u00a7f\uff1a\u00a7r\u00a75\u00a7ochengx2ee \u4e25\u5f67\u6052 \u9eef \u7eb3\u7c73 ourcwj \u4e66\u58a8\u7fce\u7fbd" #optional
+# Display Test controls the display for your mod in the server connection screen
+# MATCH_VERSION means that your mod will cause a red X if the versions on client and server differ. This is the default behaviour and should be what you choose if you have server and client elements to your mod.
+# IGNORE_SERVER_VERSION means that your mod will not cause a red X if it's present on the server but not on the client. This is what you should use if you're a server only mod.
+# IGNORE_ALL_VERSION means that your mod will not cause a red X if it's present on the client or the server. This is a special case and should only be used if your mod has no server component.
+# NONE means that no display test is set on your mod. You need to do this yourself, see IExtensionPoint.DisplayTest for more information. You can define any scheme you wish with this value.
+# IMPORTANT NOTE: this is NOT an instruction as to which environments (CLIENT or DEDICATED SERVER) your mod loads on. Your mod should load (and maybe do nothing!) whereever it finds itself.
+#displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
+# The description text for the mod (multi line!) (#mandatory)
+description='''\u00a74\u00a7l\u8de8\u8d8a\u65f6\u7a7a\u7684\u6551\u8d4e\u00a7r\u2014\u2014\u00a71\u00a7l\u4e0d\u00a72\u00a7l\u673d\u00a7d\u00a7l\u5927\u00a7c\u00a7l\u9646\u00a7r\u00a7f\uff08\u00a76\u00a7lImmortal Continent\u00a7r\u00a7f\uff09
+
+\u00a72\u8fd9\u662f\u4e00\u4e2a\u88ab\u00a74\u00a7l\u4e0d\u673d\u00a7r\u00a72\u9738\u5360\u7684\u4e16\u754c\u00a7f\u3002\u00a72\u5728\u8fd9\u7247\u571f\u5730\u4e0a\u00a7f\uff0c\u00a72\u4e0d\u89c1\u751f\u673a\u00a7f\uff0c\u00a74\u00a7l\u6076\u52a3\u7684\u73af\u5883\u00a7r\u00a7f\uff0c\u00a72\u751f\u7075\u6d82\u70ad\u00a7f\uff1b\u00a7r\u00a74\u00a7l\u9ed1\u6697\u4e0d\u673d\u00a7r\u00a72\u7684\u7edf\u6cbb\u00a7f\uff0c\u00a72\u4f7f\u4eba\u4eec\u7684\u751f\u6d3b\u00a74\u00a7l\u82e6\u4e0d\u582a\u8a00\u00a7r\u00a7f\u2014\u2014\u00a72\u800c\u8fd9\u5df2\u6210\u4e3a\u8fc7\u5f80\u00a7f\u3002\u00a72\u5982\u4eca\u00a7f\uff0c\u00a72\u7eff\u6811\u6210\u836b\u00a7f\uff0c\u00a72\u8349\u957f\u83ba\u98de\u00a7f\uff0c\u00a72\u4e00\u6d3e\u00a74\u00a7l\u751f\u673a\u52c3\u52c3\u00a7r\u00a72\u7684\u6c14\u8c61\u00a7f\u3002\u00a72\u5728\u4eca\u5929\u7684\u6751\u5e84\u7684\u00a74\u00a7l\u53e4\u8001\u5386\u53f2\u6587\u732e\u00a7r\u00a72\u4e2d\u8bb0\u8f7d\u9053\u00a7f\uff1a\u201c\u00a76\u6709\u4e00\u4e2a\u4eba\u00a74\u00a7l\u62ef\u6551\u00a7r\u00a76\u4e86\u4e0d\u673d\u5927\u9646\u7684\u4e00\u5207\u00a7f\uff0c\u00a76\u63a8\u7ffb\u4e86\u00a74\u00a7l\u9ed1\u6697\u4e0d\u673d\u00a7r\u00a76\u7684\u7edf\u6cbb\u00a7f\uff0c\u00a76\u4f7f\u4e0d\u673d\u5927\u9646\u00a74\u00a7l\u91cd\u73b0\u751f\u673a\u00a7r\u00a7f\u3002\u201d
+\u00a72\u800c\u8fd9\u4e2a\u4eba\u00a7f\u2014\u2014\u00a74\u00a7l\u5c31\u662f\u4f60\u00a7f\u2026\u2026
+
+\u00a72\u672cmod\u6dfb\u52a0\u4e86\u6210\u767e\u4e0a\u5343\u79cd\u00a74\u00a7l\u7269\u54c1\u548c\u65b9\u5757\u00a7r\u00a7f\u3001\u00a72\u4e0a\u767e\u79cd\u00a74\u00a7l\u751f\u7269\u00a7r\u00a7f\u3001\u00a72\u5341\u56db\u79cd\u00a74\u00a7lBOSS\u00a7r\u00a7f\u3001\u00a72\u540c\u65f6\u914d\u5907\u4e0a\u767e\u79cd\u00a74\u00a7l\u97f3\u6548\u00a7r\u00a72\u548c\u4e09\u5341\u9996\u5de6\u53f3\u7684\u00a74\u00a7l\u53f2\u8bd7\u97f3\u4e50\u00a7r\u00a7f\uff01
+
+\u00a76B\u7ad9\u4f5c\u8005\u4e3b\u9875\u00a7r\u00a7f\uff1ahttps://space.bilibili.com/454469050
+\u00a76B\u7ad9\u97f3\u4e50\u5236\u4f5c\u5e08\u4e3b\u9875\u00a7r\u00a7f\uff1ahttps://space.bilibili.com/1607343605
+\u00a76B\u7ad9\u5b98\u65b9\u56e2\u961f\u4e3b\u9875\u00a7r\u00a7f\uff1ahttps://space.bilibili.com/3461572320037085
+
+\u00a76\u7248\u6743\u6240\u6709\u4eba\u00a7r\u00a7f\uff1a\u00a7a\u00a7nchengx2ee©
+
+.'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.immortal_continent]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[46,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the dependency is not mandatory
+    # BEFORE - This mod is loaded BEFORE the dependency
+    # AFTER - This mod is loaded AFTER the dependency
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT, or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.immortal_continent]]
+    modId="minecraft"
+    mandatory=true
+    # This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.20,)"
+    ordering="NONE"
+    side="BOTH"
+
+# Features are specific properties of the game environment, that you may want to declare you require. This example declares
+# that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
+# stop your mod loading on the server for example.
+#[features.${mod_id}]
+#openGLVersion="[3.2,)"
