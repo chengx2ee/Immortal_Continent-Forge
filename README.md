@@ -14,4 +14,4 @@ Minecraft《不朽大陆》模组
 
 建筑师没有注册B站账号
 
-模组文档（还未建站）：https://www.immortalcontinent.com/
+模组文档（还未建站）：https://www.ic_documentation.com/
