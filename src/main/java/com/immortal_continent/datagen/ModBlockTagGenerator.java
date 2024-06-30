@@ -29,6 +29,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CAST_GOLD_WOOD.get(),
                      ModBlocks.STRIPPED_CAST_GOLD_WOOD.get(),
                      ModBlocks.CAST_GOLD_PLANKS.get(),
+
+                     ModBlocks.CONDENSED_WATER_LOG.get(),
+                     ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get(),
+                     ModBlocks.CONDENSED_WATER_WOOD.get(),
+                     ModBlocks.STRIPPED_CONDENSED_WATER_WOOD.get(),
+                     ModBlocks.CONDENSED_WATER_PLANKS.get(),
+
                      ModFireResistantBlocks.IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.IMMORTAL_WOOD.get(),
@@ -37,6 +44,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
         this.tag(BlockTags.PLANKS)
                 .add(ModBlocks.CAST_GOLD_PLANKS.get(),
+
+                     ModBlocks.CONDENSED_WATER_PLANKS.get(),
+
                      ModFireResistantBlocks.IMMORTAL_PLANKS.get());
 
         this.tag(BlockTags.LOGS)
@@ -44,6 +54,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.STRIPPED_CAST_GOLD_LOG.get(),
                      ModBlocks.CAST_GOLD_WOOD.get(),
                      ModBlocks.STRIPPED_CAST_GOLD_WOOD.get(),
+
+                     ModBlocks.CONDENSED_WATER_LOG.get(),
+                     ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get(),
+                     ModBlocks.CONDENSED_WATER_WOOD.get(),
+                     ModBlocks.STRIPPED_CONDENSED_WATER_WOOD.get(),
+
                      ModFireResistantBlocks.IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.IMMORTAL_WOOD.get(),
@@ -51,6 +67,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
         this.tag(BlockTags.LEAVES)
                 .add(ModBlocks.CAST_GOLD_LEAVES.get(),
+
+                     ModBlocks.CONDENSED_WATER_LEAVES.get(),
+
                      ModFireResistantBlocks.IMMORTAL_LEAVES.get());
 
         this.tag(BlockTags.LOGS_THAT_BURN)
@@ -59,14 +78,27 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CAST_GOLD_WOOD.get(),
                      ModBlocks.STRIPPED_CAST_GOLD_WOOD.get(),
                      ModBlocks.CAST_GOLD_PLANKS.get(),
-                     ModBlocks.CAST_GOLD_LEAVES.get());
+                     ModBlocks.CAST_GOLD_LEAVES.get(),
+
+                     ModBlocks.CONDENSED_WATER_LOG.get(),
+                     ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get(),
+                     ModBlocks.CONDENSED_WATER_WOOD.get(),
+                     ModBlocks.STRIPPED_CONDENSED_WATER_WOOD.get(),
+                     ModBlocks.CONDENSED_WATER_PLANKS.get(),
+                     ModBlocks.CONDENSED_WATER_LEAVES.get());
 
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.CAST_GOLD_LOG.get(),
                      ModBlocks.STRIPPED_CAST_GOLD_LOG.get(),
                      ModBlocks.CAST_GOLD_WOOD.get(),
                      ModBlocks.STRIPPED_CAST_GOLD_WOOD.get(),
-                     ModBlocks.CAST_GOLD_PLANKS.get());
+                     ModBlocks.CAST_GOLD_PLANKS.get(),
+
+                     ModBlocks.CONDENSED_WATER_LOG.get(),
+                     ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get(),
+                     ModBlocks.CONDENSED_WATER_WOOD.get(),
+                     ModBlocks.STRIPPED_CONDENSED_WATER_WOOD.get(),
+                     ModBlocks.CONDENSED_WATER_PLANKS.get());
 
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)

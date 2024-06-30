@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "immortal_continent:block/stripped_condensed_water_log",
+    "side": "immortal_continent:block/stripped_condensed_water_log"
+  }
+}

@@ -39,6 +39,19 @@ public class ModBlockStateProvider extends BlockStateProvider
         blockWithItem(ModBlocks.CAST_GOLD_PLANKS);
         leavesBlock(ModBlocks.CAST_GOLD_LEAVES);
 
+        logBlock(((RotatedPillarBlock) ModBlocks.CONDENSED_WATER_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.CONDENSED_WATER_WOOD.get()), blockTexture(ModBlocks.CONDENSED_WATER_LOG.get()), blockTexture(ModBlocks.CONDENSED_WATER_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get()), blockTexture(ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get()),
+                new ResourceLocation(ImmortalContinent.MOD_ID, "block/stripped_condensed_water_log_top"));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_CONDENSED_WATER_WOOD.get()), blockTexture(ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get()),
+                blockTexture(ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get()));
+        blockItem(ModBlocks.CONDENSED_WATER_LOG);
+        blockItem(ModBlocks.CONDENSED_WATER_WOOD);
+        blockItem(ModBlocks.STRIPPED_CONDENSED_WATER_LOG);
+        blockItem(ModBlocks.STRIPPED_CONDENSED_WATER_WOOD);
+        blockWithItem(ModBlocks.CONDENSED_WATER_PLANKS);
+        leavesBlock(ModBlocks.CONDENSED_WATER_LEAVES);
+
         logBlock(((RotatedPillarBlock) ModFireResistantBlocks.IMMORTAL_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModFireResistantBlocks.IMMORTAL_WOOD.get()), blockTexture(ModFireResistantBlocks.IMMORTAL_LOG.get()), blockTexture(ModFireResistantBlocks.IMMORTAL_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get()), blockTexture(ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get()),

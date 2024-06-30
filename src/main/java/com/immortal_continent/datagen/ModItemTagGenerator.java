@@ -24,7 +24,9 @@ public class ModItemTagGenerator extends ItemTagsProvider
     protected void addTags(HolderLookup.Provider pProvider)
     {
         this.tag(ItemTags.PLANKS)
-                .add(ModBlocks.CAST_GOLD_PLANKS.get().asItem());
+                .add(ModBlocks.CAST_GOLD_PLANKS.get().asItem(),
+
+                     ModBlocks.CONDENSED_WATER_PLANKS.get().asItem());
 
         this.tag(ItemTags.LOGS_THAT_BURN)
                 .add(ModBlocks.CAST_GOLD_LOG.get().asItem(),
@@ -32,6 +34,13 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModBlocks.CAST_GOLD_WOOD.get().asItem(),
                      ModBlocks.STRIPPED_CAST_GOLD_WOOD.get().asItem(),
                      ModBlocks.CAST_GOLD_PLANKS.get().asItem(),
-                     ModBlocks.CAST_GOLD_LEAVES.get().asItem());
+                     ModBlocks.CAST_GOLD_LEAVES.get().asItem(),
+
+                     ModBlocks.CONDENSED_WATER_LOG.get().asItem(),
+                     ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get().asItem(),
+                     ModBlocks.CONDENSED_WATER_WOOD.get().asItem(),
+                     ModBlocks.STRIPPED_CONDENSED_WATER_WOOD.get().asItem(),
+                     ModBlocks.CONDENSED_WATER_PLANKS.get().asItem(),
+                     ModBlocks.CONDENSED_WATER_LEAVES.get().asItem());
     }
 }

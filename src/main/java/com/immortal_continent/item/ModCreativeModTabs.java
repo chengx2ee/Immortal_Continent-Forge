@@ -39,6 +39,12 @@ public class ModCreativeModTabs
                         pOutput.accept(ModBlocks.STRIPPED_CAST_GOLD_WOOD.get());
                         pOutput.accept(ModBlocks.CAST_GOLD_PLANKS.get());
                         pOutput.accept(ModBlocks.CAST_GOLD_LEAVES.get());
+                        pOutput.accept(ModBlocks.CONDENSED_WATER_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get());
+                        pOutput.accept(ModBlocks.CONDENSED_WATER_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_CONDENSED_WATER_WOOD.get());
+                        pOutput.accept(ModBlocks.CONDENSED_WATER_PLANKS.get());
+                        pOutput.accept(ModBlocks.CONDENSED_WATER_LEAVES.get());
                         pOutput.accept(ModFireResistantBlocks.IMMORTAL_LOG.get());
                         pOutput.accept(ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get());
                         pOutput.accept(ModFireResistantBlocks.IMMORTAL_WOOD.get());
