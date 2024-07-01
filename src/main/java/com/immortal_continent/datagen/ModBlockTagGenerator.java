@@ -6,6 +6,7 @@ import com.immortal_continent.world.ImmortalContinent;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -87,7 +88,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CONDENSED_WATER_PLANKS.get(),
                      ModBlocks.CONDENSED_WATER_LEAVES.get());
 
-        this.tag(BlockTags.NEEDS_STONE_TOOL)
+        this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.CAST_GOLD_LOG.get(),
                      ModBlocks.STRIPPED_CAST_GOLD_LOG.get(),
                      ModBlocks.CAST_GOLD_WOOD.get(),
@@ -101,10 +102,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CONDENSED_WATER_PLANKS.get());
 
 
-        this.tag(BlockTags.NEEDS_IRON_TOOL)
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.WOODEN_AGGLUTINATE.get());
 
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+        this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
                 .add(ModFireResistantBlocks.IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.IMMORTAL_WOOD.get(),
