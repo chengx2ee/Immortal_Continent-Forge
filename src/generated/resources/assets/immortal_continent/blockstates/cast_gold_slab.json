@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "immortal_continent:block/cast_gold_slab"
+    },
+    "type=double": {
+      "model": "immortal_continent:block/cast_gold_planks"
+    },
+    "type=top": {
+      "model": "immortal_continent:block/cast_gold_slab_top"
+    }
+  }
+}

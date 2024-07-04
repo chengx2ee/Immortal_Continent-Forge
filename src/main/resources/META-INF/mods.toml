@@ -1,0 +1,58 @@
+modLoader="javafml"
+
+loaderVersion="${loader_version_range}"
+
+license="${mod_license}"
+
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+
+[[mods]]
+
+modId="${mod_id}"
+
+version="${mod_version}"
+
+displayName="Immortal Continent"
+
+logoFile="assets/immortal_continent/textures/logo.png"
+
+credits="\u00a7aThank you to all the MCIS team members for their support!"
+
+authors="\u00a73YangJingcheng(\u6668\u6b4cee) YangHaoxuan LiuJiaao Baoyanqing(\u4e0d\u4f1a\u6253\u9f13\u7684\u4e38\u5c71\u62d3\u771f) CheWenjun(ourcwj) ShiWusi154_official(\u62fe\u4f0d\u53f8154_official)"
+
+description='''More detailed information is available at: https://github.com/chengx2ee/Immortal_Continent-Forge (github-Forge)
+https://www.ic_documentation.com/ (Mod Documentation)
+
+\u00a76all rights reserved (copyright owner)\u00a7r\uff1a\u00a7a\u00a7nchengx2ee©
+
+.'''
+
+#updateJSONURL="https://change.me.example.invalid/updates.json"
+
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+
+#displayTest="MATCH_VERSION"
+
+[[dependencies.immortal_continent]]
+
+    modId="forge"
+
+    mandatory=true
+
+    versionRange="[46,)"
+
+    ordering="NONE"
+
+    side="BOTH"
+
+[[dependencies.immortal_continent]]
+
+    modId="minecraft"
+
+    mandatory=true
+
+    versionRange="[1.20,)"
+
+    ordering="NONE"
+
+    side="BOTH"
