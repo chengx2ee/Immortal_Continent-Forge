@@ -1,4 +1,6 @@
-// 1.20.1	2024-07-04T22:15:29.2186313	Loot Tables
+// 1.20.1	2024-07-05T23:08:38.8469317	Loot Tables
+5976b1d3ca732af3f75c6832d093a370f3122c3b data/immortal_continent/loot_tables/blocks/cast_gold_fence.json
+5f81f33d0ffb3e16636e354b5d824b453ab5e583 data/immortal_continent/loot_tables/blocks/cast_gold_fence_gate.json
 a91ae6d0dc3cf6b389ea4bbd25739e52957a8711 data/immortal_continent/loot_tables/blocks/cast_gold_leaves.json
 6743d11ba1a3c17320877ee737244196749f71dd data/immortal_continent/loot_tables/blocks/cast_gold_log.json
 a08f182e91a9800efc37635ff70dcf6457af4bf1 data/immortal_continent/loot_tables/blocks/cast_gold_planks.json

@@ -28,6 +28,8 @@ public class ModItemModelProvider extends ItemModelProvider
 
         ordinaryBlockVariantItem(ModBlocks.CAST_GOLD_STAIRS);
         ordinaryBlockVariantItem(ModBlocks.CAST_GOLD_SLAB);
+        fenceItem(ModBlocks.CAST_GOLD_FENCE, ModBlocks.CAST_GOLD_PLANKS);
+        ordinaryBlockVariantItem(ModBlocks.CAST_GOLD_FENCE_GATE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item)
@@ -37,9 +39,16 @@ public class ModItemModelProvider extends ItemModelProvider
                 new ResourceLocation(ImmortalContinent.MOD_ID,"item/" + item.getId().getPath()));
     }
 
+    // 楼梯、台阶与栅栏门
     public void ordinaryBlockVariantItem(RegistryObject<Block> block)
     {
         this.withExistingParent(ImmortalContinent.MOD_ID + ":" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
                 modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath()));
+    }
+
+    public void fenceItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock)
+    {
+        this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/fence_inventory"))
+                .texture("texture",  new ResourceLocation(ImmortalContinent.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
     }
 }

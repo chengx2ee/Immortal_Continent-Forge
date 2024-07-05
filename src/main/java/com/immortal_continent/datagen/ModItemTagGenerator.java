@@ -60,6 +60,12 @@ public class ModItemTagGenerator extends ItemTagsProvider
         this.tag(ItemTags.SLABS)
                 .add(ModBlocks.CAST_GOLD_SLAB.get().asItem());
 
+        this.tag(ItemTags.FENCES)
+                .add(ModBlocks.CAST_GOLD_FENCE.get().asItem());
+
+        this.tag(ItemTags.FENCE_GATES)
+                .add(ModBlocks.CAST_GOLD_FENCE_GATE.get().asItem());
+
         this.tag(ItemTags.LOGS_THAT_BURN)
                 .add(ModBlocks.CAST_GOLD_LOG.get().asItem(),
                      ModBlocks.STRIPPED_CAST_GOLD_LOG.get().asItem(),
@@ -69,6 +75,8 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModBlocks.CAST_GOLD_LEAVES.get().asItem(),
                      ModBlocks.CAST_GOLD_STAIRS.get().asItem(),
                      ModBlocks.CAST_GOLD_SLAB.get().asItem(),
+                     ModBlocks.CAST_GOLD_FENCE.get().asItem(),
+                     ModBlocks.CAST_GOLD_FENCE_GATE.get().asItem(),
 
                      ModBlocks.CONDENSED_WATER_LOG.get().asItem(),
                      ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get().asItem(),

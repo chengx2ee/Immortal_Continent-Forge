@@ -5,10 +5,7 @@ import com.immortal_continent.block.ModFireResistantBlocks;
 import com.immortal_continent.world.ImmortalContinent;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.RotatedPillarBlock;
-import net.minecraft.world.level.block.SlabBlock;
-import net.minecraft.world.level.block.StairBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -42,6 +39,8 @@ public class ModBlockStateProvider extends BlockStateProvider
         leavesBlock(ModBlocks.CAST_GOLD_LEAVES);
         stairsBlock(((StairBlock) ModBlocks.CAST_GOLD_STAIRS.get()), blockTexture(ModBlocks.CAST_GOLD_PLANKS.get()));
         slabBlock(((SlabBlock) ModBlocks.CAST_GOLD_SLAB.get()), blockTexture(ModBlocks.CAST_GOLD_PLANKS.get()), blockTexture(ModBlocks.CAST_GOLD_PLANKS.get()));
+        fenceBlock(((FenceBlock) ModBlocks.CAST_GOLD_FENCE.get()), blockTexture(ModBlocks.CAST_GOLD_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) ModBlocks.CAST_GOLD_FENCE_GATE.get()), blockTexture(ModBlocks.CAST_GOLD_PLANKS.get()));
 
         logBlock(((RotatedPillarBlock) ModBlocks.CONDENSED_WATER_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.CONDENSED_WATER_WOOD.get()), blockTexture(ModBlocks.CONDENSED_WATER_LOG.get()), blockTexture(ModBlocks.CONDENSED_WATER_LOG.get()));

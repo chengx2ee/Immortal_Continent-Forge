@@ -41,6 +41,8 @@ public class ModCreativeModTabs
                         pOutput.accept(ModBlocks.CAST_GOLD_LEAVES.get());
                         pOutput.accept(ModBlocks.CAST_GOLD_STAIRS.get());
                         pOutput.accept(ModBlocks.CAST_GOLD_SLAB.get());
+                        pOutput.accept(ModBlocks.CAST_GOLD_FENCE.get());
+                        pOutput.accept(ModBlocks.CAST_GOLD_FENCE_GATE.get());
 
                         pOutput.accept(ModBlocks.CONDENSED_WATER_LOG.get());
                         pOutput.accept(ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get());

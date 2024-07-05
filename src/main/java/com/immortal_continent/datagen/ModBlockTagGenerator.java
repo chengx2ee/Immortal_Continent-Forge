@@ -32,6 +32,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CAST_GOLD_PLANKS.get(),
                      ModBlocks.CAST_GOLD_STAIRS.get(),
                      ModBlocks.CAST_GOLD_SLAB.get(),
+                     ModBlocks.CAST_GOLD_FENCE.get(),
+                     ModBlocks.CAST_GOLD_FENCE_GATE.get(),
 
                      ModBlocks.CONDENSED_WATER_LOG.get(),
                      ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get(),
@@ -81,6 +83,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider
         this.tag(BlockTags.SLABS)
                 .add(ModBlocks.CAST_GOLD_SLAB.get());
 
+        this.tag(BlockTags.FENCES)
+                .add(ModBlocks.CAST_GOLD_FENCE.get());
+
+        this.tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.CAST_GOLD_FENCE_GATE.get());
+
         this.tag(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.CAST_GOLD_LOG.get(),
                      ModBlocks.STRIPPED_CAST_GOLD_LOG.get(),
@@ -90,6 +98,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CAST_GOLD_LEAVES.get(),
                      ModBlocks.CAST_GOLD_STAIRS.get(),
                      ModBlocks.CAST_GOLD_SLAB.get(),
+                     ModBlocks.CAST_GOLD_FENCE.get(),
+                     ModBlocks.CAST_GOLD_FENCE_GATE.get(),
 
                      ModBlocks.CONDENSED_WATER_LOG.get(),
                      ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get(),
@@ -106,6 +116,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CAST_GOLD_PLANKS.get(),
                      ModBlocks.CAST_GOLD_STAIRS.get(),
                      ModBlocks.CAST_GOLD_SLAB.get(),
+                     ModBlocks.CAST_GOLD_FENCE.get(),
+                     ModBlocks.CAST_GOLD_FENCE_GATE.get(),
 
                      ModBlocks.CONDENSED_WATER_LOG.get(),
                      ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get(),

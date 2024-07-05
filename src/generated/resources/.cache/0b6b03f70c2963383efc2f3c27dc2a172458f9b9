@@ -1,11 +1,13 @@
-// 1.20.1	2024-07-04T22:15:29.2296019	Tags for minecraft:block mod id immortal_continent
+// 1.20.1	2024-07-05T23:08:38.8519203	Tags for minecraft:block mod id immortal_continent
 7816843cb69aaa65368dbc1ebf16adfaaaffe01e data/forge/tags/blocks/needs_netherite_tool.json
+30d698f3fbdd22652368041f253d730d8f3aa7a1 data/minecraft/tags/blocks/fences.json
+3079bfd56456aafc1000ce192c4bfc6b4727c828 data/minecraft/tags/blocks/fence_gates.json
 32f11521551de7b8edb34fc1eab18c3eea68fd2b data/minecraft/tags/blocks/leaves.json
 f86ec6e02c0716fbd5c29c71de0cd890e50cfc4e data/minecraft/tags/blocks/logs.json
-f9d2d89fd7b71f0da2567ab9482dcb124526317e data/minecraft/tags/blocks/logs_that_burn.json
-b26cd97d372d82678d027d866d1329aa2528c8b1 data/minecraft/tags/blocks/mineable/axe.json
+72c736ca7313875b8f5432be355270032426f2ef data/minecraft/tags/blocks/logs_that_burn.json
+61fc10760487fc43a417e3c601708edec8fc1a68 data/minecraft/tags/blocks/mineable/axe.json
 64734b3fb1511660b5f4576e5abffbc1a57ccfc4 data/minecraft/tags/blocks/needs_diamond_tool.json
-e75cbcee5b364775ccc9d2b244ab7b2e6737339d data/minecraft/tags/blocks/needs_iron_tool.json
+094123134d4b8be0420f0dfeacc88656e3a7d815 data/minecraft/tags/blocks/needs_iron_tool.json
 43eab67f5c4b28c2d79ea93f727759a63b398195 data/minecraft/tags/blocks/planks.json
 f9e7931963872a4d160b69269681b0acc5e71119 data/minecraft/tags/blocks/slabs.json
 a0f218ba8935ff7460d4f9d3ce2b975d7b1afe75 data/minecraft/tags/blocks/stairs.json
