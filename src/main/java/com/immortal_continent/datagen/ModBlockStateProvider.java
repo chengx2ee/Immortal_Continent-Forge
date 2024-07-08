@@ -41,6 +41,8 @@ public class ModBlockStateProvider extends BlockStateProvider
         slabBlock(((SlabBlock) ModBlocks.CAST_GOLD_SLAB.get()), blockTexture(ModBlocks.CAST_GOLD_PLANKS.get()), blockTexture(ModBlocks.CAST_GOLD_PLANKS.get()));
         fenceBlock(((FenceBlock) ModBlocks.CAST_GOLD_FENCE.get()), blockTexture(ModBlocks.CAST_GOLD_PLANKS.get()));
         fenceGateBlock(((FenceGateBlock) ModBlocks.CAST_GOLD_FENCE_GATE.get()), blockTexture(ModBlocks.CAST_GOLD_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.CAST_GOLD_PRESSURE_PLATE.get()), blockTexture(ModBlocks.CAST_GOLD_PLANKS.get()));
+        buttonBlock(((ButtonBlock) ModBlocks.CAST_GOLD_BUTTON.get()), blockTexture(ModBlocks.CAST_GOLD_PLANKS.get()));
 
         logBlock(((RotatedPillarBlock) ModBlocks.CONDENSED_WATER_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.CONDENSED_WATER_WOOD.get()), blockTexture(ModBlocks.CONDENSED_WATER_LOG.get()), blockTexture(ModBlocks.CONDENSED_WATER_LOG.get()));

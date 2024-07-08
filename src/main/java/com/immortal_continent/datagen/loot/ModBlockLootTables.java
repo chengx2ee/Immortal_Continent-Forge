@@ -45,6 +45,8 @@ public class ModBlockLootTables extends BlockLootSubProvider
                 block -> createSlabItemTable(ModBlocks.CAST_GOLD_SLAB.get()));
         this.dropSelf(ModBlocks.CAST_GOLD_FENCE.get());
         this.dropSelf(ModBlocks.CAST_GOLD_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.CAST_GOLD_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.CAST_GOLD_BUTTON.get());
 
         this.dropSelf(ModBlocks.CONDENSED_WATER_LOG.get());
         this.dropSelf(ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get());

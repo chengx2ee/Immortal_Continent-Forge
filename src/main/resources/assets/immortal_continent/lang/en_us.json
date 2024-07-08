@@ -13,6 +13,8 @@
   "block.immortal_continent.cast_gold_slab": "Cast Gold Slab",
   "block.immortal_continent.cast_gold_fence": "Cast Gold Fence",
   "block.immortal_continent.cast_gold_fence_gate": "Cast Gold Fence Gate",
+  "block.immortal_continent:cast_gold_pressure_plate": "Cast Gold Pressure Plate",
+  "block.immortal_continent:cast_gold_button": "铸金木按钮",
   "block.immortal_continent.condensed_water_log": "Condensed Water Log",
   "block.immortal_continent.stripped_condensed_water_log": "Stripped Condensed Water Log",
   "block.immortal_continent.condensed_water_wood": "Condensed Water Wood",

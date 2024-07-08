@@ -34,6 +34,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CAST_GOLD_SLAB.get(),
                      ModBlocks.CAST_GOLD_FENCE.get(),
                      ModBlocks.CAST_GOLD_FENCE_GATE.get(),
+                     ModBlocks.CAST_GOLD_PRESSURE_PLATE.get(),
+                     ModBlocks.CAST_GOLD_BUTTON.get(),
 
                      ModBlocks.CONDENSED_WATER_LOG.get(),
                      ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get(),
@@ -89,6 +91,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider
         this.tag(BlockTags.FENCE_GATES)
                 .add(ModBlocks.CAST_GOLD_FENCE_GATE.get());
 
+        this.tag(BlockTags.PRESSURE_PLATES)
+                .add(ModBlocks.CAST_GOLD_PRESSURE_PLATE.get());
+
+        this.tag(BlockTags.BUTTONS)
+                .add(ModBlocks.CAST_GOLD_BUTTON.get());
+
+        // 方块燃烧
         this.tag(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.CAST_GOLD_LOG.get(),
                      ModBlocks.STRIPPED_CAST_GOLD_LOG.get(),
@@ -100,6 +109,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CAST_GOLD_SLAB.get(),
                      ModBlocks.CAST_GOLD_FENCE.get(),
                      ModBlocks.CAST_GOLD_FENCE_GATE.get(),
+                     ModBlocks.CAST_GOLD_PRESSURE_PLATE.get(),
+                     ModBlocks.CAST_GOLD_BUTTON.get(),
 
                      ModBlocks.CONDENSED_WATER_LOG.get(),
                      ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get(),
@@ -118,6 +129,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CAST_GOLD_SLAB.get(),
                      ModBlocks.CAST_GOLD_FENCE.get(),
                      ModBlocks.CAST_GOLD_FENCE_GATE.get(),
+                     ModBlocks.CAST_GOLD_PRESSURE_PLATE.get(),
+                     ModBlocks.CAST_GOLD_BUTTON.get(),
 
                      ModBlocks.CONDENSED_WATER_LOG.get(),
                      ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get(),

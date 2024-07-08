@@ -6,6 +6,7 @@ import com.immortal_continent.world.ImmortalContinent;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -66,6 +67,12 @@ public class ModItemTagGenerator extends ItemTagsProvider
         this.tag(ItemTags.FENCE_GATES)
                 .add(ModBlocks.CAST_GOLD_FENCE_GATE.get().asItem());
 
+        this.tag(ItemTags.WOODEN_PRESSURE_PLATES)
+                .add(ModBlocks.CAST_GOLD_PRESSURE_PLATE.get().asItem());
+
+        this.tag(ItemTags.BUTTONS)
+                .add(ModBlocks.CAST_GOLD_BUTTON.get().asItem());
+
         this.tag(ItemTags.LOGS_THAT_BURN)
                 .add(ModBlocks.CAST_GOLD_LOG.get().asItem(),
                      ModBlocks.STRIPPED_CAST_GOLD_LOG.get().asItem(),
@@ -77,6 +84,8 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModBlocks.CAST_GOLD_SLAB.get().asItem(),
                      ModBlocks.CAST_GOLD_FENCE.get().asItem(),
                      ModBlocks.CAST_GOLD_FENCE_GATE.get().asItem(),
+                     ModBlocks.CAST_GOLD_PRESSURE_PLATE.get().asItem(),
+                     ModBlocks.CAST_GOLD_BUTTON.get().asItem(),
 
                      ModBlocks.CONDENSED_WATER_LOG.get().asItem(),
                      ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get().asItem(),

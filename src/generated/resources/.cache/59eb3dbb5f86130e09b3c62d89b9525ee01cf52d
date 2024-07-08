@@ -1,9 +1,11 @@
-// 1.20.1	2024-07-05T23:08:38.8469317	Loot Tables
+// 1.20.1	2024-07-08T11:31:09.5251578	Loot Tables
+b7e947c19d99179062186cbf96866d0fa1a75271 data/immortal_continent/loot_tables/blocks/cast_gold_button.json
 5976b1d3ca732af3f75c6832d093a370f3122c3b data/immortal_continent/loot_tables/blocks/cast_gold_fence.json
 5f81f33d0ffb3e16636e354b5d824b453ab5e583 data/immortal_continent/loot_tables/blocks/cast_gold_fence_gate.json
 a91ae6d0dc3cf6b389ea4bbd25739e52957a8711 data/immortal_continent/loot_tables/blocks/cast_gold_leaves.json
 6743d11ba1a3c17320877ee737244196749f71dd data/immortal_continent/loot_tables/blocks/cast_gold_log.json
 a08f182e91a9800efc37635ff70dcf6457af4bf1 data/immortal_continent/loot_tables/blocks/cast_gold_planks.json
+a2ef7d7860b4e9061e561cd08d9acbe55a9d5c08 data/immortal_continent/loot_tables/blocks/cast_gold_pressure_plate.json
 842275c772902e4dad97a508b83a8b6e73189c08 data/immortal_continent/loot_tables/blocks/cast_gold_slab.json
 1591b4c7af414596a635cc6f8af5d800100fdb53 data/immortal_continent/loot_tables/blocks/cast_gold_stairs.json
 aeaea6d5681f3e66af4944037a1d71ab7ce93056 data/immortal_continent/loot_tables/blocks/cast_gold_wood.json
