@@ -42,6 +42,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CONDENSED_WATER_WOOD.get(),
                      ModBlocks.STRIPPED_CONDENSED_WATER_WOOD.get(),
                      ModBlocks.CONDENSED_WATER_PLANKS.get(),
+                     ModBlocks.CONDENSED_WATER_STAIRS.get(),
+                     ModBlocks.CONDENSED_WATER_SLAB.get(),
+                     ModBlocks.CONDENSED_WATER_FENCE.get(),
+                     ModBlocks.CONDENSED_WATER_FENCE_GATE.get(),
+                     ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get(),
+                     ModBlocks.CONDENSED_WATER_BUTTON.get(),
 
                      ModFireResistantBlocks.IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get(),
@@ -80,22 +86,28 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModFireResistantBlocks.IMMORTAL_LEAVES.get());
 
         this.tag(BlockTags.STAIRS)
-                .add(ModBlocks.CAST_GOLD_STAIRS.get());
+                .add(ModBlocks.CAST_GOLD_STAIRS.get(),
+                     ModBlocks.CONDENSED_WATER_STAIRS.get());
 
         this.tag(BlockTags.SLABS)
-                .add(ModBlocks.CAST_GOLD_SLAB.get());
+                .add(ModBlocks.CAST_GOLD_SLAB.get(),
+                     ModBlocks.CONDENSED_WATER_SLAB.get());
 
         this.tag(BlockTags.FENCES)
-                .add(ModBlocks.CAST_GOLD_FENCE.get());
+                .add(ModBlocks.CAST_GOLD_FENCE.get(),
+                     ModBlocks.CONDENSED_WATER_FENCE.get());
 
         this.tag(BlockTags.FENCE_GATES)
-                .add(ModBlocks.CAST_GOLD_FENCE_GATE.get());
+                .add(ModBlocks.CAST_GOLD_FENCE_GATE.get(),
+                     ModBlocks.CONDENSED_WATER_FENCE_GATE.get());
 
         this.tag(BlockTags.PRESSURE_PLATES)
-                .add(ModBlocks.CAST_GOLD_PRESSURE_PLATE.get());
+                .add(ModBlocks.CAST_GOLD_PRESSURE_PLATE.get(),
+                     ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get());
 
         this.tag(BlockTags.BUTTONS)
-                .add(ModBlocks.CAST_GOLD_BUTTON.get());
+                .add(ModBlocks.CAST_GOLD_BUTTON.get(),
+                     ModBlocks.CONDENSED_WATER_BUTTON.get());
 
         // 方块燃烧
         this.tag(BlockTags.LOGS_THAT_BURN)
@@ -117,7 +129,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CONDENSED_WATER_WOOD.get(),
                      ModBlocks.STRIPPED_CONDENSED_WATER_WOOD.get(),
                      ModBlocks.CONDENSED_WATER_PLANKS.get(),
-                     ModBlocks.CONDENSED_WATER_LEAVES.get());
+                     ModBlocks.CONDENSED_WATER_LEAVES.get(),
+                     ModBlocks.CONDENSED_WATER_STAIRS.get(),
+                     ModBlocks.CONDENSED_WATER_SLAB.get(),
+                     ModBlocks.CONDENSED_WATER_FENCE.get(),
+                     ModBlocks.CONDENSED_WATER_FENCE_GATE.get(),
+                     ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get(),
+                     ModBlocks.CONDENSED_WATER_BUTTON.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.CAST_GOLD_LOG.get(),
@@ -136,7 +154,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.STRIPPED_CONDENSED_WATER_LOG.get(),
                      ModBlocks.CONDENSED_WATER_WOOD.get(),
                      ModBlocks.STRIPPED_CONDENSED_WATER_WOOD.get(),
-                     ModBlocks.CONDENSED_WATER_PLANKS.get());
+                     ModBlocks.CONDENSED_WATER_PLANKS.get(),
+                     ModBlocks.CONDENSED_WATER_STAIRS.get(),
+                     ModBlocks.CONDENSED_WATER_SLAB.get(),
+                     ModBlocks.CONDENSED_WATER_FENCE.get(),
+                     ModBlocks.CONDENSED_WATER_FENCE_GATE.get(),
+                     ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get(),
+                     ModBlocks.CONDENSED_WATER_BUTTON.get());
 
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)

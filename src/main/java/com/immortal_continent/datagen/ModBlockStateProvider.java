@@ -56,6 +56,12 @@ public class ModBlockStateProvider extends BlockStateProvider
         blockItem(ModBlocks.STRIPPED_CONDENSED_WATER_WOOD);
         blockWithItem(ModBlocks.CONDENSED_WATER_PLANKS);
         leavesBlock(ModBlocks.CONDENSED_WATER_LEAVES);
+        stairsBlock(((StairBlock) ModBlocks.CONDENSED_WATER_STAIRS.get()), blockTexture(ModBlocks.CONDENSED_WATER_PLANKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.CONDENSED_WATER_SLAB.get()), blockTexture(ModBlocks.CONDENSED_WATER_PLANKS.get()), blockTexture(ModBlocks.CONDENSED_WATER_PLANKS.get()));
+        fenceBlock(((FenceBlock) ModBlocks.CONDENSED_WATER_FENCE.get()), blockTexture(ModBlocks.CONDENSED_WATER_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) ModBlocks.CONDENSED_WATER_FENCE_GATE.get()), blockTexture(ModBlocks.CONDENSED_WATER_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get()), blockTexture(ModBlocks.CONDENSED_WATER_PLANKS.get()));
+        buttonBlock(((ButtonBlock) ModBlocks.CONDENSED_WATER_BUTTON.get()), blockTexture(ModBlocks.CONDENSED_WATER_PLANKS.get()));
 
         logBlock(((RotatedPillarBlock) ModFireResistantBlocks.IMMORTAL_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModFireResistantBlocks.IMMORTAL_WOOD.get()), blockTexture(ModFireResistantBlocks.IMMORTAL_LOG.get()), blockTexture(ModFireResistantBlocks.IMMORTAL_LOG.get()));

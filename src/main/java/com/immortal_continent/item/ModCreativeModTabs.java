@@ -52,6 +52,12 @@ public class ModCreativeModTabs
                         pOutput.accept(ModBlocks.STRIPPED_CONDENSED_WATER_WOOD.get());
                         pOutput.accept(ModBlocks.CONDENSED_WATER_PLANKS.get());
                         pOutput.accept(ModBlocks.CONDENSED_WATER_LEAVES.get());
+                        pOutput.accept(ModBlocks.CONDENSED_WATER_STAIRS.get());
+                        pOutput.accept(ModBlocks.CONDENSED_WATER_SLAB.get());
+                        pOutput.accept(ModBlocks.CONDENSED_WATER_FENCE.get());
+                        pOutput.accept(ModBlocks.CONDENSED_WATER_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.CONDENSED_WATER_BUTTON.get());
 
                         pOutput.accept(ModFireResistantBlocks.IMMORTAL_LOG.get());
                         pOutput.accept(ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get());

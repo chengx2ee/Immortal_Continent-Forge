@@ -56,22 +56,28 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModFireResistantBlocks.IMMORTAL_LEAVES.get().asItem());
 
         this.tag(ItemTags.STAIRS)
-                .add(ModBlocks.CAST_GOLD_STAIRS.get().asItem());
+                .add(ModBlocks.CAST_GOLD_STAIRS.get().asItem(),
+                     ModBlocks.CONDENSED_WATER_STAIRS.get().asItem());
 
         this.tag(ItemTags.SLABS)
-                .add(ModBlocks.CAST_GOLD_SLAB.get().asItem());
+                .add(ModBlocks.CAST_GOLD_SLAB.get().asItem(),
+                     ModBlocks.CONDENSED_WATER_SLAB.get().asItem());
 
         this.tag(ItemTags.FENCES)
-                .add(ModBlocks.CAST_GOLD_FENCE.get().asItem());
+                .add(ModBlocks.CAST_GOLD_FENCE.get().asItem(),
+                     ModBlocks.CONDENSED_WATER_FENCE.get().asItem());
 
         this.tag(ItemTags.FENCE_GATES)
-                .add(ModBlocks.CAST_GOLD_FENCE_GATE.get().asItem());
+                .add(ModBlocks.CAST_GOLD_FENCE_GATE.get().asItem(),
+                     ModBlocks.CONDENSED_WATER_FENCE_GATE.get().asItem());
 
         this.tag(ItemTags.WOODEN_PRESSURE_PLATES)
-                .add(ModBlocks.CAST_GOLD_PRESSURE_PLATE.get().asItem());
+                .add(ModBlocks.CAST_GOLD_PRESSURE_PLATE.get().asItem(),
+                     ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get().asItem());
 
         this.tag(ItemTags.BUTTONS)
-                .add(ModBlocks.CAST_GOLD_BUTTON.get().asItem());
+                .add(ModBlocks.CAST_GOLD_BUTTON.get().asItem(),
+                     ModBlocks.CONDENSED_WATER_BUTTON.get().asItem());
 
         this.tag(ItemTags.LOGS_THAT_BURN)
                 .add(ModBlocks.CAST_GOLD_LOG.get().asItem(),
@@ -92,6 +98,12 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModBlocks.CONDENSED_WATER_WOOD.get().asItem(),
                      ModBlocks.STRIPPED_CONDENSED_WATER_WOOD.get().asItem(),
                      ModBlocks.CONDENSED_WATER_PLANKS.get().asItem(),
-                     ModBlocks.CONDENSED_WATER_LEAVES.get().asItem());
+                     ModBlocks.CONDENSED_WATER_LEAVES.get().asItem(),
+                     ModBlocks.CONDENSED_WATER_STAIRS.get().asItem(),
+                     ModBlocks.CONDENSED_WATER_SLAB.get().asItem(),
+                     ModBlocks.CONDENSED_WATER_FENCE.get().asItem(),
+                     ModBlocks.CONDENSED_WATER_FENCE_GATE.get().asItem(),
+                     ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get().asItem(),
+                     ModBlocks.CONDENSED_WATER_BUTTON.get().asItem());
     }
 }

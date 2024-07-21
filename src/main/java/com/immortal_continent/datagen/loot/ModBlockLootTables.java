@@ -55,6 +55,13 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.dropSelf(ModBlocks.CONDENSED_WATER_PLANKS.get());
         this.add(ModBlocks.CONDENSED_WATER_LEAVES.get(), block ->
                 createLeavesDrops(block, ModBlocks.WOODEN_AGGLUTINATE.get(), NORMAL_LEAVES_SAPLING_CHANCES)); // TODO: Change to Sapling!
+        this.dropSelf(ModBlocks.CONDENSED_WATER_STAIRS.get());
+        this.add(ModBlocks.CONDENSED_WATER_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.CONDENSED_WATER_SLAB.get()));
+        this.dropSelf(ModBlocks.CONDENSED_WATER_FENCE.get());
+        this.dropSelf(ModBlocks.CONDENSED_WATER_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.CONDENSED_WATER_BUTTON.get());
 
         this.dropSelf(ModFireResistantBlocks.IMMORTAL_LOG.get());
         this.dropSelf(ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get());

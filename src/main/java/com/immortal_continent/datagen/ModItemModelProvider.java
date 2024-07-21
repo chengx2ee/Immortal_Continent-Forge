@@ -32,6 +32,13 @@ public class ModItemModelProvider extends ItemModelProvider
         ordinaryBlockVariantItem(ModBlocks.CAST_GOLD_FENCE_GATE);
         ordinaryBlockVariantItem(ModBlocks.CAST_GOLD_PRESSURE_PLATE);
         buttonItem(ModBlocks.CAST_GOLD_BUTTON, ModBlocks.CAST_GOLD_PLANKS);
+
+        ordinaryBlockVariantItem(ModBlocks.CONDENSED_WATER_STAIRS);
+        ordinaryBlockVariantItem(ModBlocks.CONDENSED_WATER_SLAB);
+        fenceItem(ModBlocks.CONDENSED_WATER_FENCE, ModBlocks.CONDENSED_WATER_PLANKS);
+        ordinaryBlockVariantItem(ModBlocks.CONDENSED_WATER_FENCE_GATE);
+        ordinaryBlockVariantItem(ModBlocks.CONDENSED_WATER_PRESSURE_PLATE);
+        buttonItem(ModBlocks.CONDENSED_WATER_BUTTON, ModBlocks.CONDENSED_WATER_PLANKS);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item)

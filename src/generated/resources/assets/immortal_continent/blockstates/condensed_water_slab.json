@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "immortal_continent:block/condensed_water_slab"
+    },
+    "type=double": {
+      "model": "immortal_continent:block/condensed_water_planks"
+    },
+    "type=top": {
+      "model": "immortal_continent:block/condensed_water_slab_top"
+    }
+  }
+}
