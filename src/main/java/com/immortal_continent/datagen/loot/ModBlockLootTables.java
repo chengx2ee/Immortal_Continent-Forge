@@ -33,6 +33,36 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.add(ModBlocks.WOODEN_AGGLUTINATE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.WOODEN_AGGLUTINATE.get(), ModItems.WOODEN_HEART.get()));
 
+        this.dropSelf(ModBlocks.FLAMING_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_FLAMING_LOG.get());
+        this.dropSelf(ModBlocks.FLAMING_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_FLAMING_WOOD.get());
+        this.dropSelf(ModBlocks.FLAMING_PLANKS.get());
+        this.add(ModBlocks.FLAMING_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.WOODEN_AGGLUTINATE.get(), NORMAL_LEAVES_SAPLING_CHANCES)); // TODO: Change to Sapling!
+        this.dropSelf(ModBlocks.FLAMING_STAIRS.get());
+        this.add(ModBlocks.FLAMING_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.FLAMING_SLAB.get()));
+        this.dropSelf(ModBlocks.FLAMING_FENCE.get());
+        this.dropSelf(ModBlocks.FLAMING_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.FLAMING_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.FLAMING_BUTTON.get());
+
+        this.dropSelf(ModBlocks.LOAM_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_LOAM_LOG.get());
+        this.dropSelf(ModBlocks.LOAM_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_LOAM_WOOD.get());
+        this.dropSelf(ModBlocks.LOAM_PLANKS.get());
+        this.add(ModBlocks.LOAM_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.WOODEN_AGGLUTINATE.get(), NORMAL_LEAVES_SAPLING_CHANCES)); // TODO: Change to Sapling!
+        this.dropSelf(ModBlocks.LOAM_STAIRS.get());
+        this.add(ModBlocks.LOAM_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.LOAM_SLAB.get()));
+        this.dropSelf(ModBlocks.LOAM_FENCE.get());
+        this.dropSelf(ModBlocks.LOAM_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.LOAM_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.LOAM_BUTTON.get());
+
         this.dropSelf(ModBlocks.CAST_GOLD_LOG.get());
         this.dropSelf(ModBlocks.STRIPPED_CAST_GOLD_LOG.get());
         this.dropSelf(ModBlocks.CAST_GOLD_WOOD.get());

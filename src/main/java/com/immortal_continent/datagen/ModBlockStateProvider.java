@@ -25,6 +25,44 @@ public class ModBlockStateProvider extends BlockStateProvider
     {
         blockWithItem(ModBlocks.WOODEN_AGGLUTINATE);
 
+        logBlock(((RotatedPillarBlock) ModBlocks.FLAMING_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.FLAMING_WOOD.get()), blockTexture(ModBlocks.FLAMING_LOG.get()), blockTexture(ModBlocks.FLAMING_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_FLAMING_LOG.get()), blockTexture(ModBlocks.STRIPPED_FLAMING_LOG.get()),
+                new ResourceLocation(ImmortalContinent.MOD_ID, "block/stripped_flaming_log_top"));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_FLAMING_WOOD.get()), blockTexture(ModBlocks.STRIPPED_FLAMING_LOG.get()),
+                blockTexture(ModBlocks.STRIPPED_FLAMING_LOG.get()));
+        blockItem(ModBlocks.FLAMING_LOG);
+        blockItem(ModBlocks.FLAMING_WOOD);
+        blockItem(ModBlocks.STRIPPED_FLAMING_LOG);
+        blockItem(ModBlocks.STRIPPED_FLAMING_WOOD);
+        blockWithItem(ModBlocks.FLAMING_PLANKS);
+        leavesBlock(ModBlocks.FLAMING_LEAVES);
+        stairsBlock(((StairBlock) ModBlocks.FLAMING_STAIRS.get()), blockTexture(ModBlocks.FLAMING_PLANKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.FLAMING_SLAB.get()), blockTexture(ModBlocks.FLAMING_PLANKS.get()), blockTexture(ModBlocks.FLAMING_PLANKS.get()));
+        fenceBlock(((FenceBlock) ModBlocks.FLAMING_FENCE.get()), blockTexture(ModBlocks.FLAMING_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) ModBlocks.FLAMING_FENCE_GATE.get()), blockTexture(ModBlocks.FLAMING_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.FLAMING_PRESSURE_PLATE.get()), blockTexture(ModBlocks.FLAMING_PLANKS.get()));
+        buttonBlock(((ButtonBlock) ModBlocks.FLAMING_BUTTON.get()), blockTexture(ModBlocks.FLAMING_PLANKS.get()));
+
+        logBlock(((RotatedPillarBlock) ModBlocks.LOAM_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.LOAM_WOOD.get()), blockTexture(ModBlocks.LOAM_LOG.get()), blockTexture(ModBlocks.LOAM_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_LOAM_LOG.get()), blockTexture(ModBlocks.STRIPPED_LOAM_LOG.get()),
+                new ResourceLocation(ImmortalContinent.MOD_ID, "block/stripped_loam_log_top"));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_LOAM_WOOD.get()), blockTexture(ModBlocks.STRIPPED_LOAM_LOG.get()),
+                blockTexture(ModBlocks.STRIPPED_LOAM_LOG.get()));
+        blockItem(ModBlocks.LOAM_LOG);
+        blockItem(ModBlocks.LOAM_WOOD);
+        blockItem(ModBlocks.STRIPPED_LOAM_LOG);
+        blockItem(ModBlocks.STRIPPED_LOAM_WOOD);
+        blockWithItem(ModBlocks.LOAM_PLANKS);
+        leavesBlock(ModBlocks.LOAM_LEAVES);
+        stairsBlock(((StairBlock) ModBlocks.LOAM_STAIRS.get()), blockTexture(ModBlocks.LOAM_PLANKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.LOAM_SLAB.get()), blockTexture(ModBlocks.LOAM_PLANKS.get()), blockTexture(ModBlocks.LOAM_PLANKS.get()));
+        fenceBlock(((FenceBlock) ModBlocks.LOAM_FENCE.get()), blockTexture(ModBlocks.LOAM_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) ModBlocks.LOAM_FENCE_GATE.get()), blockTexture(ModBlocks.LOAM_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.LOAM_PRESSURE_PLATE.get()), blockTexture(ModBlocks.LOAM_PLANKS.get()));
+        buttonBlock(((ButtonBlock) ModBlocks.LOAM_BUTTON.get()), blockTexture(ModBlocks.LOAM_PLANKS.get()));
+
         logBlock(((RotatedPillarBlock) ModBlocks.CAST_GOLD_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.CAST_GOLD_WOOD.get()), blockTexture(ModBlocks.CAST_GOLD_LOG.get()), blockTexture(ModBlocks.CAST_GOLD_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_CAST_GOLD_LOG.get()), blockTexture(ModBlocks.STRIPPED_CAST_GOLD_LOG.get()),

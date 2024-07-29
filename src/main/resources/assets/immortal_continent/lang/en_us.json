@@ -1,8 +1,36 @@
 {
   "creative_tab.immortal_continent": "Immortal Continent: Items",
   "creative_tab.immortal_continent_1": "Immortal Continent: Blocks",
+
   "item.immortal_continent.wooden_heart": "Wooden Heart",
   "block.immortal_continent.wooden_agglutinate": "Wooden Agglutinate",
+
+  "block.immortal_continent.flaming_log": "Flaming Log",
+  "block.immortal_continent.stripped_flaming_log": "Stripped Flaming Log",
+  "block.immortal_continent.flaming_wood": "Flaming Wood",
+  "block.immortal_continent.stripped_flaming_wood": "Stripped Flaming Wood",
+  "block.immortal_continent.flaming_planks": "Flaming Plank",
+  "block.immortal_continent.flaming_leaves": "Flaming Leaf",
+  "block.immortal_continent.flaming_stairs": "Flaming Stair",
+  "block.immortal_continent.flaming_slab": "Flaming Slab",
+  "block.immortal_continent.flaming_fence": "Flaming Fence",
+  "block.immortal_continent.flaming_fence_gate": "Flaming Fence Gate",
+  "block.immortal_continent.flaming_pressure_plate": "Flaming Pressure Plate",
+  "block.immortal_continent.flaming_button": "Flaming Button",
+
+  "block.immortal_continent.loam_log": "Loam Log",
+  "block.immortal_continent.stripped_loam_log": "Stripped Loam Log",
+  "block.immortal_continent.loam_wood": "Loam Wood",
+  "block.immortal_continent.stripped_loam_wood": "Stripped Loam Wood",
+  "block.immortal_continent.loam_planks": "Loam Plank",
+  "block.immortal_continent.loam_leaves": "Loam Leaf",
+  "block.immortal_continent.loam_stairs": "Loam Stair",
+  "block.immortal_continent.loam_slab": "Loam Slab",
+  "block.immortal_continent.loam_fence": "Loam Fence",
+  "block.immortal_continent.loam_fence_gate": "Loam Fence Gate",
+  "block.immortal_continent.loam_pressure_plate": "Loam Pressure Plate",
+  "block.immortal_continent.loam_button": "Loam Button",
+
   "block.immortal_continent.cast_gold_log": "Cast Gold Log",
   "block.immortal_continent.stripped_cast_gold_log": "Stripped Cast Gold Log",
   "block.immortal_continent.cast_gold_wood": "Cast Gold Wood",
@@ -15,6 +43,7 @@
   "block.immortal_continent.cast_gold_fence_gate": "Cast Gold Fence Gate",
   "block.immortal_continent.cast_gold_pressure_plate": "Cast Gold Pressure Plate",
   "block.immortal_continent.cast_gold_button": "Cast Gold Button",
+
   "block.immortal_continent.condensed_water_log": "Condensed Water Log",
   "block.immortal_continent.stripped_condensed_water_log": "Stripped Condensed Water Log",
   "block.immortal_continent.condensed_water_wood": "Condensed Water Wood",
@@ -27,6 +56,7 @@
   "block.immortal_continent.condensed_water_fence_gate": "Condensed Water Fence Gate",
   "block.immortal_continent.condensed_water_pressure_plate": "Condensed Water Pressure Plate",
   "block.immortal_continent.condensed_water_button": "Condensed Water Button",
+
   "block.immortal_continent.immortal_log": "Immortal Block",
   "block.immortal_continent.stripped_immortal_log": "Stripped Immortal Log",
   "block.immortal_continent.immortal_wood": "Immortal Wood",

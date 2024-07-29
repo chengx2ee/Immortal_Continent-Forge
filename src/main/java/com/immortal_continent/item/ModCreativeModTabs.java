@@ -33,6 +33,32 @@ public class ModCreativeModTabs
                     .title(Component.translatable(CREATIVE_TAB_1))
                     .displayItems((pParameters, pOutput) ->
                     {
+                        pOutput.accept(ModBlocks.FLAMING_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_FLAMING_LOG.get());
+                        pOutput.accept(ModBlocks.FLAMING_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_FLAMING_WOOD.get());
+                        pOutput.accept(ModBlocks.FLAMING_PLANKS.get());
+                        pOutput.accept(ModBlocks.FLAMING_LEAVES.get());
+                        pOutput.accept(ModBlocks.FLAMING_STAIRS.get());
+                        pOutput.accept(ModBlocks.FLAMING_SLAB.get());
+                        pOutput.accept(ModBlocks.FLAMING_FENCE.get());
+                        pOutput.accept(ModBlocks.FLAMING_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.FLAMING_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.FLAMING_BUTTON.get());
+
+                        pOutput.accept(ModBlocks.LOAM_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_LOAM_LOG.get());
+                        pOutput.accept(ModBlocks.LOAM_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_LOAM_WOOD.get());
+                        pOutput.accept(ModBlocks.LOAM_PLANKS.get());
+                        pOutput.accept(ModBlocks.LOAM_LEAVES.get());
+                        pOutput.accept(ModBlocks.LOAM_STAIRS.get());
+                        pOutput.accept(ModBlocks.LOAM_SLAB.get());
+                        pOutput.accept(ModBlocks.LOAM_FENCE.get());
+                        pOutput.accept(ModBlocks.LOAM_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.LOAM_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.LOAM_BUTTON.get());
+
                         pOutput.accept(ModBlocks.CAST_GOLD_LOG.get());
                         pOutput.accept(ModBlocks.STRIPPED_CAST_GOLD_LOG.get());
                         pOutput.accept(ModBlocks.CAST_GOLD_WOOD.get());

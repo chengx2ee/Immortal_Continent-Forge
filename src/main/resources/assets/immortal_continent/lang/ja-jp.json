@@ -1,8 +1,36 @@
 {
   "creative_tab.immortal_continent": "不滅の大陸：アイテム",
   "creative_tab.immortal_continent_1": "不滅の大陸：キューブ",
+
   "item.immortal_continent.wooden_heart": "ウッドハート",
   "block.immortal_continent.wooden_agglutinate": "ウッド凝集体",
+
+  "block.immortal_continent.flaming_log": "赤々と燃える丸太",
+  "block.immortal_continent.stripped_flaming_log": "剥がしたブレイズ丸太",
+  "block.immortal_continent.flaming_wood": "炎木",
+  "block.immortal_continent.stripped_flaming_wood": "剥がれたブレイズウッド",
+  "block.immortal_continent.flaming_planks": "ブラス",
+  "block.immortal_continent.flaming_leaves": "べにうちわ",
+  "block.immortal_continent.flaming_stairs": "燃える木の階段",
+  "block.immortal_continent.flaming_slab": "フレームウッドステップ",
+  "block.immortal_continent.flaming_fence": "燃える木製フェンス",
+  "block.immortal_continent.flaming_fence_gate": "ブレイズ木製フェンスゲート",
+  "block.immortal_continent.flaming_pressure_plate": "ブレイズ・ウッド・プレッシャー",
+  "block.immortal_continent.flaming_button": "ブレージングウッドボタン",
+
+  "block.immortal_continent.loam_log": "ロームログ",
+  "block.immortal_continent.stripped_loam_log": "皮むきローム丸太",
+  "block.immortal_continent.loam_wood": "ローム",
+  "block.immortal_continent.stripped_loam_wood": "かわはぎローム",
+  "block.immortal_continent.loam_planks": "ロームボード",
+  "block.immortal_continent.loam_leaves": "壌土の葉",
+  "block.immortal_continent.loam_stairs": "腐葉土と木の階段",
+  "block.immortal_continent.loam_slab": "ローム質土壌と木の階段",
+  "block.immortal_continent.loam_fence": "ロームフェンス",
+  "block.immortal_continent.loam_fence_gate": "ロームフェンスゲート",
+  "block.immortal_continent.loam_pressure_plate": "ローム圧力プレート",
+  "block.immortal_continent.loam_button": "土と木のボタン",
+
   "block.immortal_continent.cast_gold_log": "鋳造金ログ",
   "block.immortal_continent.stripped_cast_gold_log": "鋳造金の丸太の皮むき",
   "block.immortal_continent.cast_gold_wood": "鋳造金の木",
@@ -15,6 +43,7 @@
   "block.immortal_continent.cast_gold_fence_gate": "鋳造金木材フェンスゲート",
   "block.immortal_continent.cast_gold_pressure_plate": "ゴールド・ウッド・プレッシャー・プレート",
   "block.immortal_continent.cast_gold_button": "鋳造ゴールド木製ボタン",
+
   "block.immortal_continent.condensed_water_log": "結露ログ",
   "block.immortal_continent.stripped_condensed_water_log": "コンデンスウォーターの皮むき",
   "block.immortal_continent.condensed_water_wood": "結露",
@@ -27,6 +56,7 @@
   "block.immortal_continent.condensed_water_fence_gate": "結露の木製フェンス・ゲート",
   "block.immortal_continent.condensed_water_pressure_plate": "結露木材プレッシャー・プレート",
   "block.immortal_continent.condensed_water_button": "ニツキボタン",
+
   "block.immortal_continent.immortal_log": "不滅ログ",
   "block.immortal_continent.stripped_immortal_log": "不滅の丸太の皮むき",
   "block.immortal_continent.immortal_wood": "不滅の木",

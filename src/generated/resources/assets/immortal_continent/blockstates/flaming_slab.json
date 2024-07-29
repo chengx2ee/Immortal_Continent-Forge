@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "immortal_continent:block/flaming_slab"
+    },
+    "type=double": {
+      "model": "immortal_continent:block/flaming_planks"
+    },
+    "type=top": {
+      "model": "immortal_continent:block/flaming_slab_top"
+    }
+  }
+}

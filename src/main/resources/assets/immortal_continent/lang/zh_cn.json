@@ -1,8 +1,36 @@
 {
   "creative_tab.immortal_continent": "不朽大陆：物品",
   "creative_tab.immortal_continent_1": "不朽大陆：方块",
+
   "item.immortal_continent.wooden_heart": "木凝心",
   "block.immortal_continent.wooden_agglutinate": "木凝块",
+
+  "block.immortal_continent.flaming_log": "炽焰原木",
+  "block.immortal_continent.stripped_flaming_log": "去皮炽焰原木",
+  "block.immortal_continent.flaming_wood": "炽焰木",
+  "block.immortal_continent.stripped_flaming_wood": "去皮炽焰木",
+  "block.immortal_continent.flaming_planks": "炽焰木板",
+  "block.immortal_continent.flaming_leaves": "炽焰树叶",
+  "block.immortal_continent.flaming_stairs": "炽焰木楼梯",
+  "block.immortal_continent.flaming_slab": "炽焰木台阶",
+  "block.immortal_continent.flaming_fence": "炽焰木栅栏",
+  "block.immortal_continent.flaming_fence_gate": "炽焰木栅栏门",
+  "block.immortal_continent.flaming_pressure_plate": "炽焰木压力板",
+  "block.immortal_continent.flaming_button": "炽焰木按钮",
+
+  "block.immortal_continent.loam_log": "壤土原木",
+  "block.immortal_continent.stripped_loam_log": "去皮壤土原木",
+  "block.immortal_continent.loam_wood": "壤土木",
+  "block.immortal_continent.stripped_loam_wood": "去皮壤土木",
+  "block.immortal_continent.loam_planks": "壤土木板",
+  "block.immortal_continent.loam_leaves": "壤土树叶",
+  "block.immortal_continent.loam_stairs": "壤土木楼梯",
+  "block.immortal_continent.loam_slab": "壤土木台阶",
+  "block.immortal_continent.loam_fence": "壤土木栅栏",
+  "block.immortal_continent.loam_fence_gate": "壤土木栅栏门",
+  "block.immortal_continent.loam_pressure_plate": "壤土木压力板",
+  "block.immortal_continent.loam_button": "壤土木按钮",
+
   "block.immortal_continent.cast_gold_log": "铸金原木",
   "block.immortal_continent.stripped_cast_gold_log": "去皮铸金原木",
   "block.immortal_continent.cast_gold_wood": "铸金木",
@@ -15,6 +43,7 @@
   "block.immortal_continent.cast_gold_fence_gate": "铸金木栅栏门",
   "block.immortal_continent.cast_gold_pressure_plate": "铸金木压力板",
   "block.immortal_continent.cast_gold_button": "铸金木按钮",
+
   "block.immortal_continent.condensed_water_log": "凝水原木",
   "block.immortal_continent.stripped_condensed_water_log": "去皮凝水原木",
   "block.immortal_continent.condensed_water_wood": "凝水木",
@@ -27,6 +56,7 @@
   "block.immortal_continent.condensed_water_fence_gate": "凝水木栅栏门",
   "block.immortal_continent.condensed_water_pressure_plate": "凝水木压力板",
   "block.immortal_continent.condensed_water_button": "凝水木按钮",
+
   "block.immortal_continent.immortal_log": "不朽原木",
   "block.immortal_continent.stripped_immortal_log": "去皮不朽原木",
   "block.immortal_continent.immortal_wood": "不朽木",
