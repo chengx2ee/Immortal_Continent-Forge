@@ -23,18 +23,43 @@ public class ModBlocks
     // 注册普通方块
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ImmortalContinent.MOD_ID);
 
+    public static final RegistryObject<Block> GREEN_NAN_LOG = registerBlock("green_nan_log",
+            () -> new ModGreenNanWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> STRIPPED_GREEN_NAN_LOG = registerBlock("stripped_green_nan_log",
+            () -> new ModGreenNanWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GREEN_NAN_WOOD = registerBlock("green_nan_wood",
+            () -> new ModGreenNanWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> STRIPPED_GREEN_NAN_WOOD = registerBlock("stripped_green_nan_wood",
+            () -> new ModGreenNanWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GREEN_NAN_PLANKS = registerBlock("green_nan_planks",
+            () -> new ModOthersPlankBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GREEN_NAN_LEAVES = registerBlock("green_nan_leaves",
+            () -> new ModOthersLeafBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).requiresCorrectToolForDrops().strength(1.0F, 2.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GREEN_NAN_STAIRS = registerBlock("green_nan_stairs",
+            () -> new ModOthersStairBlocks(ModBlocks.GREEN_NAN_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GREEN_NAN_SLAB = registerBlock("green_nan_slab",
+            () -> new ModOthersSlabBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GREEN_NAN_FENCE = registerBlock("green_nan_fence",
+            () -> new ModOthersFenceBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GREEN_NAN_FENCE_GATE = registerBlock("green_nan_fence_gate",
+            () -> new ModOthersFenceGateBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE_GATE).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GREEN_NAN_PRESSURE_PLATE = registerBlock("green_nan_pressure_plate",
+            () -> new ModOthersPressurePlateBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GREEN_NAN_BUTTON = registerBlock("green_nan_button",
+            () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+
     public static final RegistryObject<Block> FLAMING_LOG = registerBlock("flaming_log",
-            () -> new ModCastGoldWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new ModFlamingWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_FLAMING_LOG = registerBlock("stripped_flaming_log",
-            () -> new ModCastGoldWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new ModFlamingWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> FLAMING_WOOD = registerBlock("flaming_wood",
-            () -> new ModCastGoldWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new ModFlamingWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_FLAMING_WOOD = registerBlock("stripped_flaming_wood",
-            () -> new ModCastGoldWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new ModFlamingWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> FLAMING_PLANKS = registerBlock("flaming_planks",
             () -> new ModOthersPlankBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> FLAMING_LEAVES = registerBlock("flaming_leaves",
-            () -> new ModOthersLeafBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new ModOthersLeafBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).requiresCorrectToolForDrops().strength(1.0F, 2.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> FLAMING_STAIRS = registerBlock("flaming_stairs",
             () -> new ModOthersStairBlocks(ModBlocks.FLAMING_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> FLAMING_SLAB = registerBlock("flaming_slab",
@@ -49,17 +74,17 @@ public class ModBlocks
             () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
 
     public static final RegistryObject<Block> LOAM_LOG = registerBlock("loam_log",
-            () -> new ModCastGoldWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new ModLoamWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_LOAM_LOG = registerBlock("stripped_loam_log",
-            () -> new ModCastGoldWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new ModLoamWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> LOAM_WOOD = registerBlock("loam_wood",
-            () -> new ModCastGoldWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new ModLoamWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_LOAM_WOOD = registerBlock("stripped_loam_wood",
-            () -> new ModCastGoldWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new ModLoamWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> LOAM_PLANKS = registerBlock("loam_planks",
             () -> new ModOthersPlankBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> LOAM_LEAVES = registerBlock("loam_leaves",
-            () -> new ModOthersLeafBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new ModOthersLeafBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).requiresCorrectToolForDrops().strength(1.0F, 2.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> LOAM_STAIRS = registerBlock("loam_stairs",
             () -> new ModOthersStairBlocks(ModBlocks.LOAM_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> LOAM_SLAB = registerBlock("loam_slab",
@@ -84,7 +109,7 @@ public class ModBlocks
     public static final RegistryObject<Block> CAST_GOLD_PLANKS = registerBlock("cast_gold_planks",
             () -> new ModOthersPlankBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> CAST_GOLD_LEAVES = registerBlock("cast_gold_leaves",
-            () -> new ModOthersLeafBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new ModOthersLeafBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).requiresCorrectToolForDrops().strength(1.0F, 2.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> CAST_GOLD_STAIRS = registerBlock("cast_gold_stairs",
             () -> new ModOthersStairBlocks(ModBlocks.CAST_GOLD_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> CAST_GOLD_SLAB = registerBlock("cast_gold_slab",
@@ -111,7 +136,7 @@ public class ModBlocks
     public static final RegistryObject<Block> CONDENSED_WATER_PLANKS = registerBlock("condensed_water_planks",
             () -> new ModOthersPlankBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> CONDENSED_WATER_LEAVES = registerBlock("condensed_water_leaves",
-            () -> new ModOthersLeafBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new ModOthersLeafBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).requiresCorrectToolForDrops().strength(1.0F, 2.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> CONDENSED_WATER_STAIRS = registerBlock("condensed_water_stairs",
             () -> new ModOthersStairBlocks(ModBlocks.CONDENSED_WATER_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> CONDENSED_WATER_SLAB = registerBlock("condensed_water_slab",

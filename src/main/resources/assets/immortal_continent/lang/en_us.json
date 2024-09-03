@@ -5,6 +5,19 @@
   "item.immortal_continent.wooden_heart": "Wooden Heart",
   "block.immortal_continent.wooden_agglutinate": "Wooden Agglutinate",
 
+  "block.immortal_continent.green_nan_log": "Green Nan Log",
+  "block.immortal_continent.stripped_green_nan_log": "Stripped Green Nan Log",
+  "block.immortal_continent.green_nan_wood": "Green Nan Wood",
+  "block.immortal_continent.stripped_green_nan_wood": "Stripped Green Nan Wood",
+  "block.immortal_continent.green_nan_planks": "Green Nan Plank",
+  "block.immortal_continent.green_nan_leaves": "Green Nan Leaf",
+  "block.immortal_continent.green_nan_stairs": "Green Nan Stair",
+  "block.immortal_continent.green_nan_slab": "Green Nan Slab",
+  "block.immortal_continent.green_nan_fence": "Green Nan Fence",
+  "block.immortal_continent.green_nan_fence_gate": "Green Nan Fence Gate",
+  "block.immortal_continent.green_nan_pressure_plate": "Green Nan Pressure Plate",
+  "block.immortal_continent.green_nan_button": "Green Nan Button",
+
   "block.immortal_continent.flaming_log": "Flaming Log",
   "block.immortal_continent.stripped_flaming_log": "Stripped Flaming Log",
   "block.immortal_continent.flaming_wood": "Flaming Wood",
@@ -62,5 +75,11 @@
   "block.immortal_continent.immortal_wood": "Immortal Wood",
   "block.immortal_continent.stripped_immortal_wood": "Stripped Immortal Wood",
   "block.immortal_continent.immortal_planks": "Immortal Plank",
-  "block.immortal_continent.immortal_leaves": "Immortal Leaf"
+  "block.immortal_continent.immortal_leaves": "Immortal Leaf",
+  "block.immortal_continent.immortal_stairs": "Immortal Stairs",
+  "block.immortal_continent.immortal_slab": "Immortal Slab",
+  "block.immortal_continent.immortal_fence": "Immortal Fence",
+  "block.immortal_continent.immortal_fence_gate": "Immortal Fence Gate",
+  "block.immortal_continent.immortal_pressure_plate": "Immortal Pressure Plate",
+  "block.immortal_continent.immortal_button": "Immortal Button"
 }

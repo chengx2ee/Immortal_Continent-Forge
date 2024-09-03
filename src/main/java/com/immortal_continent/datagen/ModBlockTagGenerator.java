@@ -26,6 +26,18 @@ public class ModBlockTagGenerator extends BlockTagsProvider
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.WOODEN_AGGLUTINATE.get(),
 
+                     ModBlocks.GREEN_NAN_LOG.get(),
+                     ModBlocks.STRIPPED_GREEN_NAN_LOG.get(),
+                     ModBlocks.GREEN_NAN_WOOD.get(),
+                     ModBlocks.STRIPPED_GREEN_NAN_WOOD.get(),
+                     ModBlocks.GREEN_NAN_PLANKS.get(),
+                     ModBlocks.GREEN_NAN_STAIRS.get(),
+                     ModBlocks.GREEN_NAN_SLAB.get(),
+                     ModBlocks.GREEN_NAN_FENCE.get(),
+                     ModBlocks.GREEN_NAN_FENCE_GATE.get(),
+                     ModBlocks.GREEN_NAN_PRESSURE_PLATE.get(),
+                     ModBlocks.GREEN_NAN_BUTTON.get(),
+
                      ModBlocks.FLAMING_LOG.get(),
                      ModBlocks.STRIPPED_FLAMING_LOG.get(),
                      ModBlocks.FLAMING_WOOD.get(),
@@ -78,10 +90,21 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.IMMORTAL_WOOD.get(),
                      ModFireResistantBlocks.STRIPPED_IMMORTAL_WOOD.get(),
-                     ModFireResistantBlocks.IMMORTAL_PLANKS.get());
+                     ModFireResistantBlocks.IMMORTAL_PLANKS.get(),
+                     ModFireResistantBlocks.IMMORTAL_STAIRS.get(),
+                     ModFireResistantBlocks.IMMORTAL_SLAB.get(),
+                     ModFireResistantBlocks.IMMORTAL_FENCE.get(),
+                     ModFireResistantBlocks.IMMORTAL_FENCE_GATE.get(),
+                     ModFireResistantBlocks.IMMORTAL_PRESSURE_PLATE.get(),
+                     ModFireResistantBlocks.IMMORTAL_BUTTON.get());
 
         this.tag(BlockTags.LOGS)
-                .add(ModBlocks.FLAMING_LOG.get(),
+                .add(ModBlocks.GREEN_NAN_LOG.get(),
+                     ModBlocks.STRIPPED_GREEN_NAN_LOG.get(),
+                     ModBlocks.GREEN_NAN_WOOD.get(),
+                     ModBlocks.STRIPPED_GREEN_NAN_WOOD.get(),
+
+                     ModBlocks.FLAMING_LOG.get(),
                      ModBlocks.STRIPPED_FLAMING_LOG.get(),
                      ModBlocks.FLAMING_WOOD.get(),
                      ModBlocks.STRIPPED_FLAMING_WOOD.get(),
@@ -107,7 +130,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModFireResistantBlocks.STRIPPED_IMMORTAL_WOOD.get());
 
         this.tag(BlockTags.PLANKS)
-                .add(ModBlocks.FLAMING_PLANKS.get(),
+                .add(ModBlocks.GREEN_NAN_PLANKS.get(),
+
+                     ModBlocks.FLAMING_PLANKS.get(),
 
                      ModBlocks.LOAM_PLANKS.get(),
 
@@ -118,7 +143,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModFireResistantBlocks.IMMORTAL_PLANKS.get());
 
         this.tag(BlockTags.LEAVES)
-                .add(ModBlocks.FLAMING_LEAVES.get(),
+                .add(ModBlocks.GREEN_NAN_LEAVES.get(),
+
+                     ModBlocks.FLAMING_LEAVES.get(),
 
                      ModBlocks.LOAM_LEAVES.get(),
 
@@ -129,62 +156,99 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModFireResistantBlocks.IMMORTAL_LEAVES.get());
 
         this.tag(BlockTags.STAIRS)
-                .add(ModBlocks.FLAMING_STAIRS.get(),
+                .add(ModBlocks.GREEN_NAN_STAIRS.get(),
+
+                     ModBlocks.FLAMING_STAIRS.get(),
 
                      ModBlocks.LOAM_STAIRS.get(),
 
                      ModBlocks.CAST_GOLD_STAIRS.get(),
 
-                     ModBlocks.CONDENSED_WATER_STAIRS.get());
+                     ModBlocks.CONDENSED_WATER_STAIRS.get(),
+
+                     ModFireResistantBlocks.IMMORTAL_STAIRS.get());
 
         this.tag(BlockTags.SLABS)
-                .add(ModBlocks.FLAMING_SLAB.get(),
+                .add(ModBlocks.GREEN_NAN_SLAB.get(),
+
+                     ModBlocks.FLAMING_SLAB.get(),
 
                      ModBlocks.LOAM_SLAB.get(),
 
                      ModBlocks.CAST_GOLD_SLAB.get(),
 
-                     ModBlocks.CONDENSED_WATER_SLAB.get());
+                     ModBlocks.CONDENSED_WATER_SLAB.get(),
+
+                     ModFireResistantBlocks.IMMORTAL_SLAB.get());
 
         this.tag(BlockTags.FENCES)
-                .add(ModBlocks.FLAMING_FENCE.get(),
+                .add(ModBlocks.GREEN_NAN_FENCE.get(),
+
+                     ModBlocks.FLAMING_FENCE.get(),
 
                      ModBlocks.LOAM_FENCE.get(),
 
                      ModBlocks.CAST_GOLD_FENCE.get(),
 
-                     ModBlocks.CONDENSED_WATER_FENCE.get());
+                     ModBlocks.CONDENSED_WATER_FENCE.get(),
+
+                     ModFireResistantBlocks.IMMORTAL_FENCE.get());
 
         this.tag(BlockTags.FENCE_GATES)
-                .add(ModBlocks.FLAMING_FENCE_GATE.get(),
+                .add(ModBlocks.GREEN_NAN_FENCE_GATE.get(),
+
+                     ModBlocks.FLAMING_FENCE_GATE.get(),
 
                      ModBlocks.LOAM_FENCE_GATE.get(),
 
                      ModBlocks.CAST_GOLD_FENCE_GATE.get(),
 
-                     ModBlocks.CONDENSED_WATER_FENCE_GATE.get());
+                     ModBlocks.CONDENSED_WATER_FENCE_GATE.get(),
+
+                     ModFireResistantBlocks.IMMORTAL_FENCE_GATE.get());
 
         this.tag(BlockTags.PRESSURE_PLATES)
-                .add(ModBlocks.FLAMING_PRESSURE_PLATE.get(),
+                .add(ModBlocks.GREEN_NAN_PRESSURE_PLATE.get(),
+
+                     ModBlocks.FLAMING_PRESSURE_PLATE.get(),
 
                      ModBlocks.LOAM_PRESSURE_PLATE.get(),
 
                      ModBlocks.CAST_GOLD_PRESSURE_PLATE.get(),
 
-                     ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get());
+                     ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get(),
+
+                     ModFireResistantBlocks.IMMORTAL_PRESSURE_PLATE.get());
 
         this.tag(BlockTags.BUTTONS)
-                .add(ModBlocks.FLAMING_BUTTON.get(),
+                .add(ModBlocks.GREEN_NAN_BUTTON.get(),
+
+                     ModBlocks.FLAMING_BUTTON.get(),
 
                      ModBlocks.LOAM_BUTTON.get(),
 
                      ModBlocks.CAST_GOLD_BUTTON.get(),
 
-                     ModBlocks.CONDENSED_WATER_BUTTON.get());
+                     ModBlocks.CONDENSED_WATER_BUTTON.get(),
+
+                     ModFireResistantBlocks.IMMORTAL_BUTTON.get());
 
         // 方块燃烧
         this.tag(BlockTags.LOGS_THAT_BURN)
-                .add(ModBlocks.FLAMING_LOG.get(),
+                .add(ModBlocks.GREEN_NAN_LOG.get(),
+                     ModBlocks.STRIPPED_GREEN_NAN_LOG.get(),
+                     ModBlocks.GREEN_NAN_WOOD.get(),
+                     ModBlocks.STRIPPED_GREEN_NAN_WOOD.get(),
+                     ModBlocks.GREEN_NAN_PLANKS.get(),
+                     ModBlocks.GREEN_NAN_LEAVES.get(),
+                     ModBlocks.GREEN_NAN_STAIRS.get(),
+                     ModBlocks.GREEN_NAN_SLAB.get(),
+                     ModBlocks.GREEN_NAN_FENCE.get(),
+                     ModBlocks.GREEN_NAN_FENCE_GATE.get(),
+                     ModBlocks.GREEN_NAN_PRESSURE_PLATE.get(),
+                     ModBlocks.GREEN_NAN_BUTTON.get(),
+
+                     ModBlocks.FLAMING_LOG.get(),
                      ModBlocks.STRIPPED_FLAMING_LOG.get(),
                      ModBlocks.FLAMING_WOOD.get(),
                      ModBlocks.STRIPPED_FLAMING_WOOD.get(),
@@ -237,7 +301,19 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CONDENSED_WATER_BUTTON.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.FLAMING_LOG.get(),
+                .add(ModBlocks.GREEN_NAN_LOG.get(),
+                     ModBlocks.STRIPPED_GREEN_NAN_LOG.get(),
+                     ModBlocks.GREEN_NAN_WOOD.get(),
+                     ModBlocks.STRIPPED_GREEN_NAN_WOOD.get(),
+                     ModBlocks.GREEN_NAN_PLANKS.get(),
+                     ModBlocks.GREEN_NAN_STAIRS.get(),
+                     ModBlocks.GREEN_NAN_SLAB.get(),
+                     ModBlocks.GREEN_NAN_FENCE.get(),
+                     ModBlocks.GREEN_NAN_FENCE_GATE.get(),
+                     ModBlocks.GREEN_NAN_PRESSURE_PLATE.get(),
+                     ModBlocks.GREEN_NAN_BUTTON.get(),
+
+                     ModBlocks.FLAMING_LOG.get(),
                      ModBlocks.STRIPPED_FLAMING_LOG.get(),
                      ModBlocks.FLAMING_WOOD.get(),
                      ModBlocks.STRIPPED_FLAMING_WOOD.get(),
@@ -294,7 +370,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.IMMORTAL_WOOD.get(),
                      ModFireResistantBlocks.STRIPPED_IMMORTAL_WOOD.get(),
-                     ModFireResistantBlocks.IMMORTAL_PLANKS.get());
+                     ModFireResistantBlocks.IMMORTAL_PLANKS.get(),
+                     ModFireResistantBlocks.IMMORTAL_STAIRS.get(),
+                     ModFireResistantBlocks.IMMORTAL_SLAB.get(),
+                     ModFireResistantBlocks.IMMORTAL_FENCE.get(),
+                     ModFireResistantBlocks.IMMORTAL_FENCE_GATE.get(),
+                     ModFireResistantBlocks.IMMORTAL_PRESSURE_PLATE.get(),
+                     ModFireResistantBlocks.IMMORTAL_BUTTON.get());
 
     }
 }

@@ -1,8 +1,10 @@
 {
   "values": [
+    "immortal_continent:green_nan_pressure_plate",
     "immortal_continent:flaming_pressure_plate",
     "immortal_continent:loam_pressure_plate",
     "immortal_continent:cast_gold_pressure_plate",
-    "immortal_continent:condensed_water_pressure_plate"
+    "immortal_continent:condensed_water_pressure_plate",
+    "immortal_continent:immortal_pressure_plate"
   ]
 }

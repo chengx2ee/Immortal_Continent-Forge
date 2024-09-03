@@ -33,6 +33,21 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.add(ModBlocks.WOODEN_AGGLUTINATE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.WOODEN_AGGLUTINATE.get(), ModItems.WOODEN_HEART.get()));
 
+        this.dropSelf(ModBlocks.GREEN_NAN_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_GREEN_NAN_LOG.get());
+        this.dropSelf(ModBlocks.GREEN_NAN_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_GREEN_NAN_WOOD.get());
+        this.dropSelf(ModBlocks.GREEN_NAN_PLANKS.get());
+        this.add(ModBlocks.GREEN_NAN_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.WOODEN_AGGLUTINATE.get(), NORMAL_LEAVES_SAPLING_CHANCES)); // TODO: Change to Sapling!
+        this.dropSelf(ModBlocks.GREEN_NAN_STAIRS.get());
+        this.add(ModBlocks.GREEN_NAN_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.GREEN_NAN_SLAB.get()));
+        this.dropSelf(ModBlocks.GREEN_NAN_FENCE.get());
+        this.dropSelf(ModBlocks.GREEN_NAN_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.GREEN_NAN_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.GREEN_NAN_BUTTON.get());
+
         this.dropSelf(ModBlocks.FLAMING_LOG.get());
         this.dropSelf(ModBlocks.STRIPPED_FLAMING_LOG.get());
         this.dropSelf(ModBlocks.FLAMING_WOOD.get());
@@ -100,6 +115,13 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.dropSelf(ModFireResistantBlocks.IMMORTAL_PLANKS.get());
         this.add(ModFireResistantBlocks.IMMORTAL_LEAVES.get(), block ->
                 createLeavesDrops(block, ModBlocks.WOODEN_AGGLUTINATE.get(), NORMAL_LEAVES_SAPLING_CHANCES)); // TODO: Change to Sapling!
+        this.dropSelf(ModFireResistantBlocks.IMMORTAL_STAIRS.get());
+        this.add(ModFireResistantBlocks.IMMORTAL_SLAB.get(),
+                block -> createSlabItemTable(ModFireResistantBlocks.IMMORTAL_SLAB.get()));
+        this.dropSelf(ModFireResistantBlocks.IMMORTAL_FENCE.get());
+        this.dropSelf(ModFireResistantBlocks.IMMORTAL_FENCE_GATE.get());
+        this.dropSelf(ModFireResistantBlocks.IMMORTAL_PRESSURE_PLATE.get());
+        this.dropSelf(ModFireResistantBlocks.IMMORTAL_BUTTON.get());
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item)

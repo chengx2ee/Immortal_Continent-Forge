@@ -5,6 +5,19 @@
   "item.immortal_continent.wooden_heart": "木凝心",
   "block.immortal_continent.wooden_agglutinate": "木凝块",
 
+  "block.immortal_continent.green_nan_log": "青楠原木",
+  "block.immortal_continent.stripped_green_nan_log": "去皮青楠原木",
+  "block.immortal_continent.green_nan_wood": "青楠木",
+  "block.immortal_continent.stripped_green_nan_wood": "去皮青楠木",
+  "block.immortal_continent.green_nan_planks": "青楠木板",
+  "block.immortal_continent.green_nan_leaves": "青楠树叶",
+  "block.immortal_continent.green_nan_stairs": "青楠木楼梯",
+  "block.immortal_continent.green_nan_slab": "青楠木台阶",
+  "block.immortal_continent.green_nan_fence": "青楠木栅栏",
+  "block.immortal_continent.green_nan_fence_gate": "青楠木栅栏门",
+  "block.immortal_continent.green_nan_pressure_plate": "青楠木压力板",
+  "block.immortal_continent.green_nan_button": "青楠木按钮",
+
   "block.immortal_continent.flaming_log": "炽焰原木",
   "block.immortal_continent.stripped_flaming_log": "去皮炽焰原木",
   "block.immortal_continent.flaming_wood": "炽焰木",
@@ -62,5 +75,11 @@
   "block.immortal_continent.immortal_wood": "不朽木",
   "block.immortal_continent.stripped_immortal_wood": "去皮不朽木",
   "block.immortal_continent.immortal_planks": "不朽木板",
-  "block.immortal_continent.immortal_leaves": "不朽树叶"
+  "block.immortal_continent.immortal_leaves": "不朽树叶",
+  "block.immortal_continent.immortal_stairs": "不朽木楼梯",
+  "block.immortal_continent.immortal_slab": "不朽木台阶",
+  "block.immortal_continent.immortal_fence": "不朽木栅栏",
+  "block.immortal_continent.immortal_fence_gate": "不朽木栅栏门",
+  "block.immortal_continent.immortal_pressure_plate": "不朽木压力板",
+  "block.immortal_continent.immortal_button": "不朽木按钮"
 }

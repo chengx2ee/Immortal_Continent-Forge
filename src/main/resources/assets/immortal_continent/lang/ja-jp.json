@@ -5,6 +5,19 @@
   "item.immortal_continent.wooden_heart": "ウッドハート",
   "block.immortal_continent.wooden_agglutinate": "ウッド凝集体",
 
+  "block.immortal_continent.green_nan_log": "グリーン・ナン・ログ",
+  "block.immortal_continent.stripped_green_nan_log": "皮をむいた緑のヒースの丸太",
+  "block.immortal_continent.green_nan_wood": "たグリーン・ヘザー",
+  "block.immortal_continent.stripped_green_nan_wood": "剥いたグリーン・ヘザー",
+  "block.immortal_continent.green_nan_planks": "シャクナゲ板",
+  "block.immortal_continent.green_nan_leaves": "シャクナゲの葉",
+  "block.immortal_continent.green_nan_stairs": "シャクナゲ階段",
+  "block.immortal_continent.green_nan_slab": "シャクナゲの階段",
+  "block.immortal_continent.green_nan_fence": "シャクナゲの木の柵",
+  "block.immortal_continent.green_nan_fence_gate": "青楠の木柵の欄干ドア",
+  "block.immortal_continent.green_nan_pressure_plate": "シャクナゲプ・レッシャー",
+  "block.immortal_continent.green_nan_button": "シャクナゲボタン",
+
   "block.immortal_continent.flaming_log": "赤々と燃える丸太",
   "block.immortal_continent.stripped_flaming_log": "剥がしたブレイズ丸太",
   "block.immortal_continent.flaming_wood": "炎木",
@@ -62,5 +75,11 @@
   "block.immortal_continent.immortal_wood": "不滅の木",
   "block.immortal_continent.stripped_immortal_wood": "剥き出しの不滅の木",
   "block.immortal_continent.immortal_planks": "不滅の板",
-  "block.immortal_continent.immortal_leaves": "不滅の葉"
+  "block.immortal_continent.immortal_leaves": "不滅の葉",
+  "block.immortal_continent.immortal_stairs": "不滅の木製階段",
+  "block.immortal_continent.immortal_slab": "不滅の木製ステップ",
+  "block.immortal_continent.immortal_fence": "不滅のウッドフェンス",
+  "block.immortal_continent.immortal_fence_gate": "不滅の木製フェンスゲート",
+  "block.immortal_continent.immortal_pressure_plate": "不滅の木製プレッシャープレート",
+  "block.immortal_continent.immortal_button": "不滅のウッドボタン"
 }

@@ -1,8 +1,6 @@
 package com.immortal_continent.block;
 
-import com.immortal_continent.block.custom.ModImmortalWoodBlocks;
-import com.immortal_continent.block.custom.ModTimeSpaceImmortalLeafBlocks;
-import com.immortal_continent.block.custom.ModTimeSpaceImmortalPlankBlocks;
+import com.immortal_continent.block.custom.*;
 import com.immortal_continent.item.ModItems;
 import com.immortal_continent.world.ImmortalContinent;
 import net.minecraft.world.item.BlockItem;
@@ -35,6 +33,18 @@ public class ModFireResistantBlocks
             () -> new ModTimeSpaceImmortalPlankBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).requiresCorrectToolForDrops().strength(50.0F, 1200.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> IMMORTAL_LEAVES = registerBlock("immortal_leaves",
             () -> new ModTimeSpaceImmortalLeafBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).requiresCorrectToolForDrops().strength(5.0F, 120.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> IMMORTAL_STAIRS = registerBlock("immortal_stairs",
+            () -> new ModTimeSpaceImmortalStairBlocks(ModFireResistantBlocks.IMMORTAL_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).requiresCorrectToolForDrops().strength(50.0F, 1200.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> IMMORTAL_SLAB = registerBlock("immortal_slab",
+            () -> new ModTimeSpaceImmortalSlabBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).requiresCorrectToolForDrops().strength(50.0F, 1200.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> IMMORTAL_FENCE = registerBlock("immortal_fence",
+            () -> new ModTimeSpaceImmortalFenceBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE).requiresCorrectToolForDrops().strength(50.0F, 1200.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> IMMORTAL_FENCE_GATE = registerBlock("immortal_fence_gate",
+            () -> new ModTimeSpaceImmortalFenceGateBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE_GATE).requiresCorrectToolForDrops().strength(50.0F, 1200.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> IMMORTAL_PRESSURE_PLATE = registerBlock("immortal_pressure_plate",
+            () -> new ModTimeSpaceImmortalPressurePlateBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE).requiresCorrectToolForDrops().strength(50.0F, 1200.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> IMMORTAL_BUTTON = registerBlock("immortal_button",
+            () -> new ModTimeSpaceImmortalButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(50.0F, 1200.0F).sound(SoundType.WOOD)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {

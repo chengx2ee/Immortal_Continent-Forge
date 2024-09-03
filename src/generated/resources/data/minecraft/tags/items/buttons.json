@@ -1,8 +1,10 @@
 {
   "values": [
+    "immortal_continent:green_nan_button",
     "immortal_continent:flaming_button",
     "immortal_continent:loam_button",
     "immortal_continent:cast_gold_button",
-    "immortal_continent:condensed_water_button"
+    "immortal_continent:condensed_water_button",
+    "immortal_continent:immortal_button"
   ]
 }

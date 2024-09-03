@@ -1,8 +1,10 @@
 {
   "values": [
+    "immortal_continent:green_nan_slab",
     "immortal_continent:flaming_slab",
     "immortal_continent:loam_slab",
     "immortal_continent:cast_gold_slab",
-    "immortal_continent:condensed_water_slab"
+    "immortal_continent:condensed_water_slab",
+    "immortal_continent:immortal_slab"
   ]
 }

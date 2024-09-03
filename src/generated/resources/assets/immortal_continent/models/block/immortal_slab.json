@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "immortal_continent:block/immortal_planks",
+    "side": "immortal_continent:block/immortal_planks",
+    "top": "immortal_continent:block/immortal_planks"
+  }
+}

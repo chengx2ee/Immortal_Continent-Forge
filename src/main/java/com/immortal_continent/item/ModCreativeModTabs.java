@@ -33,6 +33,19 @@ public class ModCreativeModTabs
                     .title(Component.translatable(CREATIVE_TAB_1))
                     .displayItems((pParameters, pOutput) ->
                     {
+                        pOutput.accept(ModBlocks.GREEN_NAN_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_GREEN_NAN_LOG.get());
+                        pOutput.accept(ModBlocks.GREEN_NAN_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_GREEN_NAN_WOOD.get());
+                        pOutput.accept(ModBlocks.GREEN_NAN_PLANKS.get());
+                        pOutput.accept(ModBlocks.GREEN_NAN_LEAVES.get());
+                        pOutput.accept(ModBlocks.GREEN_NAN_STAIRS.get());
+                        pOutput.accept(ModBlocks.GREEN_NAN_SLAB.get());
+                        pOutput.accept(ModBlocks.GREEN_NAN_FENCE.get());
+                        pOutput.accept(ModBlocks.GREEN_NAN_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.GREEN_NAN_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.GREEN_NAN_BUTTON.get());
+
                         pOutput.accept(ModBlocks.FLAMING_LOG.get());
                         pOutput.accept(ModBlocks.STRIPPED_FLAMING_LOG.get());
                         pOutput.accept(ModBlocks.FLAMING_WOOD.get());
@@ -91,6 +104,12 @@ public class ModCreativeModTabs
                         pOutput.accept(ModFireResistantBlocks.STRIPPED_IMMORTAL_WOOD.get());
                         pOutput.accept(ModFireResistantBlocks.IMMORTAL_PLANKS.get());
                         pOutput.accept(ModFireResistantBlocks.IMMORTAL_LEAVES.get());
+                        pOutput.accept(ModFireResistantBlocks.IMMORTAL_STAIRS.get());
+                        pOutput.accept(ModFireResistantBlocks.IMMORTAL_SLAB.get());
+                        pOutput.accept(ModFireResistantBlocks.IMMORTAL_FENCE.get());
+                        pOutput.accept(ModFireResistantBlocks.IMMORTAL_FENCE_GATE.get());
+                        pOutput.accept(ModFireResistantBlocks.IMMORTAL_PRESSURE_PLATE.get());
+                        pOutput.accept(ModFireResistantBlocks.IMMORTAL_BUTTON.get());
                     })
                     .build());
 

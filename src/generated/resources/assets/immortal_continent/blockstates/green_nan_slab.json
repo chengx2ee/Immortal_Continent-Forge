@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "immortal_continent:block/green_nan_slab"
+    },
+    "type=double": {
+      "model": "immortal_continent:block/green_nan_planks"
+    },
+    "type=top": {
+      "model": "immortal_continent:block/green_nan_slab_top"
+    }
+  }
+}

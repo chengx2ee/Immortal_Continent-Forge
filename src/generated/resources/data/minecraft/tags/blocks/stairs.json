@@ -1,8 +1,10 @@
 {
   "values": [
+    "immortal_continent:green_nan_stairs",
     "immortal_continent:flaming_stairs",
     "immortal_continent:loam_stairs",
     "immortal_continent:cast_gold_stairs",
-    "immortal_continent:condensed_water_stairs"
+    "immortal_continent:condensed_water_stairs",
+    "immortal_continent:immortal_stairs"
   ]
 }

@@ -4,6 +4,12 @@
     "immortal_continent:stripped_immortal_log",
     "immortal_continent:immortal_wood",
     "immortal_continent:stripped_immortal_wood",
-    "immortal_continent:immortal_planks"
+    "immortal_continent:immortal_planks",
+    "immortal_continent:immortal_stairs",
+    "immortal_continent:immortal_slab",
+    "immortal_continent:immortal_fence",
+    "immortal_continent:immortal_fence_gate",
+    "immortal_continent:immortal_pressure_plate",
+    "immortal_continent:immortal_button"
   ]
 }

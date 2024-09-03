@@ -1,6 +1,7 @@
 package com.immortal_continent.datagen;
 
 import com.immortal_continent.block.ModBlocks;
+import com.immortal_continent.block.ModFireResistantBlocks;
 import com.immortal_continent.item.ModItems;
 import com.immortal_continent.world.ImmortalContinent;
 import net.minecraft.data.PackOutput;
@@ -25,6 +26,13 @@ public class ModItemModelProvider extends ItemModelProvider
     protected void registerModels()
     {
         simpleItem(ModItems.WOODEN_HEART);
+
+        ordinaryBlockVariantItem(ModBlocks.GREEN_NAN_STAIRS);
+        ordinaryBlockVariantItem(ModBlocks.GREEN_NAN_SLAB);
+        fenceItem(ModBlocks.GREEN_NAN_FENCE, ModBlocks.GREEN_NAN_PLANKS);
+        ordinaryBlockVariantItem(ModBlocks.GREEN_NAN_FENCE_GATE);
+        ordinaryBlockVariantItem(ModBlocks.GREEN_NAN_PRESSURE_PLATE);
+        buttonItem(ModBlocks.GREEN_NAN_BUTTON, ModBlocks.GREEN_NAN_PLANKS);
 
         ordinaryBlockVariantItem(ModBlocks.FLAMING_STAIRS);
         ordinaryBlockVariantItem(ModBlocks.FLAMING_SLAB);
@@ -53,6 +61,13 @@ public class ModItemModelProvider extends ItemModelProvider
         ordinaryBlockVariantItem(ModBlocks.CONDENSED_WATER_FENCE_GATE);
         ordinaryBlockVariantItem(ModBlocks.CONDENSED_WATER_PRESSURE_PLATE);
         buttonItem(ModBlocks.CONDENSED_WATER_BUTTON, ModBlocks.CONDENSED_WATER_PLANKS);
+
+        ordinaryBlockVariantItem(ModFireResistantBlocks.IMMORTAL_STAIRS);
+        ordinaryBlockVariantItem(ModFireResistantBlocks.IMMORTAL_SLAB);
+        fenceItem(ModFireResistantBlocks.IMMORTAL_FENCE, ModFireResistantBlocks.IMMORTAL_PLANKS);
+        ordinaryBlockVariantItem(ModFireResistantBlocks.IMMORTAL_FENCE_GATE);
+        ordinaryBlockVariantItem(ModFireResistantBlocks.IMMORTAL_PRESSURE_PLATE);
+        buttonItem(ModFireResistantBlocks.IMMORTAL_BUTTON, ModFireResistantBlocks.IMMORTAL_PLANKS);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item)

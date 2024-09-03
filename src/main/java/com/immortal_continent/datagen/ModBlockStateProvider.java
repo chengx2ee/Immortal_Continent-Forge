@@ -25,6 +25,25 @@ public class ModBlockStateProvider extends BlockStateProvider
     {
         blockWithItem(ModBlocks.WOODEN_AGGLUTINATE);
 
+        logBlock(((RotatedPillarBlock) ModBlocks.GREEN_NAN_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.GREEN_NAN_WOOD.get()), blockTexture(ModBlocks.GREEN_NAN_LOG.get()), blockTexture(ModBlocks.GREEN_NAN_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_GREEN_NAN_LOG.get()), blockTexture(ModBlocks.STRIPPED_GREEN_NAN_LOG.get()),
+                new ResourceLocation(ImmortalContinent.MOD_ID, "block/stripped_green_nan_log_top"));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_GREEN_NAN_WOOD.get()), blockTexture(ModBlocks.STRIPPED_GREEN_NAN_LOG.get()),
+                blockTexture(ModBlocks.STRIPPED_GREEN_NAN_LOG.get()));
+        blockItem(ModBlocks.GREEN_NAN_LOG);
+        blockItem(ModBlocks.GREEN_NAN_WOOD);
+        blockItem(ModBlocks.STRIPPED_GREEN_NAN_LOG);
+        blockItem(ModBlocks.STRIPPED_GREEN_NAN_WOOD);
+        blockWithItem(ModBlocks.GREEN_NAN_PLANKS);
+        leavesBlock(ModBlocks.GREEN_NAN_LEAVES);
+        stairsBlock(((StairBlock) ModBlocks.GREEN_NAN_STAIRS.get()), blockTexture(ModBlocks.GREEN_NAN_PLANKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.GREEN_NAN_SLAB.get()), blockTexture(ModBlocks.GREEN_NAN_PLANKS.get()), blockTexture(ModBlocks.GREEN_NAN_PLANKS.get()));
+        fenceBlock(((FenceBlock) ModBlocks.GREEN_NAN_FENCE.get()), blockTexture(ModBlocks.GREEN_NAN_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) ModBlocks.GREEN_NAN_FENCE_GATE.get()), blockTexture(ModBlocks.GREEN_NAN_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.GREEN_NAN_PRESSURE_PLATE.get()), blockTexture(ModBlocks.GREEN_NAN_PLANKS.get()));
+        buttonBlock(((ButtonBlock) ModBlocks.GREEN_NAN_BUTTON.get()), blockTexture(ModBlocks.GREEN_NAN_PLANKS.get()));
+
         logBlock(((RotatedPillarBlock) ModBlocks.FLAMING_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.FLAMING_WOOD.get()), blockTexture(ModBlocks.FLAMING_LOG.get()), blockTexture(ModBlocks.FLAMING_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_FLAMING_LOG.get()), blockTexture(ModBlocks.STRIPPED_FLAMING_LOG.get()),
@@ -113,6 +132,12 @@ public class ModBlockStateProvider extends BlockStateProvider
         blockItem(ModFireResistantBlocks.STRIPPED_IMMORTAL_WOOD);
         blockWithItem(ModFireResistantBlocks.IMMORTAL_PLANKS);
         leavesBlock(ModFireResistantBlocks.IMMORTAL_LEAVES);
+        stairsBlock(((StairBlock) ModFireResistantBlocks.IMMORTAL_STAIRS.get()), blockTexture(ModFireResistantBlocks.IMMORTAL_PLANKS.get()));
+        slabBlock(((SlabBlock) ModFireResistantBlocks.IMMORTAL_SLAB.get()), blockTexture(ModFireResistantBlocks.IMMORTAL_PLANKS.get()), blockTexture(ModFireResistantBlocks.IMMORTAL_PLANKS.get()));
+        fenceBlock(((FenceBlock) ModFireResistantBlocks.IMMORTAL_FENCE.get()), blockTexture(ModFireResistantBlocks.IMMORTAL_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) ModFireResistantBlocks.IMMORTAL_FENCE_GATE.get()), blockTexture(ModFireResistantBlocks.IMMORTAL_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModFireResistantBlocks.IMMORTAL_PRESSURE_PLATE.get()), blockTexture(ModFireResistantBlocks.IMMORTAL_PLANKS.get()));
+        buttonBlock(((ButtonBlock) ModFireResistantBlocks.IMMORTAL_BUTTON.get()), blockTexture(ModFireResistantBlocks.IMMORTAL_PLANKS.get()));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

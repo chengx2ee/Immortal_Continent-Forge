@@ -1,6 +1,17 @@
 {
   "values": [
     "immortal_continent:wooden_agglutinate",
+    "immortal_continent:green_nan_log",
+    "immortal_continent:stripped_green_nan_log",
+    "immortal_continent:green_nan_wood",
+    "immortal_continent:stripped_green_nan_wood",
+    "immortal_continent:green_nan_planks",
+    "immortal_continent:green_nan_stairs",
+    "immortal_continent:green_nan_slab",
+    "immortal_continent:green_nan_fence",
+    "immortal_continent:green_nan_fence_gate",
+    "immortal_continent:green_nan_pressure_plate",
+    "immortal_continent:green_nan_button",
     "immortal_continent:flaming_log",
     "immortal_continent:stripped_flaming_log",
     "immortal_continent:flaming_wood",
@@ -49,6 +60,12 @@
     "immortal_continent:stripped_immortal_log",
     "immortal_continent:immortal_wood",
     "immortal_continent:stripped_immortal_wood",
-    "immortal_continent:immortal_planks"
+    "immortal_continent:immortal_planks",
+    "immortal_continent:immortal_stairs",
+    "immortal_continent:immortal_slab",
+    "immortal_continent:immortal_fence",
+    "immortal_continent:immortal_fence_gate",
+    "immortal_continent:immortal_pressure_plate",
+    "immortal_continent:immortal_button"
   ]
 }

@@ -26,7 +26,12 @@ public class ModItemTagGenerator extends ItemTagsProvider
     protected void addTags(HolderLookup.Provider pProvider)
     {
         this.tag(ItemTags.LOGS)
-                .add(ModBlocks.FLAMING_LOG.get().asItem(),
+                .add(ModBlocks.GREEN_NAN_LOG.get().asItem(),
+                     ModBlocks.STRIPPED_GREEN_NAN_LOG.get().asItem(),
+                     ModBlocks.GREEN_NAN_WOOD.get().asItem(),
+                     ModBlocks.STRIPPED_GREEN_NAN_WOOD.get().asItem(),
+
+                     ModBlocks.FLAMING_LOG.get().asItem(),
                      ModBlocks.STRIPPED_FLAMING_LOG.get().asItem(),
                      ModBlocks.FLAMING_WOOD.get().asItem(),
                      ModBlocks.STRIPPED_FLAMING_WOOD.get().asItem(),
@@ -52,7 +57,9 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModFireResistantBlocks.STRIPPED_IMMORTAL_WOOD.get().asItem());
 
         this.tag(ItemTags.PLANKS)
-                .add(ModBlocks.FLAMING_PLANKS.get().asItem(),
+                .add(ModBlocks.GREEN_NAN_PLANKS.get().asItem(),
+
+                     ModBlocks.FLAMING_PLANKS.get().asItem(),
 
                      ModBlocks.LOAM_PLANKS.get().asItem(),
 
@@ -63,7 +70,9 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModFireResistantBlocks.IMMORTAL_PLANKS.get().asItem());
 
         this.tag(ItemTags.LEAVES)
-                .add(ModBlocks.FLAMING_LEAVES.get().asItem(),
+                .add(ModBlocks.GREEN_NAN_LEAVES.get().asItem(),
+
+                     ModBlocks.FLAMING_LEAVES.get().asItem(),
 
                      ModBlocks.LOAM_LEAVES.get().asItem(),
 
@@ -74,61 +83,98 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModFireResistantBlocks.IMMORTAL_LEAVES.get().asItem());
 
         this.tag(ItemTags.STAIRS)
-                .add(ModBlocks.FLAMING_STAIRS.get().asItem(),
+                .add(ModBlocks.GREEN_NAN_STAIRS.get().asItem(),
+
+                     ModBlocks.FLAMING_STAIRS.get().asItem(),
 
                      ModBlocks.LOAM_STAIRS.get().asItem(),
 
                      ModBlocks.CAST_GOLD_STAIRS.get().asItem(),
 
-                     ModBlocks.CONDENSED_WATER_STAIRS.get().asItem());
+                     ModBlocks.CONDENSED_WATER_STAIRS.get().asItem(),
+
+                     ModFireResistantBlocks.IMMORTAL_STAIRS.get().asItem());
 
         this.tag(ItemTags.SLABS)
-                .add(ModBlocks.FLAMING_SLAB.get().asItem(),
+                .add(ModBlocks.GREEN_NAN_SLAB.get().asItem(),
+
+                     ModBlocks.FLAMING_SLAB.get().asItem(),
 
                      ModBlocks.LOAM_SLAB.get().asItem(),
 
                      ModBlocks.CAST_GOLD_SLAB.get().asItem(),
 
-                     ModBlocks.CONDENSED_WATER_SLAB.get().asItem());
+                     ModBlocks.CONDENSED_WATER_SLAB.get().asItem(),
+
+                     ModFireResistantBlocks.IMMORTAL_SLAB.get().asItem());
 
         this.tag(ItemTags.FENCES)
-                .add(ModBlocks.FLAMING_FENCE.get().asItem(),
+                .add(ModBlocks.GREEN_NAN_FENCE.get().asItem(),
+
+                     ModBlocks.FLAMING_FENCE.get().asItem(),
 
                      ModBlocks.LOAM_FENCE.get().asItem(),
 
                      ModBlocks.CAST_GOLD_FENCE.get().asItem(),
 
-                     ModBlocks.CONDENSED_WATER_FENCE.get().asItem());
+                     ModBlocks.CONDENSED_WATER_FENCE.get().asItem(),
+
+                     ModFireResistantBlocks.IMMORTAL_FENCE.get().asItem());
 
         this.tag(ItemTags.FENCE_GATES)
-                .add(ModBlocks.FLAMING_FENCE_GATE.get().asItem(),
+                .add(ModBlocks.GREEN_NAN_FENCE_GATE.get().asItem(),
+
+                     ModBlocks.FLAMING_FENCE_GATE.get().asItem(),
 
                      ModBlocks.LOAM_FENCE_GATE.get().asItem(),
 
                      ModBlocks.CAST_GOLD_FENCE_GATE.get().asItem(),
 
-                     ModBlocks.CONDENSED_WATER_FENCE_GATE.get().asItem());
+                     ModBlocks.CONDENSED_WATER_FENCE_GATE.get().asItem(),
+
+                     ModFireResistantBlocks.IMMORTAL_FENCE_GATE.get().asItem());
 
         this.tag(ItemTags.WOODEN_PRESSURE_PLATES)
-                .add(ModBlocks.FLAMING_PRESSURE_PLATE.get().asItem(),
+                .add(ModBlocks.GREEN_NAN_PRESSURE_PLATE.get().asItem(),
+
+                     ModBlocks.FLAMING_PRESSURE_PLATE.get().asItem(),
 
                      ModBlocks.LOAM_PRESSURE_PLATE.get().asItem(),
 
                      ModBlocks.CAST_GOLD_PRESSURE_PLATE.get().asItem(),
 
-                     ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get().asItem());
+                     ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get().asItem(),
+
+                     ModFireResistantBlocks.IMMORTAL_PRESSURE_PLATE.get().asItem());
 
         this.tag(ItemTags.BUTTONS)
-                .add(ModBlocks.FLAMING_BUTTON.get().asItem(),
+                .add(ModBlocks.GREEN_NAN_BUTTON.get().asItem(),
+
+                     ModBlocks.FLAMING_BUTTON.get().asItem(),
 
                      ModBlocks.LOAM_BUTTON.get().asItem(),
 
                      ModBlocks.CAST_GOLD_BUTTON.get().asItem(),
 
-                     ModBlocks.CONDENSED_WATER_BUTTON.get().asItem());
+                     ModBlocks.CONDENSED_WATER_BUTTON.get().asItem(),
+
+                     ModFireResistantBlocks.IMMORTAL_BUTTON.get().asItem());
 
         this.tag(ItemTags.LOGS_THAT_BURN)
-                .add(ModBlocks.FLAMING_LOG.get().asItem(),
+                .add(ModBlocks.GREEN_NAN_LOG.get().asItem(),
+                     ModBlocks.STRIPPED_GREEN_NAN_LOG.get().asItem(),
+                     ModBlocks.GREEN_NAN_WOOD.get().asItem(),
+                     ModBlocks.STRIPPED_GREEN_NAN_WOOD.get().asItem(),
+                     ModBlocks.GREEN_NAN_PLANKS.get().asItem(),
+                     ModBlocks.GREEN_NAN_LEAVES.get().asItem(),
+                     ModBlocks.GREEN_NAN_STAIRS.get().asItem(),
+                     ModBlocks.GREEN_NAN_SLAB.get().asItem(),
+                     ModBlocks.GREEN_NAN_FENCE.get().asItem(),
+                     ModBlocks.GREEN_NAN_FENCE_GATE.get().asItem(),
+                     ModBlocks.GREEN_NAN_PRESSURE_PLATE.get().asItem(),
+                     ModBlocks.GREEN_NAN_BUTTON.get().asItem(),
+
+                     ModBlocks.FLAMING_LOG.get().asItem(),
                      ModBlocks.STRIPPED_FLAMING_LOG.get().asItem(),
                      ModBlocks.FLAMING_WOOD.get().asItem(),
                      ModBlocks.STRIPPED_FLAMING_WOOD.get().asItem(),

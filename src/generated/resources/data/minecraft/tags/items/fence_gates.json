@@ -1,8 +1,10 @@
 {
   "values": [
+    "immortal_continent:green_nan_fence_gate",
     "immortal_continent:flaming_fence_gate",
     "immortal_continent:loam_fence_gate",
     "immortal_continent:cast_gold_fence_gate",
-    "immortal_continent:condensed_water_fence_gate"
+    "immortal_continent:condensed_water_fence_gate",
+    "immortal_continent:immortal_fence_gate"
   ]
 }
