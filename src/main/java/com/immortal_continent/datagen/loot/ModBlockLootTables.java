@@ -33,6 +33,21 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.add(ModBlocks.WOODEN_AGGLUTINATE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.WOODEN_AGGLUTINATE.get(), ModItems.WOODEN_HEART.get()));
 
+        this.dropSelf(ModBlocks.BIJUE_RAW_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_BIJUE_RAW_LOG.get());
+        this.dropSelf(ModBlocks.BIJUE_RAW_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_BIJUE_RAW_WOOD.get());
+        this.dropSelf(ModBlocks.BIJUE_RAW_PLANKS.get());
+        this.add(ModBlocks.BIJUE_RAW_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.WOODEN_AGGLUTINATE.get(), NORMAL_LEAVES_SAPLING_CHANCES)); // TODO: Change to Sapling!
+        this.dropSelf(ModBlocks.BIJUE_RAW_STAIRS.get());
+        this.add(ModBlocks.BIJUE_RAW_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.BIJUE_RAW_SLAB.get()));
+        this.dropSelf(ModBlocks.BIJUE_RAW_FENCE.get());
+        this.dropSelf(ModBlocks.BIJUE_RAW_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.BIJUE_RAW_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.BIJUE_RAW_BUTTON.get());
+
         this.dropSelf(ModBlocks.GREEN_NAN_LOG.get());
         this.dropSelf(ModBlocks.STRIPPED_GREEN_NAN_LOG.get());
         this.dropSelf(ModBlocks.GREEN_NAN_WOOD.get());

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "immortal_continent:block/bijue_raw_planks",
+    "side": "immortal_continent:block/bijue_raw_planks",
+    "top": "immortal_continent:block/bijue_raw_planks"
+  }
+}

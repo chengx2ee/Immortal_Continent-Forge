@@ -1,5 +1,9 @@
 {
   "values": [
+    "immortal_continent:bijue_raw_log",
+    "immortal_continent:stripped_bijue_raw_log",
+    "immortal_continent:bijue_raw_wood",
+    "immortal_continent:stripped_bijue_raw_wood",
     "immortal_continent:green_nan_log",
     "immortal_continent:stripped_green_nan_log",
     "immortal_continent:green_nan_wood",

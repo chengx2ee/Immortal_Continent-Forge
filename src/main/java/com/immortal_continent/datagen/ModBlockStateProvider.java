@@ -25,6 +25,25 @@ public class ModBlockStateProvider extends BlockStateProvider
     {
         blockWithItem(ModBlocks.WOODEN_AGGLUTINATE);
 
+        logBlock(((RotatedPillarBlock) ModBlocks.BIJUE_RAW_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.BIJUE_RAW_WOOD.get()), blockTexture(ModBlocks.BIJUE_RAW_LOG.get()), blockTexture(ModBlocks.BIJUE_RAW_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_BIJUE_RAW_LOG.get()), blockTexture(ModBlocks.STRIPPED_BIJUE_RAW_LOG.get()),
+                new ResourceLocation(ImmortalContinent.MOD_ID, "block/stripped_bijue_raw_log_top"));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_BIJUE_RAW_WOOD.get()), blockTexture(ModBlocks.STRIPPED_BIJUE_RAW_LOG.get()),
+                blockTexture(ModBlocks.STRIPPED_BIJUE_RAW_LOG.get()));
+        blockItem(ModBlocks.BIJUE_RAW_LOG);
+        blockItem(ModBlocks.BIJUE_RAW_WOOD);
+        blockItem(ModBlocks.STRIPPED_BIJUE_RAW_LOG);
+        blockItem(ModBlocks.STRIPPED_BIJUE_RAW_WOOD);
+        blockWithItem(ModBlocks.BIJUE_RAW_PLANKS);
+        leavesBlock(ModBlocks.BIJUE_RAW_LEAVES);
+        stairsBlock(((StairBlock) ModBlocks.BIJUE_RAW_STAIRS.get()), blockTexture(ModBlocks.BIJUE_RAW_PLANKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.BIJUE_RAW_SLAB.get()), blockTexture(ModBlocks.BIJUE_RAW_PLANKS.get()), blockTexture(ModBlocks.BIJUE_RAW_PLANKS.get()));
+        fenceBlock(((FenceBlock) ModBlocks.BIJUE_RAW_FENCE.get()), blockTexture(ModBlocks.BIJUE_RAW_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) ModBlocks.BIJUE_RAW_FENCE_GATE.get()), blockTexture(ModBlocks.BIJUE_RAW_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.BIJUE_RAW_PRESSURE_PLATE.get()), blockTexture(ModBlocks.BIJUE_RAW_PLANKS.get()));
+        buttonBlock(((ButtonBlock) ModBlocks.BIJUE_RAW_BUTTON.get()), blockTexture(ModBlocks.BIJUE_RAW_PLANKS.get()));
+
         logBlock(((RotatedPillarBlock) ModBlocks.GREEN_NAN_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.GREEN_NAN_WOOD.get()), blockTexture(ModBlocks.GREEN_NAN_LOG.get()), blockTexture(ModBlocks.GREEN_NAN_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_GREEN_NAN_LOG.get()), blockTexture(ModBlocks.STRIPPED_GREEN_NAN_LOG.get()),

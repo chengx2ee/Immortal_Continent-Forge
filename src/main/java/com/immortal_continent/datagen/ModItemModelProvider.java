@@ -27,6 +27,13 @@ public class ModItemModelProvider extends ItemModelProvider
     {
         simpleItem(ModItems.WOODEN_HEART);
 
+        ordinaryBlockVariantItem(ModBlocks.BIJUE_RAW_STAIRS);
+        ordinaryBlockVariantItem(ModBlocks.BIJUE_RAW_SLAB);
+        fenceItem(ModBlocks.BIJUE_RAW_FENCE, ModBlocks.BIJUE_RAW_PLANKS);
+        ordinaryBlockVariantItem(ModBlocks.BIJUE_RAW_FENCE_GATE);
+        ordinaryBlockVariantItem(ModBlocks.BIJUE_RAW_PRESSURE_PLATE);
+        buttonItem(ModBlocks.BIJUE_RAW_BUTTON, ModBlocks.BIJUE_RAW_PLANKS);
+
         ordinaryBlockVariantItem(ModBlocks.GREEN_NAN_STAIRS);
         ordinaryBlockVariantItem(ModBlocks.GREEN_NAN_SLAB);
         fenceItem(ModBlocks.GREEN_NAN_FENCE, ModBlocks.GREEN_NAN_PLANKS);

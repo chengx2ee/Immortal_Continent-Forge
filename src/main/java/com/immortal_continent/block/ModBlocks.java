@@ -23,6 +23,31 @@ public class ModBlocks
     // 注册普通方块
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ImmortalContinent.MOD_ID);
 
+    public static final RegistryObject<Block> BIJUE_RAW_LOG = registerBlock("bijue_raw_log",
+            () -> new ModBijueRawWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> STRIPPED_BIJUE_RAW_LOG = registerBlock("stripped_bijue_raw_log",
+            () -> new ModBijueRawWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BIJUE_RAW_WOOD = registerBlock("bijue_raw_wood",
+            () -> new ModBijueRawWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> STRIPPED_BIJUE_RAW_WOOD = registerBlock("stripped_bijue_raw_wood",
+            () -> new ModBijueRawWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BIJUE_RAW_PLANKS = registerBlock("bijue_raw_planks",
+            () -> new ModOthersPlankBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BIJUE_RAW_LEAVES = registerBlock("bijue_raw_leaves",
+            () -> new ModOthersLeafBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).requiresCorrectToolForDrops().strength(1.0F, 2.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BIJUE_RAW_STAIRS = registerBlock("bijue_raw_stairs",
+            () -> new ModOthersStairBlocks(ModBlocks.BIJUE_RAW_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BIJUE_RAW_SLAB = registerBlock("bijue_raw_slab",
+            () -> new ModOthersSlabBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BIJUE_RAW_FENCE = registerBlock("bijue_raw_fence",
+            () -> new ModOthersFenceBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BIJUE_RAW_FENCE_GATE = registerBlock("bijue_raw_fence_gate",
+            () -> new ModOthersFenceGateBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE_GATE).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BIJUE_RAW_PRESSURE_PLATE = registerBlock("bijue_raw_pressure_plate",
+            () -> new ModOthersPressurePlateBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BIJUE_RAW_BUTTON = registerBlock("bijue_raw_button",
+            () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+
     public static final RegistryObject<Block> GREEN_NAN_LOG = registerBlock("green_nan_log",
             () -> new ModGreenNanWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_GREEN_NAN_LOG = registerBlock("stripped_green_nan_log",

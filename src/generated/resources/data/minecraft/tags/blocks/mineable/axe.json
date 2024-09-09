@@ -1,6 +1,17 @@
 {
   "values": [
     "immortal_continent:wooden_agglutinate",
+    "immortal_continent:bijue_raw_log",
+    "immortal_continent:stripped_bijue_raw_log",
+    "immortal_continent:bijue_raw_wood",
+    "immortal_continent:stripped_bijue_raw_wood",
+    "immortal_continent:bijue_raw_planks",
+    "immortal_continent:bijue_raw_stairs",
+    "immortal_continent:bijue_raw_slab",
+    "immortal_continent:bijue_raw_fence",
+    "immortal_continent:bijue_raw_fence_gate",
+    "immortal_continent:bijue_raw_pressure_plate",
+    "immortal_continent:bijue_raw_button",
     "immortal_continent:green_nan_log",
     "immortal_continent:stripped_green_nan_log",
     "immortal_continent:green_nan_wood",

@@ -26,7 +26,12 @@ public class ModItemTagGenerator extends ItemTagsProvider
     protected void addTags(HolderLookup.Provider pProvider)
     {
         this.tag(ItemTags.LOGS)
-                .add(ModBlocks.GREEN_NAN_LOG.get().asItem(),
+                .add(ModBlocks.BIJUE_RAW_LOG.get().asItem(),
+                     ModBlocks.STRIPPED_BIJUE_RAW_LOG.get().asItem(),
+                     ModBlocks.BIJUE_RAW_WOOD.get().asItem(),
+                     ModBlocks.STRIPPED_BIJUE_RAW_WOOD.get().asItem(),
+
+                     ModBlocks.GREEN_NAN_LOG.get().asItem(),
                      ModBlocks.STRIPPED_GREEN_NAN_LOG.get().asItem(),
                      ModBlocks.GREEN_NAN_WOOD.get().asItem(),
                      ModBlocks.STRIPPED_GREEN_NAN_WOOD.get().asItem(),
@@ -57,7 +62,9 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModFireResistantBlocks.STRIPPED_IMMORTAL_WOOD.get().asItem());
 
         this.tag(ItemTags.PLANKS)
-                .add(ModBlocks.GREEN_NAN_PLANKS.get().asItem(),
+                .add(ModBlocks.BIJUE_RAW_PLANKS.get().asItem(),
+
+                     ModBlocks.GREEN_NAN_PLANKS.get().asItem(),
 
                      ModBlocks.FLAMING_PLANKS.get().asItem(),
 
@@ -70,7 +77,9 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModFireResistantBlocks.IMMORTAL_PLANKS.get().asItem());
 
         this.tag(ItemTags.LEAVES)
-                .add(ModBlocks.GREEN_NAN_LEAVES.get().asItem(),
+                .add(ModBlocks.BIJUE_RAW_LEAVES.get().asItem(),
+
+                     ModBlocks.GREEN_NAN_LEAVES.get().asItem(),
 
                      ModBlocks.FLAMING_LEAVES.get().asItem(),
 
@@ -83,7 +92,9 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModFireResistantBlocks.IMMORTAL_LEAVES.get().asItem());
 
         this.tag(ItemTags.STAIRS)
-                .add(ModBlocks.GREEN_NAN_STAIRS.get().asItem(),
+                .add(ModBlocks.BIJUE_RAW_STAIRS.get().asItem(),
+
+                     ModBlocks.GREEN_NAN_STAIRS.get().asItem(),
 
                      ModBlocks.FLAMING_STAIRS.get().asItem(),
 
@@ -96,7 +107,9 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModFireResistantBlocks.IMMORTAL_STAIRS.get().asItem());
 
         this.tag(ItemTags.SLABS)
-                .add(ModBlocks.GREEN_NAN_SLAB.get().asItem(),
+                .add(ModBlocks.BIJUE_RAW_SLAB.get().asItem(),
+
+                     ModBlocks.GREEN_NAN_SLAB.get().asItem(),
 
                      ModBlocks.FLAMING_SLAB.get().asItem(),
 
@@ -109,7 +122,9 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModFireResistantBlocks.IMMORTAL_SLAB.get().asItem());
 
         this.tag(ItemTags.FENCES)
-                .add(ModBlocks.GREEN_NAN_FENCE.get().asItem(),
+                .add(ModBlocks.BIJUE_RAW_FENCE.get().asItem(),
+
+                     ModBlocks.GREEN_NAN_FENCE.get().asItem(),
 
                      ModBlocks.FLAMING_FENCE.get().asItem(),
 
@@ -122,7 +137,9 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModFireResistantBlocks.IMMORTAL_FENCE.get().asItem());
 
         this.tag(ItemTags.FENCE_GATES)
-                .add(ModBlocks.GREEN_NAN_FENCE_GATE.get().asItem(),
+                .add(ModBlocks.BIJUE_RAW_FENCE_GATE.get().asItem(),
+
+                     ModBlocks.GREEN_NAN_FENCE_GATE.get().asItem(),
 
                      ModBlocks.FLAMING_FENCE_GATE.get().asItem(),
 
@@ -135,7 +152,9 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModFireResistantBlocks.IMMORTAL_FENCE_GATE.get().asItem());
 
         this.tag(ItemTags.WOODEN_PRESSURE_PLATES)
-                .add(ModBlocks.GREEN_NAN_PRESSURE_PLATE.get().asItem(),
+                .add(ModBlocks.BIJUE_RAW_PRESSURE_PLATE.get().asItem(),
+
+                     ModBlocks.GREEN_NAN_PRESSURE_PLATE.get().asItem(),
 
                      ModBlocks.FLAMING_PRESSURE_PLATE.get().asItem(),
 
@@ -148,7 +167,9 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModFireResistantBlocks.IMMORTAL_PRESSURE_PLATE.get().asItem());
 
         this.tag(ItemTags.BUTTONS)
-                .add(ModBlocks.GREEN_NAN_BUTTON.get().asItem(),
+                .add(ModBlocks.BIJUE_RAW_BUTTON.get().asItem(),
+
+                     ModBlocks.GREEN_NAN_BUTTON.get().asItem(),
 
                      ModBlocks.FLAMING_BUTTON.get().asItem(),
 
@@ -161,7 +182,20 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModFireResistantBlocks.IMMORTAL_BUTTON.get().asItem());
 
         this.tag(ItemTags.LOGS_THAT_BURN)
-                .add(ModBlocks.GREEN_NAN_LOG.get().asItem(),
+                .add(ModBlocks.BIJUE_RAW_LOG.get().asItem(),
+                     ModBlocks.STRIPPED_BIJUE_RAW_LOG.get().asItem(),
+                     ModBlocks.BIJUE_RAW_WOOD.get().asItem(),
+                     ModBlocks.STRIPPED_BIJUE_RAW_WOOD.get().asItem(),
+                     ModBlocks.BIJUE_RAW_PLANKS.get().asItem(),
+                     ModBlocks.BIJUE_RAW_LEAVES.get().asItem(),
+                     ModBlocks.BIJUE_RAW_STAIRS.get().asItem(),
+                     ModBlocks.BIJUE_RAW_SLAB.get().asItem(),
+                     ModBlocks.BIJUE_RAW_FENCE.get().asItem(),
+                     ModBlocks.BIJUE_RAW_FENCE_GATE.get().asItem(),
+                     ModBlocks.BIJUE_RAW_PRESSURE_PLATE.get().asItem(),
+                     ModBlocks.BIJUE_RAW_BUTTON.get().asItem(),
+
+                     ModBlocks.GREEN_NAN_LOG.get().asItem(),
                      ModBlocks.STRIPPED_GREEN_NAN_LOG.get().asItem(),
                      ModBlocks.GREEN_NAN_WOOD.get().asItem(),
                      ModBlocks.STRIPPED_GREEN_NAN_WOOD.get().asItem(),

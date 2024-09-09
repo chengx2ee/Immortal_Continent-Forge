@@ -33,6 +33,19 @@ public class ModCreativeModTabs
                     .title(Component.translatable(CREATIVE_TAB_1))
                     .displayItems((pParameters, pOutput) ->
                     {
+                        pOutput.accept(ModBlocks.BIJUE_RAW_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_BIJUE_RAW_LOG.get());
+                        pOutput.accept(ModBlocks.BIJUE_RAW_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_BIJUE_RAW_WOOD.get());
+                        pOutput.accept(ModBlocks.BIJUE_RAW_PLANKS.get());
+                        pOutput.accept(ModBlocks.BIJUE_RAW_LEAVES.get());
+                        pOutput.accept(ModBlocks.BIJUE_RAW_STAIRS.get());
+                        pOutput.accept(ModBlocks.BIJUE_RAW_SLAB.get());
+                        pOutput.accept(ModBlocks.BIJUE_RAW_FENCE.get());
+                        pOutput.accept(ModBlocks.BIJUE_RAW_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.BIJUE_RAW_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.BIJUE_RAW_BUTTON.get());
+
                         pOutput.accept(ModBlocks.GREEN_NAN_LOG.get());
                         pOutput.accept(ModBlocks.STRIPPED_GREEN_NAN_LOG.get());
                         pOutput.accept(ModBlocks.GREEN_NAN_WOOD.get());

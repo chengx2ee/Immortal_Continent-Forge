@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "immortal_continent:block/bijue_raw_planks"
+  }
+}

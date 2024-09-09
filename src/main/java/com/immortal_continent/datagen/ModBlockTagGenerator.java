@@ -26,6 +26,18 @@ public class ModBlockTagGenerator extends BlockTagsProvider
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.WOODEN_AGGLUTINATE.get(),
 
+                     ModBlocks.BIJUE_RAW_LOG.get(),
+                     ModBlocks.STRIPPED_BIJUE_RAW_LOG.get(),
+                     ModBlocks.BIJUE_RAW_WOOD.get(),
+                     ModBlocks.STRIPPED_BIJUE_RAW_WOOD.get(),
+                     ModBlocks.BIJUE_RAW_PLANKS.get(),
+                     ModBlocks.BIJUE_RAW_STAIRS.get(),
+                     ModBlocks.BIJUE_RAW_SLAB.get(),
+                     ModBlocks.BIJUE_RAW_FENCE.get(),
+                     ModBlocks.BIJUE_RAW_FENCE_GATE.get(),
+                     ModBlocks.BIJUE_RAW_PRESSURE_PLATE.get(),
+                     ModBlocks.BIJUE_RAW_BUTTON.get(),
+
                      ModBlocks.GREEN_NAN_LOG.get(),
                      ModBlocks.STRIPPED_GREEN_NAN_LOG.get(),
                      ModBlocks.GREEN_NAN_WOOD.get(),
@@ -99,7 +111,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModFireResistantBlocks.IMMORTAL_BUTTON.get());
 
         this.tag(BlockTags.LOGS)
-                .add(ModBlocks.GREEN_NAN_LOG.get(),
+                .add(ModBlocks.BIJUE_RAW_LOG.get(),
+                     ModBlocks.STRIPPED_BIJUE_RAW_LOG.get(),
+                     ModBlocks.BIJUE_RAW_WOOD.get(),
+                     ModBlocks.STRIPPED_BIJUE_RAW_WOOD.get(),
+
+                     ModBlocks.GREEN_NAN_LOG.get(),
                      ModBlocks.STRIPPED_GREEN_NAN_LOG.get(),
                      ModBlocks.GREEN_NAN_WOOD.get(),
                      ModBlocks.STRIPPED_GREEN_NAN_WOOD.get(),
@@ -130,7 +147,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModFireResistantBlocks.STRIPPED_IMMORTAL_WOOD.get());
 
         this.tag(BlockTags.PLANKS)
-                .add(ModBlocks.GREEN_NAN_PLANKS.get(),
+                .add(ModBlocks.BIJUE_RAW_PLANKS.get(),
+
+                     ModBlocks.GREEN_NAN_PLANKS.get(),
 
                      ModBlocks.FLAMING_PLANKS.get(),
 
@@ -143,7 +162,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModFireResistantBlocks.IMMORTAL_PLANKS.get());
 
         this.tag(BlockTags.LEAVES)
-                .add(ModBlocks.GREEN_NAN_LEAVES.get(),
+                .add(ModBlocks.BIJUE_RAW_LEAVES.get(),
+
+                     ModBlocks.GREEN_NAN_LEAVES.get(),
 
                      ModBlocks.FLAMING_LEAVES.get(),
 
@@ -156,7 +177,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModFireResistantBlocks.IMMORTAL_LEAVES.get());
 
         this.tag(BlockTags.STAIRS)
-                .add(ModBlocks.GREEN_NAN_STAIRS.get(),
+                .add(ModBlocks.BIJUE_RAW_STAIRS.get(),
+
+                     ModBlocks.GREEN_NAN_STAIRS.get(),
 
                      ModBlocks.FLAMING_STAIRS.get(),
 
@@ -169,7 +192,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModFireResistantBlocks.IMMORTAL_STAIRS.get());
 
         this.tag(BlockTags.SLABS)
-                .add(ModBlocks.GREEN_NAN_SLAB.get(),
+                .add(ModBlocks.BIJUE_RAW_SLAB.get(),
+
+                     ModBlocks.GREEN_NAN_SLAB.get(),
 
                      ModBlocks.FLAMING_SLAB.get(),
 
@@ -182,7 +207,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModFireResistantBlocks.IMMORTAL_SLAB.get());
 
         this.tag(BlockTags.FENCES)
-                .add(ModBlocks.GREEN_NAN_FENCE.get(),
+                .add(ModBlocks.BIJUE_RAW_FENCE.get(),
+
+                     ModBlocks.GREEN_NAN_FENCE.get(),
 
                      ModBlocks.FLAMING_FENCE.get(),
 
@@ -195,7 +222,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModFireResistantBlocks.IMMORTAL_FENCE.get());
 
         this.tag(BlockTags.FENCE_GATES)
-                .add(ModBlocks.GREEN_NAN_FENCE_GATE.get(),
+                .add(ModBlocks.BIJUE_RAW_FENCE_GATE.get(),
+
+                     ModBlocks.GREEN_NAN_FENCE_GATE.get(),
 
                      ModBlocks.FLAMING_FENCE_GATE.get(),
 
@@ -208,7 +237,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModFireResistantBlocks.IMMORTAL_FENCE_GATE.get());
 
         this.tag(BlockTags.PRESSURE_PLATES)
-                .add(ModBlocks.GREEN_NAN_PRESSURE_PLATE.get(),
+                .add(ModBlocks.BIJUE_RAW_PRESSURE_PLATE.get(),
+
+                     ModBlocks.GREEN_NAN_PRESSURE_PLATE.get(),
 
                      ModBlocks.FLAMING_PRESSURE_PLATE.get(),
 
@@ -221,7 +252,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModFireResistantBlocks.IMMORTAL_PRESSURE_PLATE.get());
 
         this.tag(BlockTags.BUTTONS)
-                .add(ModBlocks.GREEN_NAN_BUTTON.get(),
+                .add(ModBlocks.BIJUE_RAW_BUTTON.get(),
+
+                     ModBlocks.GREEN_NAN_BUTTON.get(),
 
                      ModBlocks.FLAMING_BUTTON.get(),
 
@@ -235,7 +268,20 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
         // 方块燃烧
         this.tag(BlockTags.LOGS_THAT_BURN)
-                .add(ModBlocks.GREEN_NAN_LOG.get(),
+                .add(ModBlocks.BIJUE_RAW_LOG.get(),
+                     ModBlocks.STRIPPED_BIJUE_RAW_LOG.get(),
+                     ModBlocks.BIJUE_RAW_WOOD.get(),
+                     ModBlocks.STRIPPED_BIJUE_RAW_WOOD.get(),
+                     ModBlocks.BIJUE_RAW_PLANKS.get(),
+                     ModBlocks.BIJUE_RAW_LEAVES.get(),
+                     ModBlocks.BIJUE_RAW_STAIRS.get(),
+                     ModBlocks.BIJUE_RAW_SLAB.get(),
+                     ModBlocks.BIJUE_RAW_FENCE.get(),
+                     ModBlocks.BIJUE_RAW_FENCE_GATE.get(),
+                     ModBlocks.BIJUE_RAW_PRESSURE_PLATE.get(),
+                     ModBlocks.BIJUE_RAW_BUTTON.get(),
+
+                     ModBlocks.GREEN_NAN_LOG.get(),
                      ModBlocks.STRIPPED_GREEN_NAN_LOG.get(),
                      ModBlocks.GREEN_NAN_WOOD.get(),
                      ModBlocks.STRIPPED_GREEN_NAN_WOOD.get(),
@@ -301,7 +347,19 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CONDENSED_WATER_BUTTON.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.GREEN_NAN_LOG.get(),
+                .add(ModBlocks.BIJUE_RAW_LOG.get(),
+                     ModBlocks.STRIPPED_BIJUE_RAW_LOG.get(),
+                     ModBlocks.BIJUE_RAW_WOOD.get(),
+                     ModBlocks.STRIPPED_BIJUE_RAW_WOOD.get(),
+                     ModBlocks.BIJUE_RAW_PLANKS.get(),
+                     ModBlocks.BIJUE_RAW_STAIRS.get(),
+                     ModBlocks.BIJUE_RAW_SLAB.get(),
+                     ModBlocks.BIJUE_RAW_FENCE.get(),
+                     ModBlocks.BIJUE_RAW_FENCE_GATE.get(),
+                     ModBlocks.BIJUE_RAW_PRESSURE_PLATE.get(),
+                     ModBlocks.BIJUE_RAW_BUTTON.get(),
+
+                     ModBlocks.GREEN_NAN_LOG.get(),
                      ModBlocks.STRIPPED_GREEN_NAN_LOG.get(),
                      ModBlocks.GREEN_NAN_WOOD.get(),
                      ModBlocks.STRIPPED_GREEN_NAN_WOOD.get(),

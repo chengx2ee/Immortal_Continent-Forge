@@ -1,15 +1,15 @@
-// 1.20.1	2024-09-03T23:06:06.7617272	Tags for minecraft:block mod id immortal_continent
+// 1.20.1	2024-09-09T23:31:27.1561497	Tags for minecraft:block mod id immortal_continent
 02a0624326f40f494b4ccb9b86054e417ed357c5 data/forge/tags/blocks/needs_netherite_tool.json
-c6bda71d3128aa005569268f3af6ea34f78d18ce data/minecraft/tags/blocks/buttons.json
-ef107e015a09707721a7b00b3d4ef0c68250c705 data/minecraft/tags/blocks/fences.json
-b2d183dc6f55da918236b849e5f72bd40d89b7f7 data/minecraft/tags/blocks/fence_gates.json
-1c183495c187d588836137e627be81f701473471 data/minecraft/tags/blocks/leaves.json
-12c1db6ab0e4bbedf00f82746422e5eb6f9dc61e data/minecraft/tags/blocks/logs.json
-68042c631ad0c6c7dad5eb349d654dc97b520b27 data/minecraft/tags/blocks/logs_that_burn.json
-e8e7e1b86eed69ce40e0f92546f62df952eb6db1 data/minecraft/tags/blocks/mineable/axe.json
+02e9851b75eef17f577e3a080fbc8c4b199073d6 data/minecraft/tags/blocks/buttons.json
+29e49daf09ad8c575cb08a7007f4be17a5bfb2c5 data/minecraft/tags/blocks/fences.json
+9824fbf266a9471d35587cba989e0a3030e80b0b data/minecraft/tags/blocks/fence_gates.json
+3a5b2b4d8e26030ce3e87606bb41c51cccc726b7 data/minecraft/tags/blocks/leaves.json
+974877388b08cb3dba671a63036fcdfdbf5da5c4 data/minecraft/tags/blocks/logs.json
+6d7f05e957e21df78887ab8ecc50768445716766 data/minecraft/tags/blocks/logs_that_burn.json
+6170309788e6d5bbead43b34b0585467d9b75d41 data/minecraft/tags/blocks/mineable/axe.json
 64734b3fb1511660b5f4576e5abffbc1a57ccfc4 data/minecraft/tags/blocks/needs_diamond_tool.json
-a9f2e27ea8b39e45a285c3cf257c0724b0c5bd93 data/minecraft/tags/blocks/needs_iron_tool.json
-0239badb61e8cae3d0fd68951e13a81de12f0347 data/minecraft/tags/blocks/planks.json
-6c9c34ce8d26befb949d551be3e8dfb180b20cab data/minecraft/tags/blocks/pressure_plates.json
-3fd3832872fea73aca88a8276fa125b3346a6145 data/minecraft/tags/blocks/slabs.json
-3e3a868d358e0af0901619dd97b47d454f4e0954 data/minecraft/tags/blocks/stairs.json
+2b78abfe39ed6c9d7002ba6a89e9a0e63401702c data/minecraft/tags/blocks/needs_iron_tool.json
+4073eafacaa32dfd3502db99455b452f3f70fe7a data/minecraft/tags/blocks/planks.json
+53cb416e06e4f52bd5aa8756c30833eee1c2efb8 data/minecraft/tags/blocks/pressure_plates.json
+1072c1ce2774441f198aa247e7c8a596e1621634 data/minecraft/tags/blocks/slabs.json
+43ed39068929f9b4b1401e32dbf85da7afd2f380 data/minecraft/tags/blocks/stairs.json
