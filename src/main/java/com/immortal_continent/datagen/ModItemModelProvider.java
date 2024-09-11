@@ -41,6 +41,13 @@ public class ModItemModelProvider extends ItemModelProvider
         ordinaryBlockVariantItem(ModBlocks.GREEN_NAN_PRESSURE_PLATE);
         buttonItem(ModBlocks.GREEN_NAN_BUTTON, ModBlocks.GREEN_NAN_PLANKS);
 
+        ordinaryBlockVariantItem(ModBlocks.SAKU_MAPLE_STAIRS);
+        ordinaryBlockVariantItem(ModBlocks.SAKU_MAPLE_SLAB);
+        fenceItem(ModBlocks.SAKU_MAPLE_FENCE, ModBlocks.SAKU_MAPLE_PLANKS);
+        ordinaryBlockVariantItem(ModBlocks.SAKU_MAPLE_FENCE_GATE);
+        ordinaryBlockVariantItem(ModBlocks.SAKU_MAPLE_PRESSURE_PLATE);
+        buttonItem(ModBlocks.SAKU_MAPLE_BUTTON, ModBlocks.SAKU_MAPLE_PLANKS);
+
         ordinaryBlockVariantItem(ModBlocks.FLAMING_STAIRS);
         ordinaryBlockVariantItem(ModBlocks.FLAMING_SLAB);
         fenceItem(ModBlocks.FLAMING_FENCE, ModBlocks.FLAMING_PLANKS);

@@ -63,6 +63,21 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.dropSelf(ModBlocks.GREEN_NAN_PRESSURE_PLATE.get());
         this.dropSelf(ModBlocks.GREEN_NAN_BUTTON.get());
 
+        this.dropSelf(ModBlocks.SAKU_MAPLE_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_SAKU_MAPLE_LOG.get());
+        this.dropSelf(ModBlocks.SAKU_MAPLE_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_SAKU_MAPLE_WOOD.get());
+        this.dropSelf(ModBlocks.SAKU_MAPLE_PLANKS.get());
+        this.add(ModBlocks.SAKU_MAPLE_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.WOODEN_AGGLUTINATE.get(), NORMAL_LEAVES_SAPLING_CHANCES)); // TODO: Change to Sapling!
+        this.dropSelf(ModBlocks.SAKU_MAPLE_STAIRS.get());
+        this.add(ModBlocks.SAKU_MAPLE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SAKU_MAPLE_SLAB.get()));
+        this.dropSelf(ModBlocks.SAKU_MAPLE_FENCE.get());
+        this.dropSelf(ModBlocks.SAKU_MAPLE_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.SAKU_MAPLE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.SAKU_MAPLE_BUTTON.get());
+
         this.dropSelf(ModBlocks.FLAMING_LOG.get());
         this.dropSelf(ModBlocks.STRIPPED_FLAMING_LOG.get());
         this.dropSelf(ModBlocks.FLAMING_WOOD.get());

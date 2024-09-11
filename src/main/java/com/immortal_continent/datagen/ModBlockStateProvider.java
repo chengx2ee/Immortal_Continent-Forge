@@ -63,6 +63,25 @@ public class ModBlockStateProvider extends BlockStateProvider
         pressurePlateBlock(((PressurePlateBlock) ModBlocks.GREEN_NAN_PRESSURE_PLATE.get()), blockTexture(ModBlocks.GREEN_NAN_PLANKS.get()));
         buttonBlock(((ButtonBlock) ModBlocks.GREEN_NAN_BUTTON.get()), blockTexture(ModBlocks.GREEN_NAN_PLANKS.get()));
 
+        logBlock(((RotatedPillarBlock) ModBlocks.SAKU_MAPLE_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.SAKU_MAPLE_WOOD.get()), blockTexture(ModBlocks.SAKU_MAPLE_LOG.get()), blockTexture(ModBlocks.SAKU_MAPLE_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_SAKU_MAPLE_LOG.get()), blockTexture(ModBlocks.STRIPPED_SAKU_MAPLE_LOG.get()),
+                new ResourceLocation(ImmortalContinent.MOD_ID, "block/stripped_saku_maple_log_top"));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_SAKU_MAPLE_WOOD.get()), blockTexture(ModBlocks.STRIPPED_SAKU_MAPLE_LOG.get()),
+                blockTexture(ModBlocks.STRIPPED_SAKU_MAPLE_LOG.get()));
+        blockItem(ModBlocks.SAKU_MAPLE_LOG);
+        blockItem(ModBlocks.SAKU_MAPLE_WOOD);
+        blockItem(ModBlocks.STRIPPED_SAKU_MAPLE_LOG);
+        blockItem(ModBlocks.STRIPPED_SAKU_MAPLE_WOOD);
+        blockWithItem(ModBlocks.SAKU_MAPLE_PLANKS);
+        leavesBlock(ModBlocks.SAKU_MAPLE_LEAVES);
+        stairsBlock(((StairBlock) ModBlocks.SAKU_MAPLE_STAIRS.get()), blockTexture(ModBlocks.SAKU_MAPLE_PLANKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.SAKU_MAPLE_SLAB.get()), blockTexture(ModBlocks.SAKU_MAPLE_PLANKS.get()), blockTexture(ModBlocks.SAKU_MAPLE_PLANKS.get()));
+        fenceBlock(((FenceBlock) ModBlocks.SAKU_MAPLE_FENCE.get()), blockTexture(ModBlocks.SAKU_MAPLE_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) ModBlocks.SAKU_MAPLE_FENCE_GATE.get()), blockTexture(ModBlocks.SAKU_MAPLE_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.SAKU_MAPLE_PRESSURE_PLATE.get()), blockTexture(ModBlocks.SAKU_MAPLE_PLANKS.get()));
+        buttonBlock(((ButtonBlock) ModBlocks.SAKU_MAPLE_BUTTON.get()), blockTexture(ModBlocks.SAKU_MAPLE_PLANKS.get()));
+
         logBlock(((RotatedPillarBlock) ModBlocks.FLAMING_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.FLAMING_WOOD.get()), blockTexture(ModBlocks.FLAMING_LOG.get()), blockTexture(ModBlocks.FLAMING_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_FLAMING_LOG.get()), blockTexture(ModBlocks.STRIPPED_FLAMING_LOG.get()),

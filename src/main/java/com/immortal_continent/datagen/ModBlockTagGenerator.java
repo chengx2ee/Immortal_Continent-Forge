@@ -50,6 +50,18 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.GREEN_NAN_PRESSURE_PLATE.get(),
                      ModBlocks.GREEN_NAN_BUTTON.get(),
 
+                     ModBlocks.SAKU_MAPLE_LOG.get(),
+                     ModBlocks.STRIPPED_SAKU_MAPLE_LOG.get(),
+                     ModBlocks.SAKU_MAPLE_WOOD.get(),
+                     ModBlocks.STRIPPED_SAKU_MAPLE_WOOD.get(),
+                     ModBlocks.SAKU_MAPLE_PLANKS.get(),
+                     ModBlocks.SAKU_MAPLE_STAIRS.get(),
+                     ModBlocks.SAKU_MAPLE_SLAB.get(),
+                     ModBlocks.SAKU_MAPLE_FENCE.get(),
+                     ModBlocks.SAKU_MAPLE_FENCE_GATE.get(),
+                     ModBlocks.SAKU_MAPLE_PRESSURE_PLATE.get(),
+                     ModBlocks.SAKU_MAPLE_BUTTON.get(),
+
                      ModBlocks.FLAMING_LOG.get(),
                      ModBlocks.STRIPPED_FLAMING_LOG.get(),
                      ModBlocks.FLAMING_WOOD.get(),
@@ -121,6 +133,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.GREEN_NAN_WOOD.get(),
                      ModBlocks.STRIPPED_GREEN_NAN_WOOD.get(),
 
+                     ModBlocks.SAKU_MAPLE_LOG.get(),
+                     ModBlocks.STRIPPED_SAKU_MAPLE_LOG.get(),
+                     ModBlocks.SAKU_MAPLE_WOOD.get(),
+                     ModBlocks.STRIPPED_SAKU_MAPLE_WOOD.get(),
+
                      ModBlocks.FLAMING_LOG.get(),
                      ModBlocks.STRIPPED_FLAMING_LOG.get(),
                      ModBlocks.FLAMING_WOOD.get(),
@@ -151,6 +168,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
                      ModBlocks.GREEN_NAN_PLANKS.get(),
 
+                     ModBlocks.SAKU_MAPLE_PLANKS.get(),
+
                      ModBlocks.FLAMING_PLANKS.get(),
 
                      ModBlocks.LOAM_PLANKS.get(),
@@ -165,6 +184,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                 .add(ModBlocks.BIJUE_RAW_LEAVES.get(),
 
                      ModBlocks.GREEN_NAN_LEAVES.get(),
+
+                     ModBlocks.SAKU_MAPLE_LEAVES.get(),
 
                      ModBlocks.FLAMING_LEAVES.get(),
 
@@ -181,6 +202,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
                      ModBlocks.GREEN_NAN_STAIRS.get(),
 
+                     ModBlocks.SAKU_MAPLE_STAIRS.get(),
+
                      ModBlocks.FLAMING_STAIRS.get(),
 
                      ModBlocks.LOAM_STAIRS.get(),
@@ -195,6 +218,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                 .add(ModBlocks.BIJUE_RAW_SLAB.get(),
 
                      ModBlocks.GREEN_NAN_SLAB.get(),
+
+                     ModBlocks.SAKU_MAPLE_SLAB.get(),
 
                      ModBlocks.FLAMING_SLAB.get(),
 
@@ -211,6 +236,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
                      ModBlocks.GREEN_NAN_FENCE.get(),
 
+                     ModBlocks.SAKU_MAPLE_FENCE.get(),
+
                      ModBlocks.FLAMING_FENCE.get(),
 
                      ModBlocks.LOAM_FENCE.get(),
@@ -225,6 +252,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                 .add(ModBlocks.BIJUE_RAW_FENCE_GATE.get(),
 
                      ModBlocks.GREEN_NAN_FENCE_GATE.get(),
+
+                     ModBlocks.SAKU_MAPLE_FENCE_GATE.get(),
 
                      ModBlocks.FLAMING_FENCE_GATE.get(),
 
@@ -241,6 +270,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
                      ModBlocks.GREEN_NAN_PRESSURE_PLATE.get(),
 
+                     ModBlocks.SAKU_MAPLE_PRESSURE_PLATE.get(),
+
                      ModBlocks.FLAMING_PRESSURE_PLATE.get(),
 
                      ModBlocks.LOAM_PRESSURE_PLATE.get(),
@@ -255,6 +286,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                 .add(ModBlocks.BIJUE_RAW_BUTTON.get(),
 
                      ModBlocks.GREEN_NAN_BUTTON.get(),
+
+                     ModBlocks.SAKU_MAPLE_BUTTON.get(),
 
                      ModBlocks.FLAMING_BUTTON.get(),
 
@@ -293,6 +326,19 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.GREEN_NAN_FENCE_GATE.get(),
                      ModBlocks.GREEN_NAN_PRESSURE_PLATE.get(),
                      ModBlocks.GREEN_NAN_BUTTON.get(),
+
+                     ModBlocks.SAKU_MAPLE_LOG.get(),
+                     ModBlocks.STRIPPED_SAKU_MAPLE_LOG.get(),
+                     ModBlocks.SAKU_MAPLE_WOOD.get(),
+                     ModBlocks.STRIPPED_SAKU_MAPLE_WOOD.get(),
+                     ModBlocks.SAKU_MAPLE_PLANKS.get(),
+                     ModBlocks.SAKU_MAPLE_LEAVES.get(),
+                     ModBlocks.SAKU_MAPLE_STAIRS.get(),
+                     ModBlocks.SAKU_MAPLE_SLAB.get(),
+                     ModBlocks.SAKU_MAPLE_FENCE.get(),
+                     ModBlocks.SAKU_MAPLE_FENCE_GATE.get(),
+                     ModBlocks.SAKU_MAPLE_PRESSURE_PLATE.get(),
+                     ModBlocks.SAKU_MAPLE_BUTTON.get(),
 
                      ModBlocks.FLAMING_LOG.get(),
                      ModBlocks.STRIPPED_FLAMING_LOG.get(),
@@ -370,6 +416,18 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.GREEN_NAN_FENCE_GATE.get(),
                      ModBlocks.GREEN_NAN_PRESSURE_PLATE.get(),
                      ModBlocks.GREEN_NAN_BUTTON.get(),
+
+                     ModBlocks.SAKU_MAPLE_LOG.get(),
+                     ModBlocks.STRIPPED_SAKU_MAPLE_LOG.get(),
+                     ModBlocks.SAKU_MAPLE_WOOD.get(),
+                     ModBlocks.STRIPPED_SAKU_MAPLE_WOOD.get(),
+                     ModBlocks.SAKU_MAPLE_PLANKS.get(),
+                     ModBlocks.SAKU_MAPLE_STAIRS.get(),
+                     ModBlocks.SAKU_MAPLE_SLAB.get(),
+                     ModBlocks.SAKU_MAPLE_FENCE.get(),
+                     ModBlocks.SAKU_MAPLE_FENCE_GATE.get(),
+                     ModBlocks.SAKU_MAPLE_PRESSURE_PLATE.get(),
+                     ModBlocks.SAKU_MAPLE_BUTTON.get(),
 
                      ModBlocks.FLAMING_LOG.get(),
                      ModBlocks.STRIPPED_FLAMING_LOG.get(),

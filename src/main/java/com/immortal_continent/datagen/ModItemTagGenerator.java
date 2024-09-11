@@ -36,6 +36,11 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModBlocks.GREEN_NAN_WOOD.get().asItem(),
                      ModBlocks.STRIPPED_GREEN_NAN_WOOD.get().asItem(),
 
+                     ModBlocks.SAKU_MAPLE_LOG.get().asItem(),
+                     ModBlocks.STRIPPED_SAKU_MAPLE_LOG.get().asItem(),
+                     ModBlocks.SAKU_MAPLE_WOOD.get().asItem(),
+                     ModBlocks.STRIPPED_SAKU_MAPLE_WOOD.get().asItem(),
+
                      ModBlocks.FLAMING_LOG.get().asItem(),
                      ModBlocks.STRIPPED_FLAMING_LOG.get().asItem(),
                      ModBlocks.FLAMING_WOOD.get().asItem(),
@@ -66,6 +71,8 @@ public class ModItemTagGenerator extends ItemTagsProvider
 
                      ModBlocks.GREEN_NAN_PLANKS.get().asItem(),
 
+                     ModBlocks.SAKU_MAPLE_PLANKS.get().asItem(),
+
                      ModBlocks.FLAMING_PLANKS.get().asItem(),
 
                      ModBlocks.LOAM_PLANKS.get().asItem(),
@@ -80,6 +87,8 @@ public class ModItemTagGenerator extends ItemTagsProvider
                 .add(ModBlocks.BIJUE_RAW_LEAVES.get().asItem(),
 
                      ModBlocks.GREEN_NAN_LEAVES.get().asItem(),
+
+                     ModBlocks.SAKU_MAPLE_LEAVES.get().asItem(),
 
                      ModBlocks.FLAMING_LEAVES.get().asItem(),
 
@@ -96,6 +105,8 @@ public class ModItemTagGenerator extends ItemTagsProvider
 
                      ModBlocks.GREEN_NAN_STAIRS.get().asItem(),
 
+                     ModBlocks.SAKU_MAPLE_STAIRS.get().asItem(),
+
                      ModBlocks.FLAMING_STAIRS.get().asItem(),
 
                      ModBlocks.LOAM_STAIRS.get().asItem(),
@@ -110,6 +121,8 @@ public class ModItemTagGenerator extends ItemTagsProvider
                 .add(ModBlocks.BIJUE_RAW_SLAB.get().asItem(),
 
                      ModBlocks.GREEN_NAN_SLAB.get().asItem(),
+
+                     ModBlocks.SAKU_MAPLE_SLAB.get().asItem(),
 
                      ModBlocks.FLAMING_SLAB.get().asItem(),
 
@@ -126,6 +139,8 @@ public class ModItemTagGenerator extends ItemTagsProvider
 
                      ModBlocks.GREEN_NAN_FENCE.get().asItem(),
 
+                     ModBlocks.SAKU_MAPLE_FENCE.get().asItem(),
+
                      ModBlocks.FLAMING_FENCE.get().asItem(),
 
                      ModBlocks.LOAM_FENCE.get().asItem(),
@@ -140,6 +155,8 @@ public class ModItemTagGenerator extends ItemTagsProvider
                 .add(ModBlocks.BIJUE_RAW_FENCE_GATE.get().asItem(),
 
                      ModBlocks.GREEN_NAN_FENCE_GATE.get().asItem(),
+
+                     ModBlocks.SAKU_MAPLE_FENCE_GATE.get().asItem(),
 
                      ModBlocks.FLAMING_FENCE_GATE.get().asItem(),
 
@@ -156,6 +173,8 @@ public class ModItemTagGenerator extends ItemTagsProvider
 
                      ModBlocks.GREEN_NAN_PRESSURE_PLATE.get().asItem(),
 
+                     ModBlocks.SAKU_MAPLE_PRESSURE_PLATE.get().asItem(),
+
                      ModBlocks.FLAMING_PRESSURE_PLATE.get().asItem(),
 
                      ModBlocks.LOAM_PRESSURE_PLATE.get().asItem(),
@@ -170,6 +189,8 @@ public class ModItemTagGenerator extends ItemTagsProvider
                 .add(ModBlocks.BIJUE_RAW_BUTTON.get().asItem(),
 
                      ModBlocks.GREEN_NAN_BUTTON.get().asItem(),
+
+                     ModBlocks.SAKU_MAPLE_BUTTON.get().asItem(),
 
                      ModBlocks.FLAMING_BUTTON.get().asItem(),
 
@@ -207,6 +228,19 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModBlocks.GREEN_NAN_FENCE_GATE.get().asItem(),
                      ModBlocks.GREEN_NAN_PRESSURE_PLATE.get().asItem(),
                      ModBlocks.GREEN_NAN_BUTTON.get().asItem(),
+
+                     ModBlocks.SAKU_MAPLE_LOG.get().asItem(),
+                     ModBlocks.STRIPPED_SAKU_MAPLE_LOG.get().asItem(),
+                     ModBlocks.SAKU_MAPLE_WOOD.get().asItem(),
+                     ModBlocks.STRIPPED_SAKU_MAPLE_WOOD.get().asItem(),
+                     ModBlocks.SAKU_MAPLE_PLANKS.get().asItem(),
+                     ModBlocks.SAKU_MAPLE_LEAVES.get().asItem(),
+                     ModBlocks.SAKU_MAPLE_STAIRS.get().asItem(),
+                     ModBlocks.SAKU_MAPLE_SLAB.get().asItem(),
+                     ModBlocks.SAKU_MAPLE_FENCE.get().asItem(),
+                     ModBlocks.SAKU_MAPLE_FENCE_GATE.get().asItem(),
+                     ModBlocks.SAKU_MAPLE_PRESSURE_PLATE.get().asItem(),
+                     ModBlocks.SAKU_MAPLE_BUTTON.get().asItem(),
 
                      ModBlocks.FLAMING_LOG.get().asItem(),
                      ModBlocks.STRIPPED_FLAMING_LOG.get().asItem(),

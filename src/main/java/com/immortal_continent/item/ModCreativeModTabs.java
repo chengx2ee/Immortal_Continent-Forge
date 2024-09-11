@@ -59,6 +59,19 @@ public class ModCreativeModTabs
                         pOutput.accept(ModBlocks.GREEN_NAN_PRESSURE_PLATE.get());
                         pOutput.accept(ModBlocks.GREEN_NAN_BUTTON.get());
 
+                        pOutput.accept(ModBlocks.SAKU_MAPLE_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_SAKU_MAPLE_LOG.get());
+                        pOutput.accept(ModBlocks.SAKU_MAPLE_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_SAKU_MAPLE_WOOD.get());
+                        pOutput.accept(ModBlocks.SAKU_MAPLE_PLANKS.get());
+                        pOutput.accept(ModBlocks.SAKU_MAPLE_LEAVES.get());
+                        pOutput.accept(ModBlocks.SAKU_MAPLE_STAIRS.get());
+                        pOutput.accept(ModBlocks.SAKU_MAPLE_SLAB.get());
+                        pOutput.accept(ModBlocks.SAKU_MAPLE_FENCE.get());
+                        pOutput.accept(ModBlocks.SAKU_MAPLE_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.SAKU_MAPLE_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.SAKU_MAPLE_BUTTON.get());
+
                         pOutput.accept(ModBlocks.FLAMING_LOG.get());
                         pOutput.accept(ModBlocks.STRIPPED_FLAMING_LOG.get());
                         pOutput.accept(ModBlocks.FLAMING_WOOD.get());

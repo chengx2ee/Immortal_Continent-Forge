@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "immortal_continent:block/saku_maple_planks",
+    "side": "immortal_continent:block/saku_maple_planks",
+    "top": "immortal_continent:block/saku_maple_planks"
+  }
+}

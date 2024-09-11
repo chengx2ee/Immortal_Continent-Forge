@@ -73,6 +73,31 @@ public class ModBlocks
     public static final RegistryObject<Block> GREEN_NAN_BUTTON = registerBlock("green_nan_button",
             () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
 
+    public static final RegistryObject<Block> SAKU_MAPLE_LOG = registerBlock("saku_maple_log",
+            () -> new ModSakuMapleWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> STRIPPED_SAKU_MAPLE_LOG = registerBlock("stripped_saku_maple_log",
+            () -> new ModSakuMapleWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> SAKU_MAPLE_WOOD = registerBlock("saku_maple_wood",
+            () -> new ModSakuMapleWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> STRIPPED_SAKU_MAPLE_WOOD = registerBlock("stripped_saku_maple_wood",
+            () -> new ModSakuMapleWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> SAKU_MAPLE_PLANKS = registerBlock("saku_maple_planks",
+            () -> new ModOthersPlankBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> SAKU_MAPLE_LEAVES = registerBlock("saku_maple_leaves",
+            () -> new ModOthersLeafBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).requiresCorrectToolForDrops().strength(1.0F, 2.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> SAKU_MAPLE_STAIRS = registerBlock("saku_maple_stairs",
+            () -> new ModOthersStairBlocks(ModBlocks.SAKU_MAPLE_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> SAKU_MAPLE_SLAB = registerBlock("saku_maple_slab",
+            () -> new ModOthersSlabBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> SAKU_MAPLE_FENCE = registerBlock("saku_maple_fence",
+            () -> new ModOthersFenceBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> SAKU_MAPLE_FENCE_GATE = registerBlock("saku_maple_fence_gate",
+            () -> new ModOthersFenceGateBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE_GATE).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> SAKU_MAPLE_PRESSURE_PLATE = registerBlock("saku_maple_pressure_plate",
+            () -> new ModOthersPressurePlateBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> SAKU_MAPLE_BUTTON = registerBlock("saku_maple_button",
+            () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+
     public static final RegistryObject<Block> FLAMING_LOG = registerBlock("flaming_log",
             () -> new ModFlamingWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_FLAMING_LOG = registerBlock("stripped_flaming_log",
