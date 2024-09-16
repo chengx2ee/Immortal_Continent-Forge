@@ -1,4 +1,4 @@
-// 1.20.1	2024-09-11T23:28:34.2434517	Item Models: immortal_continent
+// 1.20.1	2024-09-16T23:25:32.1649691	Item Models: immortal_continent
 6d9528f84041a3e4aad2816ed1cbe57de8b10700 assets/immortal_continent/models/item/bijue_raw_button.json
 57005e005f2838728483a2ea44053f4664564391 assets/immortal_continent/models/item/bijue_raw_fence.json
 cb0b63852a5f2c8a0f3192c3d7c404600c38b133 assets/immortal_continent/models/item/bijue_raw_fence_gate.json
@@ -41,6 +41,12 @@ d0611e86d93015f801d2fd93c1a2ce945f72c563 assets/immortal_continent/models/item/l
 43afedd1ed2236573389cf3515734f3b2c9ea80d assets/immortal_continent/models/item/loam_pressure_plate.json
 709b273667ed813250bfd279acb0bcb5ac4c54f8 assets/immortal_continent/models/item/loam_slab.json
 2d3accd6433d2394a75b69b2181f7a3733b03248 assets/immortal_continent/models/item/loam_stairs.json
+2557f431b3e79c5bf19c77424ec8f1f3668d3645 assets/immortal_continent/models/item/pale_wind_button.json
+e8bc264290436581986df4203aad7e0aad377b7a assets/immortal_continent/models/item/pale_wind_fence.json
+889f16d1802f67cfaa8594f7c3cec25493a5f1d7 assets/immortal_continent/models/item/pale_wind_fence_gate.json
+932abe8f053a83a50cf8109f5ad174f54ad4df33 assets/immortal_continent/models/item/pale_wind_pressure_plate.json
+466b28f325b10d9a642e5bb23768d3e152f2d27c assets/immortal_continent/models/item/pale_wind_slab.json
+c13f61ff68e3c6496c4a673fe92126b0d979798c assets/immortal_continent/models/item/pale_wind_stairs.json
 f6c0dc046a93501a5913fcc364ec779148935f10 assets/immortal_continent/models/item/saku_maple_button.json
 4fd5193f5ff4e2158188d11d79cf263a12bbb6aa assets/immortal_continent/models/item/saku_maple_fence.json
 a0cd19f013ba59c8407e4036598f906fe1b8be55 assets/immortal_continent/models/item/saku_maple_fence_gate.json

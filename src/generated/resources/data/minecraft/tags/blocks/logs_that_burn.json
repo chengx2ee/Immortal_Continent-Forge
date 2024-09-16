@@ -83,6 +83,18 @@
     "immortal_continent:condensed_water_fence",
     "immortal_continent:condensed_water_fence_gate",
     "immortal_continent:condensed_water_pressure_plate",
-    "immortal_continent:condensed_water_button"
+    "immortal_continent:condensed_water_button",
+    "immortal_continent:pale_wind_log",
+    "immortal_continent:stripped_pale_wind_log",
+    "immortal_continent:pale_wind_wood",
+    "immortal_continent:stripped_pale_wind_wood",
+    "immortal_continent:pale_wind_planks",
+    "immortal_continent:pale_wind_leaves",
+    "immortal_continent:pale_wind_stairs",
+    "immortal_continent:pale_wind_slab",
+    "immortal_continent:pale_wind_fence",
+    "immortal_continent:pale_wind_fence_gate",
+    "immortal_continent:pale_wind_pressure_plate",
+    "immortal_continent:pale_wind_button"
   ]
 }

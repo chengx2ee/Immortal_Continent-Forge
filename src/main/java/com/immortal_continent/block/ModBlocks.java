@@ -173,8 +173,6 @@ public class ModBlocks
     public static final RegistryObject<Block> CAST_GOLD_BUTTON = registerBlock("cast_gold_button",
             () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
 
-
-
     public static final RegistryObject<Block> CONDENSED_WATER_LOG = registerBlock("condensed_water_log",
             () -> new ModCondensedWaterWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_CONDENSED_WATER_LOG = registerBlock("stripped_condensed_water_log",
@@ -200,7 +198,30 @@ public class ModBlocks
     public static final RegistryObject<Block> CONDENSED_WATER_BUTTON = registerBlock("condensed_water_button",
             () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
 
-
+    public static final RegistryObject<Block> PALE_WIND_LOG = registerBlock("pale_wind_log",
+            () -> new ModPaleWindWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> STRIPPED_PALE_WIND_LOG = registerBlock("stripped_pale_wind_log",
+            () -> new ModPaleWindWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PALE_WIND_WOOD = registerBlock("pale_wind_wood",
+            () -> new ModPaleWindWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> STRIPPED_PALE_WIND_WOOD = registerBlock("stripped_pale_wind_wood",
+            () -> new ModPaleWindWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PALE_WIND_PLANKS = registerBlock("pale_wind_planks",
+            () -> new ModOthersPlankBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PALE_WIND_LEAVES = registerBlock("pale_wind_leaves",
+            () -> new ModOthersLeafBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).requiresCorrectToolForDrops().strength(1.0F, 2.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PALE_WIND_STAIRS = registerBlock("pale_wind_stairs",
+            () -> new ModOthersStairBlocks(ModBlocks.PALE_WIND_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PALE_WIND_SLAB = registerBlock("pale_wind_slab",
+            () -> new ModOthersSlabBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PALE_WIND_FENCE = registerBlock("pale_wind_fence",
+            () -> new ModOthersFenceBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PALE_WIND_FENCE_GATE = registerBlock("pale_wind_fence_gate",
+            () -> new ModOthersFenceGateBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE_GATE).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PALE_WIND_PRESSURE_PLATE = registerBlock("pale_wind_pressure_plate",
+            () -> new ModOthersPressurePlateBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PALE_WIND_BUTTON = registerBlock("pale_wind_button",
+            () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
 
     public static final RegistryObject<Block> WOODEN_AGGLUTINATE = registerBlock("wooden_agglutinate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).requiresCorrectToolForDrops().strength(4.5F, 9.0F).sound(SoundType.WOOD))

@@ -110,6 +110,18 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get(),
                      ModBlocks.CONDENSED_WATER_BUTTON.get(),
 
+                     ModBlocks.PALE_WIND_LOG.get(),
+                     ModBlocks.STRIPPED_PALE_WIND_LOG.get(),
+                     ModBlocks.PALE_WIND_WOOD.get(),
+                     ModBlocks.STRIPPED_PALE_WIND_WOOD.get(),
+                     ModBlocks.PALE_WIND_PLANKS.get(),
+                     ModBlocks.PALE_WIND_STAIRS.get(),
+                     ModBlocks.PALE_WIND_SLAB.get(),
+                     ModBlocks.PALE_WIND_FENCE.get(),
+                     ModBlocks.PALE_WIND_FENCE_GATE.get(),
+                     ModBlocks.PALE_WIND_PRESSURE_PLATE.get(),
+                     ModBlocks.PALE_WIND_BUTTON.get(),
+
                      ModFireResistantBlocks.IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.IMMORTAL_WOOD.get(),
@@ -158,6 +170,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CONDENSED_WATER_WOOD.get(),
                      ModBlocks.STRIPPED_CONDENSED_WATER_WOOD.get(),
 
+                     ModBlocks.PALE_WIND_LOG.get(),
+                     ModBlocks.STRIPPED_PALE_WIND_LOG.get(),
+                     ModBlocks.PALE_WIND_WOOD.get(),
+                     ModBlocks.STRIPPED_PALE_WIND_WOOD.get(),
+
                      ModFireResistantBlocks.IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.IMMORTAL_WOOD.get(),
@@ -178,6 +195,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
                      ModBlocks.CONDENSED_WATER_PLANKS.get(),
 
+                     ModBlocks.PALE_WIND_PLANKS.get(),
+
                      ModFireResistantBlocks.IMMORTAL_PLANKS.get());
 
         this.tag(BlockTags.LEAVES)
@@ -194,6 +213,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CAST_GOLD_LEAVES.get(),
 
                      ModBlocks.CONDENSED_WATER_LEAVES.get(),
+
+                     ModBlocks.PALE_WIND_LEAVES.get(),
 
                      ModFireResistantBlocks.IMMORTAL_LEAVES.get());
 
@@ -212,6 +233,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
                      ModBlocks.CONDENSED_WATER_STAIRS.get(),
 
+                     ModBlocks.PALE_WIND_STAIRS.get(),
+
                      ModFireResistantBlocks.IMMORTAL_STAIRS.get());
 
         this.tag(BlockTags.SLABS)
@@ -228,6 +251,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CAST_GOLD_SLAB.get(),
 
                      ModBlocks.CONDENSED_WATER_SLAB.get(),
+
+                     ModBlocks.PALE_WIND_SLAB.get(),
 
                      ModFireResistantBlocks.IMMORTAL_SLAB.get());
 
@@ -246,6 +271,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
                      ModBlocks.CONDENSED_WATER_FENCE.get(),
 
+                     ModBlocks.PALE_WIND_FENCE.get(),
+
                      ModFireResistantBlocks.IMMORTAL_FENCE.get());
 
         this.tag(BlockTags.FENCE_GATES)
@@ -262,6 +289,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CAST_GOLD_FENCE_GATE.get(),
 
                      ModBlocks.CONDENSED_WATER_FENCE_GATE.get(),
+
+                     ModBlocks.PALE_WIND_FENCE_GATE.get(),
 
                      ModFireResistantBlocks.IMMORTAL_FENCE_GATE.get());
 
@@ -280,6 +309,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
                      ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get(),
 
+                     ModBlocks.PALE_WIND_PRESSURE_PLATE.get(),
+
                      ModFireResistantBlocks.IMMORTAL_PRESSURE_PLATE.get());
 
         this.tag(BlockTags.BUTTONS)
@@ -296,6 +327,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CAST_GOLD_BUTTON.get(),
 
                      ModBlocks.CONDENSED_WATER_BUTTON.get(),
+
+                     ModBlocks.PALE_WIND_BUTTON.get(),
 
                      ModFireResistantBlocks.IMMORTAL_BUTTON.get());
 
@@ -390,7 +423,20 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CONDENSED_WATER_FENCE.get(),
                      ModBlocks.CONDENSED_WATER_FENCE_GATE.get(),
                      ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get(),
-                     ModBlocks.CONDENSED_WATER_BUTTON.get());
+                     ModBlocks.CONDENSED_WATER_BUTTON.get(),
+
+                     ModBlocks.PALE_WIND_LOG.get(),
+                     ModBlocks.STRIPPED_PALE_WIND_LOG.get(),
+                     ModBlocks.PALE_WIND_WOOD.get(),
+                     ModBlocks.STRIPPED_PALE_WIND_WOOD.get(),
+                     ModBlocks.PALE_WIND_PLANKS.get(),
+                     ModBlocks.PALE_WIND_LEAVES.get(),
+                     ModBlocks.PALE_WIND_STAIRS.get(),
+                     ModBlocks.PALE_WIND_SLAB.get(),
+                     ModBlocks.PALE_WIND_FENCE.get(),
+                     ModBlocks.PALE_WIND_FENCE_GATE.get(),
+                     ModBlocks.PALE_WIND_PRESSURE_PLATE.get(),
+                     ModBlocks.PALE_WIND_BUTTON.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.BIJUE_RAW_LOG.get(),
@@ -475,7 +521,19 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CONDENSED_WATER_FENCE.get(),
                      ModBlocks.CONDENSED_WATER_FENCE_GATE.get(),
                      ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get(),
-                     ModBlocks.CONDENSED_WATER_BUTTON.get());
+                     ModBlocks.CONDENSED_WATER_BUTTON.get(),
+
+                     ModBlocks.PALE_WIND_LOG.get(),
+                     ModBlocks.STRIPPED_PALE_WIND_LOG.get(),
+                     ModBlocks.PALE_WIND_WOOD.get(),
+                     ModBlocks.STRIPPED_PALE_WIND_WOOD.get(),
+                     ModBlocks.PALE_WIND_PLANKS.get(),
+                     ModBlocks.PALE_WIND_STAIRS.get(),
+                     ModBlocks.PALE_WIND_SLAB.get(),
+                     ModBlocks.PALE_WIND_FENCE.get(),
+                     ModBlocks.PALE_WIND_FENCE_GATE.get(),
+                     ModBlocks.PALE_WIND_PRESSURE_PLATE.get(),
+                     ModBlocks.PALE_WIND_BUTTON.get());
 
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)

@@ -76,6 +76,13 @@ public class ModItemModelProvider extends ItemModelProvider
         ordinaryBlockVariantItem(ModBlocks.CONDENSED_WATER_PRESSURE_PLATE);
         buttonItem(ModBlocks.CONDENSED_WATER_BUTTON, ModBlocks.CONDENSED_WATER_PLANKS);
 
+        ordinaryBlockVariantItem(ModBlocks.PALE_WIND_STAIRS);
+        ordinaryBlockVariantItem(ModBlocks.PALE_WIND_SLAB);
+        fenceItem(ModBlocks.PALE_WIND_FENCE, ModBlocks.PALE_WIND_PLANKS);
+        ordinaryBlockVariantItem(ModBlocks.PALE_WIND_FENCE_GATE);
+        ordinaryBlockVariantItem(ModBlocks.PALE_WIND_PRESSURE_PLATE);
+        buttonItem(ModBlocks.PALE_WIND_BUTTON, ModBlocks.PALE_WIND_PLANKS);
+
         ordinaryBlockVariantItem(ModFireResistantBlocks.IMMORTAL_STAIRS);
         ordinaryBlockVariantItem(ModFireResistantBlocks.IMMORTAL_SLAB);
         fenceItem(ModFireResistantBlocks.IMMORTAL_FENCE, ModFireResistantBlocks.IMMORTAL_PLANKS);

@@ -158,6 +158,25 @@ public class ModBlockStateProvider extends BlockStateProvider
         pressurePlateBlock(((PressurePlateBlock) ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get()), blockTexture(ModBlocks.CONDENSED_WATER_PLANKS.get()));
         buttonBlock(((ButtonBlock) ModBlocks.CONDENSED_WATER_BUTTON.get()), blockTexture(ModBlocks.CONDENSED_WATER_PLANKS.get()));
 
+        logBlock(((RotatedPillarBlock) ModBlocks.PALE_WIND_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.PALE_WIND_WOOD.get()), blockTexture(ModBlocks.PALE_WIND_LOG.get()), blockTexture(ModBlocks.PALE_WIND_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_PALE_WIND_LOG.get()), blockTexture(ModBlocks.STRIPPED_PALE_WIND_LOG.get()),
+                new ResourceLocation(ImmortalContinent.MOD_ID, "block/stripped_pale_wind_log_top"));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_PALE_WIND_WOOD.get()), blockTexture(ModBlocks.STRIPPED_PALE_WIND_LOG.get()),
+                blockTexture(ModBlocks.STRIPPED_PALE_WIND_LOG.get()));
+        blockItem(ModBlocks.PALE_WIND_LOG);
+        blockItem(ModBlocks.PALE_WIND_WOOD);
+        blockItem(ModBlocks.STRIPPED_PALE_WIND_LOG);
+        blockItem(ModBlocks.STRIPPED_PALE_WIND_WOOD);
+        blockWithItem(ModBlocks.PALE_WIND_PLANKS);
+        leavesBlock(ModBlocks.PALE_WIND_LEAVES);
+        stairsBlock(((StairBlock) ModBlocks.PALE_WIND_STAIRS.get()), blockTexture(ModBlocks.PALE_WIND_PLANKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.PALE_WIND_SLAB.get()), blockTexture(ModBlocks.PALE_WIND_PLANKS.get()), blockTexture(ModBlocks.PALE_WIND_PLANKS.get()));
+        fenceBlock(((FenceBlock) ModBlocks.PALE_WIND_FENCE.get()), blockTexture(ModBlocks.PALE_WIND_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) ModBlocks.PALE_WIND_FENCE_GATE.get()), blockTexture(ModBlocks.PALE_WIND_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.PALE_WIND_PRESSURE_PLATE.get()), blockTexture(ModBlocks.PALE_WIND_PLANKS.get()));
+        buttonBlock(((ButtonBlock) ModBlocks.PALE_WIND_BUTTON.get()), blockTexture(ModBlocks.PALE_WIND_PLANKS.get()));
+
         logBlock(((RotatedPillarBlock) ModFireResistantBlocks.IMMORTAL_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModFireResistantBlocks.IMMORTAL_WOOD.get()), blockTexture(ModFireResistantBlocks.IMMORTAL_LOG.get()), blockTexture(ModFireResistantBlocks.IMMORTAL_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get()), blockTexture(ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get()),

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "immortal_continent:block/pale_wind_slab"
+    },
+    "type=double": {
+      "model": "immortal_continent:block/pale_wind_planks"
+    },
+    "type=top": {
+      "model": "immortal_continent:block/pale_wind_slab_top"
+    }
+  }
+}

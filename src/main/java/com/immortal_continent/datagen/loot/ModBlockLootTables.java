@@ -138,6 +138,21 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.dropSelf(ModBlocks.CONDENSED_WATER_PRESSURE_PLATE.get());
         this.dropSelf(ModBlocks.CONDENSED_WATER_BUTTON.get());
 
+        this.dropSelf(ModBlocks.PALE_WIND_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_PALE_WIND_LOG.get());
+        this.dropSelf(ModBlocks.PALE_WIND_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_PALE_WIND_WOOD.get());
+        this.dropSelf(ModBlocks.PALE_WIND_PLANKS.get());
+        this.add(ModBlocks.PALE_WIND_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.WOODEN_AGGLUTINATE.get(), NORMAL_LEAVES_SAPLING_CHANCES)); // TODO: Change to Sapling!
+        this.dropSelf(ModBlocks.PALE_WIND_STAIRS.get());
+        this.add(ModBlocks.PALE_WIND_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.PALE_WIND_SLAB.get()));
+        this.dropSelf(ModBlocks.PALE_WIND_FENCE.get());
+        this.dropSelf(ModBlocks.PALE_WIND_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.PALE_WIND_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.PALE_WIND_BUTTON.get());
+
         this.dropSelf(ModFireResistantBlocks.IMMORTAL_LOG.get());
         this.dropSelf(ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get());
         this.dropSelf(ModFireResistantBlocks.IMMORTAL_WOOD.get());
