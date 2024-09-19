@@ -223,6 +223,32 @@ public class ModBlocks
     public static final RegistryObject<Block> PALE_WIND_BUTTON = registerBlock("pale_wind_button",
             () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
 
+    public static final RegistryObject<Block> THUNDER_LOG = registerBlock("thunder_log",
+            () -> new ModThunderWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> STRIPPED_THUNDER_LOG = registerBlock("stripped_thunder_log",
+            () -> new ModThunderWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> THUNDER_WOOD = registerBlock("thunder_wood",
+            () -> new ModThunderWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> STRIPPED_THUNDER_WOOD = registerBlock("stripped_thunder_wood",
+            () -> new ModThunderWoodBlocks(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> THUNDER_PLANKS = registerBlock("thunder_planks",
+            () -> new ModOthersPlankBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> THUNDER_LEAVES = registerBlock("thunder_leaves",
+            () -> new ModOthersLeafBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).requiresCorrectToolForDrops().strength(1.0F, 2.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> THUNDER_STAIRS = registerBlock("thunder_stairs",
+            () -> new ModOthersStairBlocks(ModBlocks.THUNDER_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> THUNDER_SLAB = registerBlock("thunder_slab",
+            () -> new ModOthersSlabBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> THUNDER_FENCE = registerBlock("thunder_fence",
+            () -> new ModOthersFenceBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> THUNDER_FENCE_GATE = registerBlock("thunder_fence_gate",
+            () -> new ModOthersFenceGateBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE_GATE).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> THUNDER_PRESSURE_PLATE = registerBlock("thunder_pressure_plate",
+            () -> new ModOthersPressurePlateBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> THUNDER_BUTTON = registerBlock("thunder_button",
+            () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
+
+
     public static final RegistryObject<Block> WOODEN_AGGLUTINATE = registerBlock("wooden_agglutinate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).requiresCorrectToolForDrops().strength(4.5F, 9.0F).sound(SoundType.WOOD))
             {

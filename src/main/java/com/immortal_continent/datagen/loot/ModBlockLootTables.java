@@ -153,6 +153,21 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.dropSelf(ModBlocks.PALE_WIND_PRESSURE_PLATE.get());
         this.dropSelf(ModBlocks.PALE_WIND_BUTTON.get());
 
+        this.dropSelf(ModBlocks.THUNDER_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_THUNDER_LOG.get());
+        this.dropSelf(ModBlocks.THUNDER_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_THUNDER_WOOD.get());
+        this.dropSelf(ModBlocks.THUNDER_PLANKS.get());
+        this.add(ModBlocks.THUNDER_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.WOODEN_AGGLUTINATE.get(), NORMAL_LEAVES_SAPLING_CHANCES)); // TODO: Change to Sapling!
+        this.dropSelf(ModBlocks.THUNDER_STAIRS.get());
+        this.add(ModBlocks.THUNDER_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.THUNDER_SLAB.get()));
+        this.dropSelf(ModBlocks.THUNDER_FENCE.get());
+        this.dropSelf(ModBlocks.THUNDER_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.THUNDER_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.THUNDER_BUTTON.get());
+
         this.dropSelf(ModFireResistantBlocks.IMMORTAL_LOG.get());
         this.dropSelf(ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get());
         this.dropSelf(ModFireResistantBlocks.IMMORTAL_WOOD.get());

@@ -122,6 +122,18 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.PALE_WIND_PRESSURE_PLATE.get(),
                      ModBlocks.PALE_WIND_BUTTON.get(),
 
+                     ModBlocks.THUNDER_LOG.get(),
+                     ModBlocks.STRIPPED_THUNDER_LOG.get(),
+                     ModBlocks.THUNDER_WOOD.get(),
+                     ModBlocks.STRIPPED_THUNDER_WOOD.get(),
+                     ModBlocks.THUNDER_PLANKS.get(),
+                     ModBlocks.THUNDER_STAIRS.get(),
+                     ModBlocks.THUNDER_SLAB.get(),
+                     ModBlocks.THUNDER_FENCE.get(),
+                     ModBlocks.THUNDER_FENCE_GATE.get(),
+                     ModBlocks.THUNDER_PRESSURE_PLATE.get(),
+                     ModBlocks.THUNDER_BUTTON.get(),
+
                      ModFireResistantBlocks.IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.IMMORTAL_WOOD.get(),
@@ -175,6 +187,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.PALE_WIND_WOOD.get(),
                      ModBlocks.STRIPPED_PALE_WIND_WOOD.get(),
 
+                     ModBlocks.THUNDER_LOG.get(),
+                     ModBlocks.STRIPPED_THUNDER_LOG.get(),
+                     ModBlocks.THUNDER_WOOD.get(),
+                     ModBlocks.STRIPPED_THUNDER_WOOD.get(),
+
                      ModFireResistantBlocks.IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get(),
                      ModFireResistantBlocks.IMMORTAL_WOOD.get(),
@@ -197,6 +214,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
                      ModBlocks.PALE_WIND_PLANKS.get(),
 
+                     ModBlocks.THUNDER_PLANKS.get(),
+
                      ModFireResistantBlocks.IMMORTAL_PLANKS.get());
 
         this.tag(BlockTags.LEAVES)
@@ -215,6 +234,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CONDENSED_WATER_LEAVES.get(),
 
                      ModBlocks.PALE_WIND_LEAVES.get(),
+
+                     ModBlocks.THUNDER_LEAVES.get(),
 
                      ModFireResistantBlocks.IMMORTAL_LEAVES.get());
 
@@ -235,6 +256,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
                      ModBlocks.PALE_WIND_STAIRS.get(),
 
+                     ModBlocks.THUNDER_STAIRS.get(),
+
                      ModFireResistantBlocks.IMMORTAL_STAIRS.get());
 
         this.tag(BlockTags.SLABS)
@@ -253,6 +276,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CONDENSED_WATER_SLAB.get(),
 
                      ModBlocks.PALE_WIND_SLAB.get(),
+
+                     ModBlocks.THUNDER_SLAB.get(),
 
                      ModFireResistantBlocks.IMMORTAL_SLAB.get());
 
@@ -273,6 +298,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
                      ModBlocks.PALE_WIND_FENCE.get(),
 
+                     ModBlocks.THUNDER_FENCE.get(),
+
                      ModFireResistantBlocks.IMMORTAL_FENCE.get());
 
         this.tag(BlockTags.FENCE_GATES)
@@ -291,6 +318,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CONDENSED_WATER_FENCE_GATE.get(),
 
                      ModBlocks.PALE_WIND_FENCE_GATE.get(),
+
+                     ModBlocks.THUNDER_FENCE_GATE.get(),
 
                      ModFireResistantBlocks.IMMORTAL_FENCE_GATE.get());
 
@@ -311,6 +340,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
                      ModBlocks.PALE_WIND_PRESSURE_PLATE.get(),
 
+                     ModBlocks.THUNDER_PRESSURE_PLATE.get(),
+
                      ModFireResistantBlocks.IMMORTAL_PRESSURE_PLATE.get());
 
         this.tag(BlockTags.BUTTONS)
@@ -329,6 +360,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.CONDENSED_WATER_BUTTON.get(),
 
                      ModBlocks.PALE_WIND_BUTTON.get(),
+
+                     ModBlocks.THUNDER_BUTTON.get(),
 
                      ModFireResistantBlocks.IMMORTAL_BUTTON.get());
 
@@ -436,7 +469,20 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.PALE_WIND_FENCE.get(),
                      ModBlocks.PALE_WIND_FENCE_GATE.get(),
                      ModBlocks.PALE_WIND_PRESSURE_PLATE.get(),
-                     ModBlocks.PALE_WIND_BUTTON.get());
+                     ModBlocks.PALE_WIND_BUTTON.get(),
+
+                     ModBlocks.THUNDER_LOG.get(),
+                     ModBlocks.STRIPPED_THUNDER_LOG.get(),
+                     ModBlocks.THUNDER_WOOD.get(),
+                     ModBlocks.STRIPPED_THUNDER_WOOD.get(),
+                     ModBlocks.THUNDER_PLANKS.get(),
+                     ModBlocks.THUNDER_LEAVES.get(),
+                     ModBlocks.THUNDER_STAIRS.get(),
+                     ModBlocks.THUNDER_SLAB.get(),
+                     ModBlocks.THUNDER_FENCE.get(),
+                     ModBlocks.THUNDER_FENCE_GATE.get(),
+                     ModBlocks.THUNDER_PRESSURE_PLATE.get(),
+                     ModBlocks.THUNDER_BUTTON.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.BIJUE_RAW_LOG.get(),
@@ -533,7 +579,19 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                      ModBlocks.PALE_WIND_FENCE.get(),
                      ModBlocks.PALE_WIND_FENCE_GATE.get(),
                      ModBlocks.PALE_WIND_PRESSURE_PLATE.get(),
-                     ModBlocks.PALE_WIND_BUTTON.get());
+                     ModBlocks.PALE_WIND_BUTTON.get(),
+
+                     ModBlocks.THUNDER_LOG.get(),
+                     ModBlocks.STRIPPED_THUNDER_LOG.get(),
+                     ModBlocks.THUNDER_WOOD.get(),
+                     ModBlocks.STRIPPED_THUNDER_WOOD.get(),
+                     ModBlocks.THUNDER_PLANKS.get(),
+                     ModBlocks.THUNDER_STAIRS.get(),
+                     ModBlocks.THUNDER_SLAB.get(),
+                     ModBlocks.THUNDER_FENCE.get(),
+                     ModBlocks.THUNDER_FENCE_GATE.get(),
+                     ModBlocks.THUNDER_PRESSURE_PLATE.get(),
+                     ModBlocks.THUNDER_BUTTON.get());
 
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)

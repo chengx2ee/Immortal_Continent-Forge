@@ -83,6 +83,13 @@ public class ModItemModelProvider extends ItemModelProvider
         ordinaryBlockVariantItem(ModBlocks.PALE_WIND_PRESSURE_PLATE);
         buttonItem(ModBlocks.PALE_WIND_BUTTON, ModBlocks.PALE_WIND_PLANKS);
 
+        ordinaryBlockVariantItem(ModBlocks.THUNDER_STAIRS);
+        ordinaryBlockVariantItem(ModBlocks.THUNDER_SLAB);
+        fenceItem(ModBlocks.THUNDER_FENCE, ModBlocks.THUNDER_PLANKS);
+        ordinaryBlockVariantItem(ModBlocks.THUNDER_FENCE_GATE);
+        ordinaryBlockVariantItem(ModBlocks.THUNDER_PRESSURE_PLATE);
+        buttonItem(ModBlocks.THUNDER_BUTTON, ModBlocks.THUNDER_PLANKS);
+
         ordinaryBlockVariantItem(ModFireResistantBlocks.IMMORTAL_STAIRS);
         ordinaryBlockVariantItem(ModFireResistantBlocks.IMMORTAL_SLAB);
         fenceItem(ModFireResistantBlocks.IMMORTAL_FENCE, ModFireResistantBlocks.IMMORTAL_PLANKS);

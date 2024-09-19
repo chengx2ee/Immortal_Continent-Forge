@@ -177,6 +177,25 @@ public class ModBlockStateProvider extends BlockStateProvider
         pressurePlateBlock(((PressurePlateBlock) ModBlocks.PALE_WIND_PRESSURE_PLATE.get()), blockTexture(ModBlocks.PALE_WIND_PLANKS.get()));
         buttonBlock(((ButtonBlock) ModBlocks.PALE_WIND_BUTTON.get()), blockTexture(ModBlocks.PALE_WIND_PLANKS.get()));
 
+        logBlock(((RotatedPillarBlock) ModBlocks.THUNDER_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.THUNDER_WOOD.get()), blockTexture(ModBlocks.THUNDER_LOG.get()), blockTexture(ModBlocks.THUNDER_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_THUNDER_LOG.get()), blockTexture(ModBlocks.STRIPPED_THUNDER_LOG.get()),
+                new ResourceLocation(ImmortalContinent.MOD_ID, "block/stripped_thunder_log_top"));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_THUNDER_WOOD.get()), blockTexture(ModBlocks.STRIPPED_THUNDER_LOG.get()),
+                blockTexture(ModBlocks.STRIPPED_THUNDER_LOG.get()));
+        blockItem(ModBlocks.THUNDER_LOG);
+        blockItem(ModBlocks.THUNDER_WOOD);
+        blockItem(ModBlocks.STRIPPED_THUNDER_LOG);
+        blockItem(ModBlocks.STRIPPED_THUNDER_WOOD);
+        blockWithItem(ModBlocks.THUNDER_PLANKS);
+        leavesBlock(ModBlocks.THUNDER_LEAVES);
+        stairsBlock(((StairBlock) ModBlocks.THUNDER_STAIRS.get()), blockTexture(ModBlocks.THUNDER_PLANKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.THUNDER_SLAB.get()), blockTexture(ModBlocks.THUNDER_PLANKS.get()), blockTexture(ModBlocks.THUNDER_PLANKS.get()));
+        fenceBlock(((FenceBlock) ModBlocks.THUNDER_FENCE.get()), blockTexture(ModBlocks.THUNDER_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) ModBlocks.THUNDER_FENCE_GATE.get()), blockTexture(ModBlocks.THUNDER_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.THUNDER_PRESSURE_PLATE.get()), blockTexture(ModBlocks.THUNDER_PLANKS.get()));
+        buttonBlock(((ButtonBlock) ModBlocks.THUNDER_BUTTON.get()), blockTexture(ModBlocks.THUNDER_PLANKS.get()));
+
         logBlock(((RotatedPillarBlock) ModFireResistantBlocks.IMMORTAL_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModFireResistantBlocks.IMMORTAL_WOOD.get()), blockTexture(ModFireResistantBlocks.IMMORTAL_LOG.get()), blockTexture(ModFireResistantBlocks.IMMORTAL_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get()), blockTexture(ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get()),

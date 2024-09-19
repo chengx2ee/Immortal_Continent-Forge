@@ -1,4 +1,4 @@
-// 1.20.1	2024-09-16T23:25:32.1649691	Item Models: immortal_continent
+// 1.20.1	2024-09-18T23:21:39.2853193	Item Models: immortal_continent
 6d9528f84041a3e4aad2816ed1cbe57de8b10700 assets/immortal_continent/models/item/bijue_raw_button.json
 57005e005f2838728483a2ea44053f4664564391 assets/immortal_continent/models/item/bijue_raw_fence.json
 cb0b63852a5f2c8a0f3192c3d7c404600c38b133 assets/immortal_continent/models/item/bijue_raw_fence_gate.json
@@ -53,4 +53,10 @@ a0cd19f013ba59c8407e4036598f906fe1b8be55 assets/immortal_continent/models/item/s
 b0f5393f4d784ab93ba6985c923f7411161be31e assets/immortal_continent/models/item/saku_maple_pressure_plate.json
 d4c94ecc91b61d03b259e5a953e2c4c5670245ef assets/immortal_continent/models/item/saku_maple_slab.json
 4f42000402eb544cf9458b707d475b02b42a6311 assets/immortal_continent/models/item/saku_maple_stairs.json
+8034467b3668eea42a602c7c8f7c5139e100e418 assets/immortal_continent/models/item/thunder_button.json
+2f61bddf51622dcc6b5494c3ce84653a76b84fb8 assets/immortal_continent/models/item/thunder_fence.json
+f754dd8d9c67f94cac5fc8388f2259ca208d6987 assets/immortal_continent/models/item/thunder_fence_gate.json
+ed7434a0c6c33104f4710c6812c29e27eb110c7c assets/immortal_continent/models/item/thunder_pressure_plate.json
+9caca2af8b975699b90732f20b844cd5c021c060 assets/immortal_continent/models/item/thunder_slab.json
+49a3d511f893b358e4935c02983b39b2b937c899 assets/immortal_continent/models/item/thunder_stairs.json
 bfd04ca0bf1fd11efb7d21b659c8adb146add2cd assets/immortal_continent/models/item/wooden_heart.json

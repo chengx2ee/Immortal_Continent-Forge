@@ -137,6 +137,19 @@ public class ModCreativeModTabs
                         pOutput.accept(ModBlocks.PALE_WIND_PRESSURE_PLATE.get());
                         pOutput.accept(ModBlocks.PALE_WIND_BUTTON.get());
 
+                        pOutput.accept(ModBlocks.THUNDER_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_THUNDER_LOG.get());
+                        pOutput.accept(ModBlocks.THUNDER_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_THUNDER_WOOD.get());
+                        pOutput.accept(ModBlocks.THUNDER_PLANKS.get());
+                        pOutput.accept(ModBlocks.THUNDER_LEAVES.get());
+                        pOutput.accept(ModBlocks.THUNDER_STAIRS.get());
+                        pOutput.accept(ModBlocks.THUNDER_SLAB.get());
+                        pOutput.accept(ModBlocks.THUNDER_FENCE.get());
+                        pOutput.accept(ModBlocks.THUNDER_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.THUNDER_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.THUNDER_BUTTON.get());
+
                         pOutput.accept(ModFireResistantBlocks.IMMORTAL_LOG.get());
                         pOutput.accept(ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get());
                         pOutput.accept(ModFireResistantBlocks.IMMORTAL_WOOD.get());
