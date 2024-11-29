@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bijue_raw_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:bijue_raw_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bijue_raw_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:bijue_raw_stairs"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "immortal_continent:bijue_raw_stairs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bijue_raw_stairs",
+      "has_bijue_raw_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "immortal_continent:bijue_raw_stairs"
+    ]
+  },
+  "sends_telemetry_event": false
+}

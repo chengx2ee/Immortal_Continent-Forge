@@ -23,6 +23,7 @@ public class ModBlocks
     // 注册普通方块
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ImmortalContinent.MOD_ID);
 
+    //碧玦树种
     public static final RegistryObject<Block> BIJUE_RAW_LOG = registerBlock("bijue_raw_log",
             () -> new ModBijueRawWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_BIJUE_RAW_LOG = registerBlock("stripped_bijue_raw_log",
@@ -48,6 +49,7 @@ public class ModBlocks
     public static final RegistryObject<Block> BIJUE_RAW_BUTTON = registerBlock("bijue_raw_button",
             () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
 
+    //青楠树种
     public static final RegistryObject<Block> GREEN_NAN_LOG = registerBlock("green_nan_log",
             () -> new ModGreenNanWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_GREEN_NAN_LOG = registerBlock("stripped_green_nan_log",
@@ -73,6 +75,7 @@ public class ModBlocks
     public static final RegistryObject<Block> GREEN_NAN_BUTTON = registerBlock("green_nan_button",
             () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
 
+    //朔枫树种
     public static final RegistryObject<Block> SAKU_MAPLE_LOG = registerBlock("saku_maple_log",
             () -> new ModSakuMapleWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_SAKU_MAPLE_LOG = registerBlock("stripped_saku_maple_log",
@@ -98,6 +101,7 @@ public class ModBlocks
     public static final RegistryObject<Block> SAKU_MAPLE_BUTTON = registerBlock("saku_maple_button",
             () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
 
+    //炽焰树种
     public static final RegistryObject<Block> FLAMING_LOG = registerBlock("flaming_log",
             () -> new ModFlamingWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_FLAMING_LOG = registerBlock("stripped_flaming_log",
@@ -123,6 +127,7 @@ public class ModBlocks
     public static final RegistryObject<Block> FLAMING_BUTTON = registerBlock("flaming_button",
             () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
 
+    //壤土树种
     public static final RegistryObject<Block> LOAM_LOG = registerBlock("loam_log",
             () -> new ModLoamWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_LOAM_LOG = registerBlock("stripped_loam_log",
@@ -148,6 +153,7 @@ public class ModBlocks
     public static final RegistryObject<Block> LOAM_BUTTON = registerBlock("loam_button",
             () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
 
+    //铸金树种
     public static final RegistryObject<Block> CAST_GOLD_LOG = registerBlock("cast_gold_log",
             () -> new ModCastGoldWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_CAST_GOLD_LOG = registerBlock("stripped_cast_gold_log",
@@ -173,6 +179,7 @@ public class ModBlocks
     public static final RegistryObject<Block> CAST_GOLD_BUTTON = registerBlock("cast_gold_button",
             () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
 
+    //凝水树种
     public static final RegistryObject<Block> CONDENSED_WATER_LOG = registerBlock("condensed_water_log",
             () -> new ModCondensedWaterWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_CONDENSED_WATER_LOG = registerBlock("stripped_condensed_water_log",
@@ -198,6 +205,7 @@ public class ModBlocks
     public static final RegistryObject<Block> CONDENSED_WATER_BUTTON = registerBlock("condensed_water_button",
             () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
 
+    //苍风树种
     public static final RegistryObject<Block> PALE_WIND_LOG = registerBlock("pale_wind_log",
             () -> new ModPaleWindWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_PALE_WIND_LOG = registerBlock("stripped_pale_wind_log",
@@ -223,6 +231,7 @@ public class ModBlocks
     public static final RegistryObject<Block> PALE_WIND_BUTTON = registerBlock("pale_wind_button",
             () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
 
+    //雷霆树种
     public static final RegistryObject<Block> THUNDER_LOG = registerBlock("thunder_log",
             () -> new ModThunderWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_THUNDER_LOG = registerBlock("stripped_thunder_log",
@@ -248,7 +257,7 @@ public class ModBlocks
     public static final RegistryObject<Block> THUNDER_BUTTON = registerBlock("thunder_button",
             () -> new ModOthersButtonBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.WOOD)));
 
-
+    //矿物块：木凝块
     public static final RegistryObject<Block> WOODEN_AGGLUTINATE = registerBlock("wooden_agglutinate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).requiresCorrectToolForDrops().strength(4.5F, 9.0F).sound(SoundType.WOOD))
             {

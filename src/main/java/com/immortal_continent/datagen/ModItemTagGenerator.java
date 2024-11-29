@@ -69,12 +69,7 @@ public class ModItemTagGenerator extends ItemTagsProvider
                      ModBlocks.THUNDER_LOG.get().asItem(),
                      ModBlocks.STRIPPED_THUNDER_LOG.get().asItem(),
                      ModBlocks.THUNDER_WOOD.get().asItem(),
-                     ModBlocks.STRIPPED_THUNDER_WOOD.get().asItem(),
-
-                     ModFireResistantBlocks.IMMORTAL_LOG.get().asItem(),
-                     ModFireResistantBlocks.STRIPPED_IMMORTAL_LOG.get().asItem(),
-                     ModFireResistantBlocks.IMMORTAL_WOOD.get().asItem(),
-                     ModFireResistantBlocks.STRIPPED_IMMORTAL_WOOD.get().asItem());
+                     ModBlocks.STRIPPED_THUNDER_WOOD.get().asItem());
 
         this.tag(ItemTags.PLANKS)
                 .add(ModBlocks.BIJUE_RAW_PLANKS.get().asItem(),
@@ -93,9 +88,7 @@ public class ModItemTagGenerator extends ItemTagsProvider
 
                      ModBlocks.PALE_WIND_PLANKS.get().asItem(),
 
-                     ModBlocks.THUNDER_PLANKS.get().asItem(),
-
-                     ModFireResistantBlocks.IMMORTAL_PLANKS.get().asItem());
+                     ModBlocks.THUNDER_PLANKS.get().asItem());
 
         this.tag(ItemTags.LEAVES)
                 .add(ModBlocks.BIJUE_RAW_LEAVES.get().asItem(),

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "immortal_continent:bijue_raw_log"
+      },
+      {
+        "item": "immortal_continent:stripped_bijue_raw_log"
+      }
+    ]
+  ],
+  "result": {
+    "count": 4,
+    "item": "immortal_continent:bijue_raw_planks"
+  }
+}

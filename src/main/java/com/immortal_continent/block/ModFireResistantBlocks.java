@@ -21,6 +21,7 @@ public class ModFireResistantBlocks
     // 注册防火方块
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ImmortalContinent.MOD_ID);
 
+    //不朽树种
     public static final RegistryObject<Block> IMMORTAL_LOG = registerBlock("immortal_log",
             () -> new ModImmortalWoodBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).requiresCorrectToolForDrops().strength(50.0F, 1200.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> STRIPPED_IMMORTAL_LOG = registerBlock("stripped_immortal_log",

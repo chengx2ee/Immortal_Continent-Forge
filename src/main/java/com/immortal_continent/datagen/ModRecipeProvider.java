@@ -1,8 +1,13 @@
 package com.immortal_continent.datagen;
 
+import com.immortal_continent.block.ModBlocks;
+import com.immortal_continent.block.ModFireResistantBlocks;
+import com.immortal_continent.item.ModItems;
 import com.immortal_continent.world.ImmortalContinent;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -25,7 +30,174 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter)
     {
+        // 以下为原版配方
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.ENCHANTED_GOLDEN_APPLE)
+                .pattern("111")
+                .pattern("121")
+                .pattern("111")
+                .define('1', Items.GOLD_BLOCK)
+                .define('2', Items.APPLE)
+                .unlockedBy(getHasName(Items.ENCHANTED_GOLDEN_APPLE), has(Items.ENCHANTED_GOLDEN_APPLE))
+                .unlockedBy(getHasName(Items.APPLE), has(Items.APPLE))
+                .unlockedBy(getHasName(Items.GOLD_BLOCK), has(Items.GOLD_BLOCK))
+                .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.TRIDENT)
+                .pattern("111")
+                .pattern("212")
+                .pattern(" 1 ")
+                .define('1', Items.IRON_INGOT)
+                .define('2', Items.NAUTILUS_SHELL)
+                .unlockedBy(getHasName(Items.TRIDENT), has(Items.TRIDENT))
+                .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT))
+                .unlockedBy(getHasName(Items.NAUTILUS_SHELL), has(Items.NAUTILUS_SHELL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.SADDLE)
+                .pattern("111")
+                .pattern("121")
+                .pattern("2 2")
+                .define('1', Items.LEATHER)
+                .define('2', Items.IRON_INGOT)
+                .unlockedBy(getHasName(Items.SADDLE), has(Items.SADDLE))
+                .unlockedBy(getHasName(Items.LEATHER), has(Items.LEATHER))
+                .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.IRON_HORSE_ARMOR)
+                .pattern("1 1")
+                .pattern("111")
+                .pattern("1 1")
+                .define('1', Items.IRON_INGOT)
+                .unlockedBy(getHasName(Items.IRON_HORSE_ARMOR), has(Items.IRON_HORSE_ARMOR))
+                .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.GOLDEN_HORSE_ARMOR)
+                .pattern("1 1")
+                .pattern("111")
+                .pattern("1 1")
+                .define('1', Items.GOLD_INGOT)
+                .unlockedBy(getHasName(Items.GOLDEN_HORSE_ARMOR), has(Items.GOLDEN_HORSE_ARMOR))
+                .unlockedBy(getHasName(Items.GOLD_INGOT), has(Items.GOLD_INGOT))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.DIAMOND_HORSE_ARMOR)
+                .pattern("1 1")
+                .pattern("111")
+                .pattern("1 1")
+                .define('1', Items.DIAMOND)
+                .unlockedBy(getHasName(Items.DIAMOND_HORSE_ARMOR), has(Items.DIAMOND_HORSE_ARMOR))
+                .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.LEATHER_HORSE_ARMOR)
+                .pattern("1 1")
+                .pattern("111")
+                .pattern("1 1")
+                .define('1', Items.LEATHER)
+                .unlockedBy(getHasName(Items.LEATHER_HORSE_ARMOR), has(Items.LEATHER_HORSE_ARMOR))
+                .unlockedBy(getHasName(Items.LEATHER), has(Items.LEATHER))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.CHAINMAIL_HELMET)
+                .pattern("111")
+                .pattern("1 1")
+                .define('1', Items.CHAIN)
+                .unlockedBy(getHasName(Items.CHAINMAIL_HELMET), has(Items.CHAINMAIL_HELMET))
+                .unlockedBy(getHasName(Items.CHAIN), has(Items.CHAIN))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.CHAINMAIL_CHESTPLATE)
+                .pattern("1 1")
+                .pattern("111")
+                .pattern("111")
+                .define('1', Items.CHAIN)
+                .unlockedBy(getHasName(Items.CHAINMAIL_CHESTPLATE), has(Items.CHAINMAIL_CHESTPLATE))
+                .unlockedBy(getHasName(Items.CHAIN), has(Items.CHAIN))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.CHAINMAIL_LEGGINGS)
+                .pattern("111")
+                .pattern("1 1")
+                .pattern("1 1")
+                .define('1', Items.CHAIN)
+                .unlockedBy(getHasName(Items.CHAINMAIL_LEGGINGS), has(Items.CHAINMAIL_LEGGINGS))
+                .unlockedBy(getHasName(Items.CHAIN), has(Items.CHAIN))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.CHAINMAIL_BOOTS)
+                .pattern("1 1")
+                .pattern("1 1")
+                .define('1', Items.CHAIN)
+                .unlockedBy(getHasName(Items.CHAINMAIL_BOOTS), has(Items.CHAINMAIL_BOOTS))
+                .unlockedBy(getHasName(Items.CHAIN), has(Items.CHAIN))
+                .save(pWriter);
+
+        // 以下为模组配方
+
+        //碧玦树种
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.BIJUE_RAW_PLANKS.get(), 4)
+                .requires(Ingredient.of(ModBlocks.BIJUE_RAW_LOG.get(), ModBlocks.STRIPPED_BIJUE_RAW_LOG.get()))
+                .unlockedBy(getHasName(ModBlocks.BIJUE_RAW_PLANKS.get()), has(ModBlocks.BIJUE_RAW_PLANKS.get()))
+                .unlockedBy(getHasName(ModBlocks.BIJUE_RAW_LOG.get()), has(ModBlocks.BIJUE_RAW_LOG.get()))
+                .unlockedBy(getHasName(ModBlocks.STRIPPED_BIJUE_RAW_LOG.get()), has(ModBlocks.STRIPPED_BIJUE_RAW_LOG.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BIJUE_RAW_WOOD.get(), 3)
+                .pattern("11")
+                .pattern("11")
+                .define('1', ModBlocks.BIJUE_RAW_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.BIJUE_RAW_WOOD.get()), has(ModBlocks.BIJUE_RAW_WOOD.get()))
+                .unlockedBy(getHasName(ModBlocks.BIJUE_RAW_LOG.get()), has(ModBlocks.BIJUE_RAW_LOG.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BIJUE_RAW_STAIRS.get(), 4)
+                .pattern("1  ")
+                .pattern("11 ")
+                .pattern("111")
+                .define('1', ModBlocks.BIJUE_RAW_PLANKS.get())
+                .unlockedBy(getHasName(ModBlocks.BIJUE_RAW_STAIRS.get()), has(ModBlocks.BIJUE_RAW_STAIRS.get()))
+                .unlockedBy(getHasName(ModBlocks.BIJUE_RAW_PLANKS.get()), has(ModBlocks.BIJUE_RAW_PLANKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BIJUE_RAW_SLAB.get(), 6)
+                .pattern("111")
+                .define('1', ModBlocks.BIJUE_RAW_PLANKS.get())
+                .unlockedBy(getHasName(ModBlocks.BIJUE_RAW_SLAB.get()), has(ModBlocks.BIJUE_RAW_SLAB.get()))
+                .unlockedBy(getHasName(ModBlocks.BIJUE_RAW_PLANKS.get()), has(ModBlocks.BIJUE_RAW_PLANKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BIJUE_RAW_FENCE.get(), 3)
+                .pattern("121")
+                .pattern("121")
+                .define('1', ModBlocks.BIJUE_RAW_PLANKS.get())
+                .define('2', Items.STICK)
+                .unlockedBy(getHasName(ModBlocks.BIJUE_RAW_FENCE.get()), has(ModBlocks.BIJUE_RAW_FENCE.get()))
+                .unlockedBy(getHasName(ModBlocks.BIJUE_RAW_PLANKS.get()), has(ModBlocks.BIJUE_RAW_PLANKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BIJUE_RAW_FENCE_GATE.get())
+                .pattern("212")
+                .pattern("212")
+                .define('1', ModBlocks.BIJUE_RAW_PLANKS.get())
+                .define('2', Items.STICK)
+                .unlockedBy(getHasName(ModBlocks.BIJUE_RAW_FENCE_GATE.get()), has(ModBlocks.BIJUE_RAW_FENCE_GATE.get()))
+                .unlockedBy(getHasName(ModBlocks.BIJUE_RAW_PLANKS.get()), has(ModBlocks.BIJUE_RAW_PLANKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BIJUE_RAW_PRESSURE_PLATE.get())
+                .pattern("11")
+                .define('1', ModBlocks.BIJUE_RAW_PLANKS.get())
+                .unlockedBy(getHasName(ModBlocks.BIJUE_RAW_PRESSURE_PLATE.get()), has(ModBlocks.BIJUE_RAW_PRESSURE_PLATE.get()))
+                .unlockedBy(getHasName(ModBlocks.BIJUE_RAW_PLANKS.get()), has(ModBlocks.BIJUE_RAW_PLANKS.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.BIJUE_RAW_BUTTON.get())
+                .requires(ModBlocks.BIJUE_RAW_PLANKS.get())
+                .unlockedBy(getHasName(ModBlocks.BIJUE_RAW_BUTTON.get()), has(ModBlocks.BIJUE_RAW_BUTTON.get()))
+                .unlockedBy(getHasName(ModBlocks.BIJUE_RAW_PLANKS.get()), has(ModBlocks.BIJUE_RAW_PLANKS.get()))
+                .save(pWriter);
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup)

@@ -13,8 +13,8 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModCreativeModTabs
 {
-    public static final String CREATIVE_TAB = "creative_tab.immortal_continent";
-    public static final String CREATIVE_TAB_1 = "creative_tab.immortal_continent_1";
+    private static final String CREATIVE_TAB = "creative_tab.immortal_continent";
+    private static final String CREATIVE_TAB_1 = "creative_tab.immortal_continent_1";
     
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ImmortalContinent.MOD_ID);

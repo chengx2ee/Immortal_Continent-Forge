@@ -11,6 +11,7 @@ public class ModItems
 {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ImmortalContinent.MOD_ID);
 
+    //矿物：木凝心
     public static final RegistryObject<Item> WOODEN_HEART = ITEMS.register("wooden_heart",
             () -> new Item(new Item.Properties().stacksTo(64)));
 

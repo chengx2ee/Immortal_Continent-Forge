@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "item": "immortal_continent:bijue_raw_planks"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "212",
+    "212"
+  ],
+  "result": {
+    "item": "immortal_continent:bijue_raw_fence_gate"
+  },
+  "show_notification": true
+}
