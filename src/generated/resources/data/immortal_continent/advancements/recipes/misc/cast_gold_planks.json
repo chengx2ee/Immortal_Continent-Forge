@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cast_gold_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:cast_gold_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cast_gold_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:cast_gold_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stripped_cast_gold_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:stripped_cast_gold_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "immortal_continent:cast_gold_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cast_gold_planks",
+      "has_cast_gold_log",
+      "has_stripped_cast_gold_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "immortal_continent:cast_gold_planks"
+    ]
+  },
+  "sends_telemetry_event": false
+}

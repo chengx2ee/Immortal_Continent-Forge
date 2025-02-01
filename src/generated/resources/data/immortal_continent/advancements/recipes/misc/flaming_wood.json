@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flaming_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:flaming_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_flaming_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:flaming_wood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "immortal_continent:flaming_wood"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_flaming_wood",
+      "has_flaming_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "immortal_continent:flaming_wood"
+    ]
+  },
+  "sends_telemetry_event": false
+}

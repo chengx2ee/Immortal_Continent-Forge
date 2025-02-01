@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "immortal_continent:pale_wind_log"
+      },
+      {
+        "item": "immortal_continent:stripped_pale_wind_log"
+      }
+    ]
+  ],
+  "result": {
+    "count": 4,
+    "item": "immortal_continent:pale_wind_planks"
+  }
+}

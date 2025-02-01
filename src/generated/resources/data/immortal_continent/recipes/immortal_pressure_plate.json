@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "item": "immortal_continent:immortal_planks"
+    }
+  },
+  "pattern": [
+    "11"
+  ],
+  "result": {
+    "item": "immortal_continent:immortal_pressure_plate"
+  },
+  "show_notification": true
+}

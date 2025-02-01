@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "item": "immortal_continent:saku_maple_log"
+    }
+  },
+  "pattern": [
+    "11",
+    "11"
+  ],
+  "result": {
+    "count": 3,
+    "item": "immortal_continent:saku_maple_wood"
+  },
+  "show_notification": true
+}

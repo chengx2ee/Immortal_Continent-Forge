@@ -1,11 +1,11 @@
-// 1.20.1	2024-09-18T23:21:39.3015052	Tags for minecraft:item mod id immortal_continent
+// 1.20.1	2025-02-01T21:53:06.3339527	Tags for minecraft:item mod id immortal_continent
 d3c5abc98747ffac582f100366f0e581863b0193 data/minecraft/tags/items/buttons.json
 0128656552a724e42aa4d41bd8106b7297abf637 data/minecraft/tags/items/fences.json
 75423d339adbbd11f6b2738edf6b844e7e59808f data/minecraft/tags/items/fence_gates.json
 5fda30cb5596d7f8f85c218f72e082159cbefd6a data/minecraft/tags/items/leaves.json
-f00dff27753e89ef74f2dcdc805ef42a929f85a7 data/minecraft/tags/items/logs.json
+04581f55dd496d9e45cf5a3cb85ca8fa7145a5b1 data/minecraft/tags/items/logs.json
 63cff3e0bf3d20882bf53fc34cc03ea48d859ce7 data/minecraft/tags/items/logs_that_burn.json
-f18996242d6a803ebe29d2796de36f3596634cf1 data/minecraft/tags/items/planks.json
+b3630f29525510bb31bef873a782b55a85434f08 data/minecraft/tags/items/planks.json
 7a6e9b666111ca9787615c0571c98db7398b7cd7 data/minecraft/tags/items/slabs.json
 3587f56db1c560646b445262324034f301f28ecb data/minecraft/tags/items/stairs.json
 72abeb82d94495dc7f7b6b3aaba8bc9c176b68d6 data/minecraft/tags/items/wooden_pressure_plates.json

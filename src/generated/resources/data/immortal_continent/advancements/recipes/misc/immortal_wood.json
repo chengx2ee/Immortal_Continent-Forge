@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_immortal_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:immortal_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_immortal_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:immortal_wood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "immortal_continent:immortal_wood"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_immortal_wood",
+      "has_immortal_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "immortal_continent:immortal_wood"
+    ]
+  },
+  "sends_telemetry_event": false
+}

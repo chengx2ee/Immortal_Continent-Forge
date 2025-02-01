@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "immortal_continent:thunder_planks"
+    }
+  ],
+  "result": {
+    "item": "immortal_continent:thunder_button"
+  }
+}

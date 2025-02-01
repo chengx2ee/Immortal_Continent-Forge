@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "item": "immortal_continent:green_nan_planks"
+    }
+  },
+  "pattern": [
+    "111"
+  ],
+  "result": {
+    "count": 6,
+    "item": "immortal_continent:green_nan_slab"
+  },
+  "show_notification": true
+}

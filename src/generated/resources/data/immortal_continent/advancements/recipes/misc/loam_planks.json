@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_loam_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:loam_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_loam_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:loam_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stripped_loam_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:stripped_loam_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "immortal_continent:loam_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_loam_planks",
+      "has_loam_log",
+      "has_stripped_loam_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "immortal_continent:loam_planks"
+    ]
+  },
+  "sends_telemetry_event": false
+}

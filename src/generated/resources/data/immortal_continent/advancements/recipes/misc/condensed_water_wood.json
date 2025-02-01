@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_condensed_water_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:condensed_water_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_condensed_water_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:condensed_water_wood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "immortal_continent:condensed_water_wood"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_condensed_water_wood",
+      "has_condensed_water_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "immortal_continent:condensed_water_wood"
+    ]
+  },
+  "sends_telemetry_event": false
+}

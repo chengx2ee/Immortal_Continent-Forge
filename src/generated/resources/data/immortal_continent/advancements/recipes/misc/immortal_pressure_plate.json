@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_immortal_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:immortal_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_immortal_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:immortal_pressure_plate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "immortal_continent:immortal_pressure_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_immortal_pressure_plate",
+      "has_immortal_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "immortal_continent:immortal_pressure_plate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

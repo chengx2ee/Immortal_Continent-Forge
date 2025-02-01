@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "item": "immortal_continent:pale_wind_planks"
+    }
+  },
+  "pattern": [
+    "111"
+  ],
+  "result": {
+    "count": 6,
+    "item": "immortal_continent:pale_wind_slab"
+  },
+  "show_notification": true
+}

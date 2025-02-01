@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flaming_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:flaming_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_flaming_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:flaming_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stripped_flaming_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:stripped_flaming_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "immortal_continent:flaming_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_flaming_planks",
+      "has_flaming_log",
+      "has_stripped_flaming_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "immortal_continent:flaming_planks"
+    ]
+  },
+  "sends_telemetry_event": false
+}

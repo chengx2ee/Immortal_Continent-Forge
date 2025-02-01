@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_thunder_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:stripped_thunder_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "immortal_continent:thunder_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_thunder_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:thunder_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_thunder_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:thunder_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_thunder_planks",
+      "has_thunder_log",
+      "has_stripped_thunder_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "immortal_continent:thunder_planks"
+    ]
+  },
+  "sends_telemetry_event": false
+}

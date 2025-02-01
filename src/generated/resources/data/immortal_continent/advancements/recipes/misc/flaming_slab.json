@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flaming_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:flaming_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_flaming_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:flaming_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "immortal_continent:flaming_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_flaming_slab",
+      "has_flaming_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "immortal_continent:flaming_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

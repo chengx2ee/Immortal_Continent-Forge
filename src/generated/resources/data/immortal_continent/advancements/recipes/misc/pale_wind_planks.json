@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pale_wind_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:pale_wind_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pale_wind_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:pale_wind_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stripped_pale_wind_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:stripped_pale_wind_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "immortal_continent:pale_wind_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_pale_wind_planks",
+      "has_pale_wind_log",
+      "has_stripped_pale_wind_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "immortal_continent:pale_wind_planks"
+    ]
+  },
+  "sends_telemetry_event": false
+}

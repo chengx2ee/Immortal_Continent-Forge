@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_green_nan_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:green_nan_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_green_nan_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:green_nan_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stripped_green_nan_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:stripped_green_nan_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "immortal_continent:green_nan_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_green_nan_planks",
+      "has_green_nan_log",
+      "has_stripped_green_nan_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "immortal_continent:green_nan_planks"
+    ]
+  },
+  "sends_telemetry_event": false
+}

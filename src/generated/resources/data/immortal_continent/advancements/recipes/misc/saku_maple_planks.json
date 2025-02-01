@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_saku_maple_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:saku_maple_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_saku_maple_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:saku_maple_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stripped_saku_maple_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immortal_continent:stripped_saku_maple_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "immortal_continent:saku_maple_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_saku_maple_planks",
+      "has_saku_maple_log",
+      "has_stripped_saku_maple_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "immortal_continent:saku_maple_planks"
+    ]
+  },
+  "sends_telemetry_event": false
+}
