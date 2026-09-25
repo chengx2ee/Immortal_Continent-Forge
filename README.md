@@ -21,7 +21,7 @@ Minecraft《不朽大陆》模组
 策划（书墨翎羽）B站个人空间：
 https://space.bilibili.com/3632316494645676
 
-策划（∝）B站个人空间：https://space.bilibili.com/
+策划（ZERO_T_C）B站个人空间：https://space.bilibili.com/1681901193
 
 策划（JJ_Zhang_XYPZ）B站个人空间：https://space.bilibili.com/506363208
 
