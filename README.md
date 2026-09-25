@@ -4,9 +4,9 @@ Minecraft《不朽大陆》模组
 
 作者：
 
-编程（晨歌ee）B站个人空间：https://space.bilibili.com/454469050
+编程（chengx2ee）B站个人空间：https://space.bilibili.com/454469050
 
-画师（拾伍司154_official）B站个人空间：https://space.bilibili.com/1698803
+画师（希饭不喝稀饭）B站个人空间：https://space.bilibili.com/
 
 音乐制作师（不会打鼓的丸山拓真）B站个人空间：https://space.bilibili.com/1607343605
 
